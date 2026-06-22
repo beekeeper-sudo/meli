@@ -1,0 +1,2800 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.790 align:start position:0%
+ 
+hey<00:00:00.320><c> what's</c><00:00:00.480><c> up</c><00:00:00.719><c> guys</c><00:00:00.919><c> my</c><00:00:01.040><c> name</c><00:00:01.199><c> is</c><00:00:01.319><c> aern</c><00:00:01.719><c> and</c>
+
+00:00:01.790 --> 00:00:01.800 align:start position:0%
+hey what's up guys my name is aern and
+ 
+
+00:00:01.800 --> 00:00:04.150 align:start position:0%
+hey what's up guys my name is aern and
+welcome<00:00:02.080><c> back</c><00:00:02.200><c> to</c><00:00:02.320><c> my</c><00:00:02.440><c> C++</c><00:00:03.159><c> Series</c><00:00:03.760><c> so</c><00:00:03.919><c> in</c><00:00:04.000><c> the</c>
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+welcome back to my C++ Series so in the
+ 
+
+00:00:04.160 --> 00:00:06.190 align:start position:0%
+welcome back to my C++ Series so in the
+last<00:00:04.400><c> video</c><00:00:04.839><c> I</c><00:00:04.960><c> explained</c><00:00:05.400><c> why</c><00:00:05.560><c> I</c><00:00:05.680><c> don't</c><00:00:05.920><c> like</c>
+
+00:00:06.190 --> 00:00:06.200 align:start position:0%
+last video I explained why I don't like
+ 
+
+00:00:06.200 --> 00:00:08.270 align:start position:0%
+last video I explained why I don't like
+using<00:00:06.480><c> namespace</c><00:00:07.040><c> STD</c><00:00:07.600><c> if</c><00:00:07.680><c> you</c><00:00:07.799><c> guys</c><00:00:08.040><c> haven't</c>
+
+00:00:08.270 --> 00:00:08.280 align:start position:0%
+using namespace STD if you guys haven't
+ 
+
+00:00:08.280 --> 00:00:11.270 align:start position:0%
+using namespace STD if you guys haven't
+checked<00:00:08.679><c> that</c><00:00:08.880><c> video</c><00:00:09.120><c> out</c><00:00:09.400><c> definitely</c><00:00:09.800><c> do</c><00:00:10.280><c> so</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+checked that video out definitely do so
+ 
+
+00:00:11.280 --> 00:00:13.230 align:start position:0%
+checked that video out definitely do so
+but<00:00:11.519><c> I</c><00:00:11.840><c> haven't</c><00:00:12.160><c> actually</c><00:00:12.400><c> talked</c><00:00:12.719><c> about</c><00:00:13.000><c> what</c>
+
+00:00:13.230 --> 00:00:13.240 align:start position:0%
+but I haven't actually talked about what
+ 
+
+00:00:13.240 --> 00:00:15.789 align:start position:0%
+but I haven't actually talked about what
+namespaces<00:00:13.920><c> are</c><00:00:14.200><c> in</c><00:00:14.320><c> this</c><00:00:14.480><c> C++</c><00:00:15.160><c> series</c><00:00:15.519><c> and</c>
+
+00:00:15.789 --> 00:00:15.799 align:start position:0%
+namespaces are in this C++ series and
+ 
+
+00:00:15.799 --> 00:00:17.109 align:start position:0%
+namespaces are in this C++ series and
+because<00:00:16.119><c> in</c><00:00:16.240><c> that</c><00:00:16.400><c> video</c><00:00:16.600><c> I</c><00:00:16.720><c> specifically</c>
+
+00:00:17.109 --> 00:00:17.119 align:start position:0%
+because in that video I specifically
+ 
+
+00:00:17.119 --> 00:00:18.710 align:start position:0%
+because in that video I specifically
+wanted<00:00:17.320><c> to</c><00:00:17.480><c> talk</c><00:00:17.680><c> about</c><00:00:18.199><c> the</c><00:00:18.320><c> standard</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+wanted to talk about the standard
+ 
+
+00:00:18.720 --> 00:00:21.109 align:start position:0%
+wanted to talk about the standard
+namespace<00:00:19.400><c> and</c><00:00:19.600><c> why</c><00:00:19.800><c> I</c><00:00:19.880><c> don't</c><00:00:20.160><c> like</c><00:00:20.640><c> using</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+namespace and why I don't like using
+ 
+
+00:00:21.119 --> 00:00:24.470 align:start position:0%
+namespace and why I don't like using
+namespace<00:00:21.840><c> STD</c><00:00:22.840><c> but</c><00:00:23.599><c> today</c><00:00:24.119><c> we're</c><00:00:24.279><c> going</c><00:00:24.359><c> to</c>
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+namespace STD but today we're going to
+ 
+
+00:00:24.480 --> 00:00:26.470 align:start position:0%
+namespace STD but today we're going to
+be<00:00:24.599><c> talking</c><00:00:24.880><c> about</c><00:00:25.240><c> what</c><00:00:25.480><c> namespaces</c><00:00:26.119><c> are</c><00:00:26.320><c> in</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+be talking about what namespaces are in
+ 
+
+00:00:26.480 --> 00:00:28.990 align:start position:0%
+be talking about what namespaces are in
+C++<00:00:27.480><c> why</c><00:00:27.640><c> they're</c><00:00:27.840><c> useful</c><00:00:28.320><c> when</c><00:00:28.480><c> I</c><00:00:28.599><c> would</c><00:00:28.880><c> when</c>
+
+00:00:28.990 --> 00:00:29.000 align:start position:0%
+C++ why they're useful when I would when
+ 
+
+00:00:29.000 --> 00:00:31.150 align:start position:0%
+C++ why they're useful when I would when
+I<00:00:29.119><c> wouldn't</c><00:00:29.400><c> use</c><00:00:29.640><c> them</c><00:00:30.279><c> why</c><00:00:30.480><c> they</c><00:00:30.679><c> exist</c><00:00:31.000><c> and</c>
+
+00:00:31.150 --> 00:00:31.160 align:start position:0%
+I wouldn't use them why they exist and
+ 
+
+00:00:31.160 --> 00:00:32.229 align:start position:0%
+I wouldn't use them why they exist and
+all<00:00:31.240><c> the</c><00:00:31.359><c> different</c><00:00:31.560><c> things</c><00:00:31.720><c> that</c><00:00:31.800><c> we</c><00:00:31.920><c> can</c><00:00:32.040><c> do</c>
+
+00:00:32.229 --> 00:00:32.239 align:start position:0%
+all the different things that we can do
+ 
+
+00:00:32.239 --> 00:00:34.910 align:start position:0%
+all the different things that we can do
+with<00:00:32.360><c> them</c><00:00:32.920><c> so</c><00:00:33.120><c> if</c><00:00:33.200><c> we</c><00:00:33.320><c> jump</c><00:00:33.600><c> right</c><00:00:33.760><c> into</c><00:00:34.480><c> this</c>
+
+00:00:34.910 --> 00:00:34.920 align:start position:0%
+with them so if we jump right into this
+ 
+
+00:00:34.920 --> 00:00:36.430 align:start position:0%
+with them so if we jump right into this
+this<00:00:35.000><c> is</c><00:00:35.160><c> the</c><00:00:35.280><c> code</c><00:00:35.559><c> that</c><00:00:35.680><c> we</c><00:00:35.800><c> had</c><00:00:35.960><c> written</c><00:00:36.239><c> in</c>
+
+00:00:36.430 --> 00:00:36.440 align:start position:0%
+this is the code that we had written in
+ 
+
+00:00:36.440 --> 00:00:38.110 align:start position:0%
+this is the code that we had written in
+that<00:00:36.760><c> previous</c><00:00:37.200><c> video</c><00:00:37.520><c> where</c><00:00:37.640><c> we</c><00:00:37.760><c> talked</c>
+
+00:00:38.110 --> 00:00:38.120 align:start position:0%
+that previous video where we talked
+ 
+
+00:00:38.120 --> 00:00:39.950 align:start position:0%
+that previous video where we talked
+about<00:00:38.399><c> why</c><00:00:38.559><c> I</c><00:00:38.640><c> don't</c><00:00:38.879><c> like</c><00:00:39.040><c> using</c><00:00:39.320><c> namespace</c>
+
+00:00:39.950 --> 00:00:39.960 align:start position:0%
+about why I don't like using namespace
+ 
+
+00:00:39.960 --> 00:00:41.830 align:start position:0%
+about why I don't like using namespace
+everywhere<00:00:40.719><c> and</c><00:00:40.840><c> all</c><00:00:41.079><c> that</c><00:00:41.239><c> kind</c><00:00:41.360><c> of</c><00:00:41.520><c> stuff</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+everywhere and all that kind of stuff
+ 
+
+00:00:41.840 --> 00:00:43.190 align:start position:0%
+everywhere and all that kind of stuff
+let's<00:00:42.039><c> talk</c><00:00:42.160><c> a</c><00:00:42.280><c> little</c><00:00:42.440><c> bit</c><00:00:42.600><c> about</c><00:00:42.879><c> what</c><00:00:43.039><c> we</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+let's talk a little bit about what we
+ 
+
+00:00:43.200 --> 00:00:44.990 align:start position:0%
+let's talk a little bit about what we
+actually<00:00:43.399><c> see</c><00:00:43.640><c> on</c><00:00:43.719><c> the</c><00:00:43.840><c> screen</c><00:00:44.200><c> here</c><00:00:44.520><c> and</c><00:00:44.760><c> how</c>
+
+00:00:44.990 --> 00:00:45.000 align:start position:0%
+actually see on the screen here and how
+ 
+
+00:00:45.000 --> 00:00:46.910 align:start position:0%
+actually see on the screen here and how
+we<00:00:45.120><c> can</c><00:00:45.399><c> further</c><00:00:45.800><c> extend</c><00:00:46.280><c> our</c><00:00:46.480><c> usage</c><00:00:46.760><c> of</c>
+
+00:00:46.910 --> 00:00:46.920 align:start position:0%
+we can further extend our usage of
+ 
+
+00:00:46.920 --> 00:00:49.029 align:start position:0%
+we can further extend our usage of
+namespaces<00:00:47.719><c> and</c><00:00:47.960><c> why</c><00:00:48.199><c> namespaces</c><00:00:48.840><c> are</c>
+
+00:00:49.029 --> 00:00:49.039 align:start position:0%
+namespaces and why namespaces are
+ 
+
+00:00:49.039 --> 00:00:52.189 align:start position:0%
+namespaces and why namespaces are
+actually<00:00:49.280><c> used</c><00:00:49.600><c> and</c><00:00:49.920><c> necessary</c><00:00:50.920><c> so</c><00:00:51.559><c> over</c><00:00:51.840><c> here</c>
+
+00:00:52.189 --> 00:00:52.199 align:start position:0%
+actually used and necessary so over here
+ 
+
+00:00:52.199 --> 00:00:54.110 align:start position:0%
+actually used and necessary so over here
+we<00:00:52.399><c> essentially</c><00:00:52.879><c> have</c><00:00:53.160><c> this</c><00:00:53.359><c> issue</c><00:00:53.719><c> where</c><00:00:53.960><c> we</c>
+
+00:00:54.110 --> 00:00:54.120 align:start position:0%
+we essentially have this issue where we
+ 
+
+00:00:54.120 --> 00:00:56.670 align:start position:0%
+we essentially have this issue where we
+have<00:00:54.359><c> two</c><00:00:54.800><c> print</c><00:00:55.160><c> functions</c><00:00:56.160><c> now</c><00:00:56.359><c> they</c><00:00:56.480><c> do</c>
+
+00:00:56.670 --> 00:00:56.680 align:start position:0%
+have two print functions now they do
+ 
+
+00:00:56.680 --> 00:00:58.110 align:start position:0%
+have two print functions now they do
+have<00:00:56.840><c> different</c><00:00:57.079><c> signatures</c><00:00:57.719><c> one</c><00:00:57.840><c> of</c><00:00:57.960><c> these</c>
+
+00:00:58.110 --> 00:00:58.120 align:start position:0%
+have different signatures one of these
+ 
+
+00:00:58.120 --> 00:00:59.670 align:start position:0%
+have different signatures one of these
+takes<00:00:58.320><c> in</c><00:00:58.440><c> a</c><00:00:58.559><c> string</c><00:00:58.840><c> one</c><00:00:58.960><c> of</c><00:00:59.079><c> these</c><00:00:59.280><c> takes</c><00:00:59.519><c> in</c>
+
+00:00:59.670 --> 00:00:59.680 align:start position:0%
+takes in a string one of these takes in
+ 
+
+00:00:59.680 --> 00:01:02.509 align:start position:0%
+takes in a string one of these takes in
+a<00:01:00.039><c> con</c><00:01:00.359><c> Char</c><00:01:01.039><c> but</c><00:01:01.160><c> if</c><00:01:01.280><c> we</c><00:01:01.399><c> kind</c><00:01:01.519><c> of</c><00:01:01.680><c> revert</c><00:01:02.120><c> to</c>
+
+00:01:02.509 --> 00:01:02.519 align:start position:0%
+a con Char but if we kind of revert to
+ 
+
+00:01:02.519 --> 00:01:04.789 align:start position:0%
+a con Char but if we kind of revert to
+maybe<00:01:03.079><c> both</c><00:01:03.239><c> of</c><00:01:03.359><c> them</c><00:01:03.559><c> taking</c><00:01:03.800><c> in</c><00:01:03.920><c> a</c><00:01:04.080><c> con</c><00:01:04.400><c> Char</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+maybe both of them taking in a con Char
+ 
+
+00:01:04.799 --> 00:01:06.310 align:start position:0%
+maybe both of them taking in a con Char
+so<00:01:04.920><c> if</c><00:01:05.040><c> I</c><00:01:05.159><c> change</c><00:01:05.400><c> this</c><00:01:05.560><c> string</c><00:01:05.840><c> one</c><00:01:06.080><c> to</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+so if I change this string one to
+ 
+
+00:01:06.320 --> 00:01:08.710 align:start position:0%
+so if I change this string one to
+actually<00:01:06.560><c> take</c><00:01:06.720><c> in</c><00:01:06.840><c> a</c><00:01:06.960><c> con</c><00:01:07.280><c> CH</c><00:01:07.600><c> pointer</c><00:01:08.479><c> like</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+actually take in a con CH pointer like
+ 
+
+00:01:08.720 --> 00:01:12.830 align:start position:0%
+actually take in a con CH pointer like
+so<00:01:09.720><c> we</c><00:01:09.960><c> kind</c><00:01:10.119><c> of</c><00:01:10.840><c> may</c><00:01:11.240><c> have</c><00:01:11.720><c> an</c><00:01:11.960><c> issue</c><00:01:12.439><c> if</c><00:01:12.640><c> we</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+so we kind of may have an issue if we
+ 
+
+00:01:12.840 --> 00:01:15.390 align:start position:0%
+so we kind of may have an issue if we
+weren't<00:01:13.320><c> using</c><00:01:13.880><c> namespaces</c><00:01:14.880><c> because</c><00:01:15.159><c> these</c>
+
+00:01:15.390 --> 00:01:15.400 align:start position:0%
+weren't using namespaces because these
+ 
+
+00:01:15.400 --> 00:01:17.429 align:start position:0%
+weren't using namespaces because these
+functions<00:01:15.799><c> are</c><00:01:16.080><c> identical</c><00:01:16.960><c> if</c><00:01:17.080><c> I</c><00:01:17.200><c> just</c><00:01:17.360><c> kind</c>
+
+00:01:17.429 --> 00:01:17.439 align:start position:0%
+functions are identical if I just kind
+ 
+
+00:01:17.439 --> 00:01:21.149 align:start position:0%
+functions are identical if I just kind
+of<00:01:17.600><c> comment</c><00:01:17.960><c> out</c><00:01:18.240><c> this</c><00:01:18.439><c> namespace</c><00:01:19.119><c> apple</c><00:01:20.159><c> uh</c>
+
+00:01:21.149 --> 00:01:21.159 align:start position:0%
+of comment out this namespace apple uh
+ 
+
+00:01:21.159 --> 00:01:22.870 align:start position:0%
+of comment out this namespace apple uh
+line<00:01:21.320><c> of</c><00:01:21.520><c> code</c><00:01:21.799><c> here</c><00:01:21.920><c> and</c><00:01:22.079><c> the</c><00:01:22.200><c> orange</c><00:01:22.520><c> one</c><00:01:22.720><c> as</c>
+
+00:01:22.870 --> 00:01:22.880 align:start position:0%
+line of code here and the orange one as
+ 
+
+00:01:22.880 --> 00:01:24.670 align:start position:0%
+line of code here and the orange one as
+well<00:01:23.479><c> suddenly</c><00:01:23.840><c> we</c><00:01:24.000><c> have</c><00:01:24.119><c> a</c><00:01:24.200><c> little</c><00:01:24.320><c> bit</c><00:01:24.439><c> of</c><00:01:24.560><c> an</c>
+
+00:01:24.670 --> 00:01:24.680 align:start position:0%
+well suddenly we have a little bit of an
+ 
+
+00:01:24.680 --> 00:01:26.710 align:start position:0%
+well suddenly we have a little bit of an
+issue<00:01:25.000><c> if</c><00:01:25.079><c> I</c><00:01:25.280><c> try</c><00:01:25.479><c> and</c><00:01:25.960><c> I'll</c><00:01:26.159><c> fix</c><00:01:26.400><c> up</c><00:01:26.560><c> this</c>
+
+00:01:26.710 --> 00:01:26.720 align:start position:0%
+issue if I try and I'll fix up this
+ 
+
+00:01:26.720 --> 00:01:28.630 align:start position:0%
+issue if I try and I'll fix up this
+error<00:01:27.000><c> as</c><00:01:27.159><c> well</c><00:01:27.520><c> if</c><00:01:27.640><c> I</c><00:01:27.759><c> try</c><00:01:27.920><c> and</c><00:01:28.079><c> just</c><00:01:28.280><c> compile</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+error as well if I try and just compile
+ 
+
+00:01:28.640 --> 00:01:30.870 align:start position:0%
+error as well if I try and just compile
+this<00:01:28.799><c> by</c><00:01:28.920><c> hitting</c><00:01:29.159><c> contrl</c><00:01:29.479><c> F7</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+this by hitting contrl F7
+ 
+
+00:01:30.880 --> 00:01:33.030 align:start position:0%
+this by hitting contrl F7
+you<00:01:31.000><c> can</c><00:01:31.119><c> see</c><00:01:31.360><c> over</c><00:01:31.640><c> here</c><00:01:32.320><c> that</c><00:01:32.520><c> I</c><00:01:32.680><c> get</c><00:01:32.880><c> an</c>
+
+00:01:33.030 --> 00:01:33.040 align:start position:0%
+you can see over here that I get an
+ 
+
+00:01:33.040 --> 00:01:35.190 align:start position:0%
+you can see over here that I get an
+error<00:01:33.520><c> because</c><00:01:34.200><c> it's</c><00:01:34.399><c> telling</c><00:01:34.680><c> me</c><00:01:34.840><c> that</c><00:01:35.040><c> this</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+error because it's telling me that this
+ 
+
+00:01:35.200 --> 00:01:37.109 align:start position:0%
+error because it's telling me that this
+print<00:01:35.520><c> function</c><00:01:35.920><c> that</c><00:01:36.040><c> takes</c><00:01:36.320><c> in</c><00:01:36.439><c> a</c><00:01:36.560><c> con</c><00:01:36.840><c> chart</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+print function that takes in a con chart
+ 
+
+00:01:37.119 --> 00:01:39.710 align:start position:0%
+print function that takes in a con chart
+pointer<00:01:37.880><c> already</c><00:01:38.280><c> has</c><00:01:38.399><c> a</c><00:01:38.600><c> body</c><00:01:39.280><c> because</c><00:01:39.560><c> I</c>
+
+00:01:39.710 --> 00:01:39.720 align:start position:0%
+pointer already has a body because I
+ 
+
+00:01:39.720 --> 00:01:42.510 align:start position:0%
+pointer already has a body because I
+have<00:01:40.000><c> two</c><00:01:40.759><c> symbols</c><00:01:41.600><c> with</c><00:01:41.799><c> the</c><00:01:41.920><c> same</c><00:01:42.159><c> name</c><00:01:42.399><c> and</c>
+
+00:01:42.510 --> 00:01:42.520 align:start position:0%
+have two symbols with the same name and
+ 
+
+00:01:42.520 --> 00:01:44.910 align:start position:0%
+have two symbols with the same name and
+they're<00:01:42.759><c> identical</c><00:01:43.399><c> symbols</c><00:01:44.200><c> now</c><00:01:44.360><c> when</c><00:01:44.479><c> I</c><00:01:44.640><c> say</c>
+
+00:01:44.910 --> 00:01:44.920 align:start position:0%
+they're identical symbols now when I say
+ 
+
+00:01:44.920 --> 00:01:47.230 align:start position:0%
+they're identical symbols now when I say
+symbols<00:01:45.520><c> I'm</c><00:01:45.640><c> talking</c><00:01:46.000><c> about</c><00:01:46.240><c> things</c><00:01:46.600><c> like</c>
+
+00:01:47.230 --> 00:01:47.240 align:start position:0%
+symbols I'm talking about things like
+ 
+
+00:01:47.240 --> 00:01:50.550 align:start position:0%
+symbols I'm talking about things like
+classes<00:01:48.200><c> functions</c><00:01:49.200><c> variables</c><00:01:49.960><c> constants</c>
+
+00:01:50.550 --> 00:01:50.560 align:start position:0%
+classes functions variables constants
+ 
+
+00:01:50.560 --> 00:01:53.149 align:start position:0%
+classes functions variables constants
+that<00:01:50.719><c> kind</c><00:01:50.840><c> of</c><00:01:51.240><c> that</c><00:01:51.399><c> kind</c><00:01:51.520><c> of</c><00:01:51.799><c> thing</c><00:01:52.159><c> right</c><00:01:52.719><c> so</c>
+
+00:01:53.149 --> 00:01:53.159 align:start position:0%
+that kind of that kind of thing right so
+ 
+
+00:01:53.159 --> 00:01:55.190 align:start position:0%
+that kind of that kind of thing right so
+we<00:01:53.360><c> have</c><00:01:53.560><c> in</c><00:01:53.719><c> this</c><00:01:54.000><c> case</c><00:01:54.320><c> two</c><00:01:54.600><c> functions</c>
+
+00:01:55.190 --> 00:01:55.200 align:start position:0%
+we have in this case two functions
+ 
+
+00:01:55.200 --> 00:01:57.510 align:start position:0%
+we have in this case two functions
+called<00:01:55.479><c> print</c><00:01:56.439><c> which</c><00:01:56.600><c> take</c><00:01:56.799><c> in</c><00:01:57.000><c> construct</c>
+
+00:01:57.510 --> 00:01:57.520 align:start position:0%
+called print which take in construct
+ 
+
+00:01:57.520 --> 00:01:58.870 align:start position:0%
+called print which take in construct
+pointer<00:01:57.799><c> and</c><00:01:58.039><c> return</c><00:01:58.240><c> void</c><00:01:58.520><c> they</c><00:01:58.640><c> have</c><00:01:58.799><c> the</c>
+
+00:01:58.870 --> 00:01:58.880 align:start position:0%
+pointer and return void they have the
+ 
+
+00:01:58.880 --> 00:02:01.350 align:start position:0%
+pointer and return void they have the
+same<00:01:59.159><c> signature</c><00:02:00.159><c> so</c><00:02:00.399><c> these</c><00:02:00.560><c> two</c><00:02:00.759><c> symbols</c><00:02:01.119><c> are</c>
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+same signature so these two symbols are
+ 
+
+00:02:01.360 --> 00:02:03.469 align:start position:0%
+same signature so these two symbols are
+identical<00:02:02.079><c> we</c><00:02:02.240><c> can't</c><00:02:02.520><c> have</c><00:02:02.759><c> two</c><00:02:03.000><c> identical</c>
+
+00:02:03.469 --> 00:02:03.479 align:start position:0%
+identical we can't have two identical
+ 
+
+00:02:03.479 --> 00:02:05.350 align:start position:0%
+identical we can't have two identical
+symbols<00:02:03.920><c> that's</c><00:02:04.039><c> a</c><00:02:04.159><c> linking</c><00:02:04.560><c> error</c><00:02:05.200><c> and</c>
+
+00:02:05.350 --> 00:02:05.360 align:start position:0%
+symbols that's a linking error and
+ 
+
+00:02:05.360 --> 00:02:07.550 align:start position:0%
+symbols that's a linking error and
+potentially<00:02:06.119><c> a</c><00:02:06.320><c> compilation</c><00:02:06.799><c> error</c><00:02:07.119><c> in</c><00:02:07.280><c> there</c>
+
+00:02:07.550 --> 00:02:07.560 align:start position:0%
+potentially a compilation error in there
+ 
+
+00:02:07.560 --> 00:02:10.229 align:start position:0%
+potentially a compilation error in there
+if<00:02:07.640><c> they're</c><00:02:07.880><c> actually</c><00:02:08.080><c> in</c><00:02:08.200><c> the</c><00:02:08.319><c> same</c><00:02:08.599><c> file</c><00:02:09.479><c> so</c>
+
+00:02:10.229 --> 00:02:10.239 align:start position:0%
+if they're actually in the same file so
+ 
+
+00:02:10.239 --> 00:02:12.470 align:start position:0%
+if they're actually in the same file so
+how<00:02:10.360><c> do</c><00:02:10.560><c> we</c><00:02:10.840><c> fix</c><00:02:11.200><c> that</c><00:02:11.440><c> what</c><00:02:11.560><c> if</c><00:02:11.680><c> we</c><00:02:11.840><c> do</c><00:02:12.080><c> want</c><00:02:12.239><c> to</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+how do we fix that what if we do want to
+ 
+
+00:02:12.480 --> 00:02:15.030 align:start position:0%
+how do we fix that what if we do want to
+have<00:02:12.680><c> two</c><00:02:13.120><c> print</c><00:02:13.480><c> functions</c><00:02:14.360><c> or</c><00:02:14.599><c> what</c><00:02:14.720><c> if</c><00:02:14.879><c> we</c>
+
+00:02:15.030 --> 00:02:15.040 align:start position:0%
+have two print functions or what if we
+ 
+
+00:02:15.040 --> 00:02:17.390 align:start position:0%
+have two print functions or what if we
+use<00:02:15.360><c> another</c><00:02:15.879><c> library</c><00:02:16.599><c> that</c><00:02:16.800><c> has</c><00:02:17.000><c> already</c>
+
+00:02:17.390 --> 00:02:17.400 align:start position:0%
+use another library that has already
+ 
+
+00:02:17.400 --> 00:02:19.990 align:start position:0%
+use another library that has already
+defined<00:02:17.959><c> a</c><00:02:18.160><c> print</c><00:02:18.440><c> function</c><00:02:18.879><c> but</c><00:02:19.280><c> we</c><00:02:19.519><c> want</c><00:02:19.760><c> to</c>
+
+00:02:19.990 --> 00:02:20.000 align:start position:0%
+defined a print function but we want to
+ 
+
+00:02:20.000 --> 00:02:22.350 align:start position:0%
+defined a print function but we want to
+have<00:02:20.160><c> our</c><00:02:20.319><c> own</c><00:02:20.720><c> print</c><00:02:21.040><c> function</c><00:02:21.920><c> now</c><00:02:22.120><c> back</c><00:02:22.239><c> in</c>
+
+00:02:22.350 --> 00:02:22.360 align:start position:0%
+have our own print function now back in
+ 
+
+00:02:22.360 --> 00:02:24.390 align:start position:0%
+have our own print function now back in
+the<00:02:22.480><c> days</c><00:02:22.680><c> of</c><00:02:22.840><c> c</c><00:02:23.239><c> and</c><00:02:23.400><c> in</c><00:02:23.560><c> fact</c><00:02:23.760><c> that</c><00:02:24.000><c> still</c><00:02:24.280><c> is</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+the days of c and in fact that still is
+ 
+
+00:02:24.400 --> 00:02:27.390 align:start position:0%
+the days of c and in fact that still is
+a<00:02:24.599><c> thing</c><00:02:25.239><c> C</c><00:02:25.599><c> doesn't</c><00:02:25.920><c> have</c><00:02:26.160><c> name</c><00:02:26.440><c> spaces</c><00:02:27.280><c> which</c>
+
+00:02:27.390 --> 00:02:27.400 align:start position:0%
+a thing C doesn't have name spaces which
+ 
+
+00:02:27.400 --> 00:02:29.229 align:start position:0%
+a thing C doesn't have name spaces which
+is<00:02:27.599><c> why</c><00:02:27.879><c> if</c><00:02:28.000><c> you</c><00:02:28.239><c> would</c><00:02:28.400><c> have</c><00:02:28.560><c> noticed</c><00:02:29.040><c> in</c><00:02:29.160><c> the</c>
+
+00:02:29.229 --> 00:02:29.239 align:start position:0%
+is why if you would have noticed in the
+ 
+
+00:02:29.239 --> 00:02:30.949 align:start position:0%
+is why if you would have noticed in the
+open<00:02:29.480><c> Gil</c><00:02:29.879><c> series</c><00:02:30.160><c> as</c><00:02:30.239><c> an</c><00:02:30.400><c> example</c><00:02:30.800><c> we're</c>
+
+00:02:30.949 --> 00:02:30.959 align:start position:0%
+open Gil series as an example we're
+ 
+
+00:02:30.959 --> 00:02:33.589 align:start position:0%
+open Gil series as an example we're
+using<00:02:31.160><c> a</c><00:02:31.319><c> library</c><00:02:31.680><c> called</c><00:02:32.200><c> glfw</c><00:02:33.200><c> which</c><00:02:33.319><c> is</c><00:02:33.440><c> an</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+using a library called glfw which is an
+ 
+
+00:02:33.599 --> 00:02:36.070 align:start position:0%
+using a library called glfw which is an
+openg<00:02:34.560><c> kind</c><00:02:34.680><c> of</c><00:02:34.879><c> windowing</c><00:02:35.319><c> and</c><00:02:35.599><c> context</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+openg kind of windowing and context
+ 
+
+00:02:36.080 --> 00:02:37.750 align:start position:0%
+openg kind of windowing and context
+library<00:02:36.440><c> and</c><00:02:36.599><c> input</c><00:02:36.920><c> and</c><00:02:37.200><c> all</c><00:02:37.400><c> that</c><00:02:37.519><c> kind</c><00:02:37.640><c> of</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+library and input and all that kind of
+ 
+
+00:02:37.760 --> 00:02:40.270 align:start position:0%
+library and input and all that kind of
+stuff<00:02:38.160><c> right</c><00:02:38.519><c> but</c><00:02:38.640><c> the</c><00:02:38.720><c> point</c><00:02:38.920><c> is</c><00:02:39.040><c> gfw</c><00:02:39.720><c> is</c><00:02:39.800><c> a</c><00:02:39.959><c> c</c>
+
+00:02:40.270 --> 00:02:40.280 align:start position:0%
+stuff right but the point is gfw is a c
+ 
+
+00:02:40.280 --> 00:02:42.390 align:start position:0%
+stuff right but the point is gfw is a c
+is<00:02:40.360><c> a</c><00:02:40.480><c> C</c><00:02:40.760><c> library</c><00:02:41.400><c> it's</c><00:02:41.560><c> compatible</c><00:02:42.040><c> with</c><00:02:42.200><c> both</c>
+
+00:02:42.390 --> 00:02:42.400 align:start position:0%
+is a C library it's compatible with both
+ 
+
+00:02:42.400 --> 00:02:45.509 align:start position:0%
+is a C library it's compatible with both
+C<00:02:42.680><c> and</c><00:02:43.000><c> C++</c><00:02:44.000><c> because</c><00:02:44.280><c> it's</c><00:02:44.440><c> a</c><00:02:44.560><c> C</c><00:02:44.879><c> library</c><00:02:45.360><c> they</c>
+
+00:02:45.509 --> 00:02:45.519 align:start position:0%
+C and C++ because it's a C library they
+ 
+
+00:02:45.519 --> 00:02:47.949 align:start position:0%
+C and C++ because it's a C library they
+can't<00:02:45.720><c> use</c><00:02:46.159><c> namespaces</c><00:02:47.159><c> which</c><00:02:47.280><c> is</c><00:02:47.480><c> why</c><00:02:47.720><c> if</c><00:02:47.800><c> you</c>
+
+00:02:47.949 --> 00:02:47.959 align:start position:0%
+can't use namespaces which is why if you
+ 
+
+00:02:47.959 --> 00:02:49.670 align:start position:0%
+can't use namespaces which is why if you
+notice<00:02:48.280><c> in</c><00:02:48.519><c> that</c><00:02:48.720><c> series</c><00:02:49.120><c> all</c><00:02:49.239><c> of</c><00:02:49.360><c> the</c><00:02:49.480><c> code</c>
+
+00:02:49.670 --> 00:02:49.680 align:start position:0%
+notice in that series all of the code
+ 
+
+00:02:49.680 --> 00:02:50.949 align:start position:0%
+notice in that series all of the code
+that<00:02:49.800><c> we</c><00:02:49.920><c> write</c><00:02:50.200><c> that</c><00:02:50.360><c> has</c><00:02:50.519><c> something</c><00:02:50.720><c> to</c><00:02:50.840><c> do</c>
+
+00:02:50.949 --> 00:02:50.959 align:start position:0%
+that we write that has something to do
+ 
+
+00:02:50.959 --> 00:02:51.630 align:start position:0%
+that we write that has something to do
+with
+
+00:02:51.630 --> 00:02:51.640 align:start position:0%
+with
+ 
+
+00:02:51.640 --> 00:02:54.509 align:start position:0%
+with
+glfw<00:02:52.640><c> begins</c><00:02:53.120><c> with</c><00:02:53.760><c> like</c><00:02:53.959><c> literally</c><00:02:54.319><c> every</c>
+
+00:02:54.509 --> 00:02:54.519 align:start position:0%
+glfw begins with like literally every
+ 
+
+00:02:54.519 --> 00:02:57.110 align:start position:0%
+glfw begins with like literally every
+function<00:02:54.920><c> starts</c><00:02:55.280><c> with</c><00:02:55.680><c> glfw</c><00:02:56.640><c> and</c><00:02:56.760><c> then</c><00:02:56.959><c> like</c>
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+function starts with glfw and then like
+ 
+
+00:02:57.120 --> 00:02:59.630 align:start position:0%
+function starts with glfw and then like
+the<00:02:57.239><c> function</c><00:02:57.519><c> name</c><00:02:57.760><c> for</c><00:02:57.920><c> example</c><00:02:58.440><c> gfw</c><00:02:59.200><c> in</c><00:02:59.440><c> it</c>
+
+00:02:59.630 --> 00:02:59.640 align:start position:0%
+the function name for example gfw in it
+ 
+
+00:02:59.640 --> 00:03:02.430 align:start position:0%
+the function name for example gfw in it
+or<00:02:59.840><c> or</c><00:02:59.920><c> gfw</c><00:03:00.680><c> create</c><00:03:01.080><c> window</c><00:03:01.920><c> all</c><00:03:02.040><c> of</c><00:03:02.200><c> that</c>
+
+00:03:02.430 --> 00:03:02.440 align:start position:0%
+or or gfw create window all of that
+ 
+
+00:03:02.440 --> 00:03:05.070 align:start position:0%
+or or gfw create window all of that
+stuff<00:03:03.040><c> has</c><00:03:03.239><c> glfw</c><00:03:03.959><c> literally</c><00:03:04.360><c> prepended</c><00:03:04.920><c> to</c>
+
+00:03:05.070 --> 00:03:05.080 align:start position:0%
+stuff has glfw literally prepended to
+ 
+
+00:03:05.080 --> 00:03:07.589 align:start position:0%
+stuff has glfw literally prepended to
+the<00:03:05.239><c> front</c><00:03:05.640><c> of</c><00:03:05.799><c> it</c><00:03:06.560><c> with</c><00:03:06.720><c> open</c><00:03:07.000><c> GL</c><00:03:07.360><c> it's</c><00:03:07.480><c> kind</c>
+
+00:03:07.589 --> 00:03:07.599 align:start position:0%
+the front of it with open GL it's kind
+ 
+
+00:03:07.599 --> 00:03:09.630 align:start position:0%
+the front of it with open GL it's kind
+of<00:03:07.720><c> the</c><00:03:07.840><c> same</c><00:03:08.040><c> thing</c><00:03:08.200><c> as</c><00:03:08.319><c> well</c><00:03:08.560><c> we</c><00:03:08.680><c> have</c><00:03:08.879><c> GL</c><00:03:09.480><c> and</c>
+
+00:03:09.630 --> 00:03:09.640 align:start position:0%
+of the same thing as well we have GL and
+ 
+
+00:03:09.640 --> 00:03:12.949 align:start position:0%
+of the same thing as well we have GL and
+then<00:03:10.200><c> the</c><00:03:10.319><c> symbol</c><00:03:10.680><c> name</c><00:03:11.000><c> so</c><00:03:11.280><c> like</c><00:03:11.480><c> GL</c><00:03:12.159><c> begin</c><00:03:12.599><c> GL</c>
+
+00:03:12.949 --> 00:03:12.959 align:start position:0%
+then the symbol name so like GL begin GL
+ 
+
+00:03:12.959 --> 00:03:15.789 align:start position:0%
+then the symbol name so like GL begin GL
+end<00:03:13.640><c> GL</c><00:03:14.159><c> gen</c><00:03:14.519><c> vertex</c><00:03:14.920><c> buffers</c><00:03:15.400><c> that</c><00:03:15.519><c> kind</c><00:03:15.640><c> of</c>
+
+00:03:15.789 --> 00:03:15.799 align:start position:0%
+end GL gen vertex buffers that kind of
+ 
+
+00:03:15.799 --> 00:03:18.869 align:start position:0%
+end GL gen vertex buffers that kind of
+thing<00:03:16.159><c> right</c><00:03:16.680><c> we</c><00:03:16.959><c> have</c><00:03:17.959><c> an</c><00:03:18.200><c> act</c><00:03:18.519><c> the</c><00:03:18.720><c> the</c>
+
+00:03:18.869 --> 00:03:18.879 align:start position:0%
+thing right we have an act the the
+ 
+
+00:03:18.879 --> 00:03:20.910 align:start position:0%
+thing right we have an act the the
+actual<00:03:19.200><c> name</c><00:03:19.440><c> of</c><00:03:19.599><c> the</c><00:03:19.760><c> library</c><00:03:20.200><c> or</c><00:03:20.440><c> some</c><00:03:20.760><c> kind</c>
+
+00:03:20.910 --> 00:03:20.920 align:start position:0%
+actual name of the library or some kind
+ 
+
+00:03:20.920 --> 00:03:24.030 align:start position:0%
+actual name of the library or some kind
+of<00:03:21.400><c> ID</c><00:03:22.400><c> embedded</c><00:03:22.879><c> into</c><00:03:23.080><c> the</c><00:03:23.239><c> function</c><00:03:23.560><c> name</c><00:03:23.879><c> so</c>
+
+00:03:24.030 --> 00:03:24.040 align:start position:0%
+of ID embedded into the function name so
+ 
+
+00:03:24.040 --> 00:03:26.110 align:start position:0%
+of ID embedded into the function name so
+in<00:03:24.200><c> our</c><00:03:24.519><c> code</c><00:03:25.120><c> that</c><00:03:25.239><c> would</c><00:03:25.360><c> be</c><00:03:25.519><c> the</c><00:03:25.680><c> equivalent</c>
+
+00:03:26.110 --> 00:03:26.120 align:start position:0%
+in our code that would be the equivalent
+ 
+
+00:03:26.120 --> 00:03:27.750 align:start position:0%
+in our code that would be the equivalent
+of<00:03:26.360><c> if</c><00:03:26.480><c> I</c><00:03:26.599><c> had</c><00:03:26.760><c> literally</c><00:03:27.080><c> written</c><00:03:27.440><c> something</c>
+
+00:03:27.750 --> 00:03:27.760 align:start position:0%
+of if I had literally written something
+ 
+
+00:03:27.760 --> 00:03:31.070 align:start position:0%
+of if I had literally written something
+like<00:03:28.040><c> apple</c><00:03:28.519><c> print</c><00:03:29.480><c> right</c><00:03:29.920><c> and</c><00:03:30.200><c> orange</c><00:03:30.640><c> print</c>
+
+00:03:31.070 --> 00:03:31.080 align:start position:0%
+like apple print right and orange print
+ 
+
+00:03:31.080 --> 00:03:32.990 align:start position:0%
+like apple print right and orange print
+and<00:03:31.200><c> then</c><00:03:31.400><c> now</c><00:03:31.599><c> you</c><00:03:31.720><c> can</c><00:03:31.879><c> see</c><00:03:32.120><c> that</c><00:03:32.519><c> okay</c><00:03:32.840><c> these</c>
+
+00:03:32.990 --> 00:03:33.000 align:start position:0%
+and then now you can see that okay these
+ 
+
+00:03:33.000 --> 00:03:34.789 align:start position:0%
+and then now you can see that okay these
+two<00:03:33.239><c> functions</c><00:03:33.680><c> are</c><00:03:34.000><c> different</c><00:03:34.439><c> because</c><00:03:34.680><c> this</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+two functions are different because this
+ 
+
+00:03:34.799 --> 00:03:36.509 align:start position:0%
+two functions are different because this
+is<00:03:34.959><c> like</c><00:03:35.080><c> the</c><00:03:35.159><c> apple</c><00:03:35.439><c> print</c><00:03:35.680><c> version</c><00:03:36.239><c> this</c><00:03:36.360><c> is</c>
+
+00:03:36.509 --> 00:03:36.519 align:start position:0%
+is like the apple print version this is
+ 
+
+00:03:36.519 --> 00:03:38.390 align:start position:0%
+is like the apple print version this is
+the<00:03:36.640><c> orange</c><00:03:36.959><c> print</c><00:03:37.200><c> version</c><00:03:37.920><c> and</c><00:03:38.080><c> that's</c>
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+the orange print version and that's
+ 
+
+00:03:38.400 --> 00:03:41.110 align:start position:0%
+the orange print version and that's
+actually<00:03:38.799><c> what</c><00:03:38.959><c> C</c><00:03:39.360><c> libraries</c><00:03:39.840><c> tend</c><00:03:40.080><c> to</c><00:03:40.319><c> do</c>
+
+00:03:41.110 --> 00:03:41.120 align:start position:0%
+actually what C libraries tend to do
+ 
+
+00:03:41.120 --> 00:03:43.030 align:start position:0%
+actually what C libraries tend to do
+because<00:03:41.519><c> they</c><00:03:41.680><c> can't</c><00:03:41.959><c> just</c><00:03:42.319><c> you</c><00:03:42.439><c> know</c><00:03:42.760><c> I</c><00:03:42.920><c> I</c>
+
+00:03:43.030 --> 00:03:43.040 align:start position:0%
+because they can't just you know I I
+ 
+
+00:03:43.040 --> 00:03:45.509 align:start position:0%
+because they can't just you know I I
+can't<00:03:43.280><c> make</c><00:03:43.599><c> a</c><00:03:43.760><c> function</c><00:03:44.159><c> just</c><00:03:44.360><c> called</c><00:03:44.720><c> init</c>
+
+00:03:45.509 --> 00:03:45.519 align:start position:0%
+can't make a function just called init
+ 
+
+00:03:45.519 --> 00:03:48.670 align:start position:0%
+can't make a function just called init
+because<00:03:45.840><c> init</c><00:03:46.319><c> is</c><00:03:46.560><c> such</c><00:03:46.760><c> a</c><00:03:47.000><c> common</c><00:03:47.519><c> name</c><00:03:48.519><c> what</c>
+
+00:03:48.670 --> 00:03:48.680 align:start position:0%
+because init is such a common name what
+ 
+
+00:03:48.680 --> 00:03:50.990 align:start position:0%
+because init is such a common name what
+if<00:03:49.120><c> you</c><00:03:49.239><c> know</c><00:03:49.680><c> if</c><00:03:49.879><c> every</c><00:03:50.120><c> library</c><00:03:50.519><c> was</c><00:03:50.640><c> to</c><00:03:50.760><c> do</c>
+
+00:03:50.990 --> 00:03:51.000 align:start position:0%
+if you know if every library was to do
+ 
+
+00:03:51.000 --> 00:03:52.910 align:start position:0%
+if you know if every library was to do
+was<00:03:51.120><c> to</c><00:03:51.280><c> just</c><00:03:51.400><c> name</c><00:03:51.640><c> their</c><00:03:51.840><c> functions</c><00:03:52.280><c> init</c>
+
+00:03:52.910 --> 00:03:52.920 align:start position:0%
+was to just name their functions init
+ 
+
+00:03:52.920 --> 00:03:54.789 align:start position:0%
+was to just name their functions init
+then<00:03:53.040><c> you</c><00:03:53.159><c> could</c><00:03:53.360><c> never</c><00:03:53.640><c> use</c><00:03:54.000><c> those</c><00:03:54.200><c> libraries</c>
+
+00:03:54.789 --> 00:03:54.799 align:start position:0%
+then you could never use those libraries
+ 
+
+00:03:54.799 --> 00:03:56.229 align:start position:0%
+then you could never use those libraries
+together<00:03:55.120><c> without</c><00:03:55.400><c> having</c><00:03:55.599><c> to</c><00:03:55.760><c> modify</c><00:03:56.159><c> the</c>
+
+00:03:56.229 --> 00:03:56.239 align:start position:0%
+together without having to modify the
+ 
+
+00:03:56.239 --> 00:03:59.030 align:start position:0%
+together without having to modify the
+source<00:03:56.599><c> code</c><00:03:57.319><c> so</c><00:03:57.560><c> what</c><00:03:57.720><c> they</c><00:03:57.879><c> do</c><00:03:58.239><c> usually</c><00:03:58.840><c> is</c>
+
+00:03:59.030 --> 00:03:59.040 align:start position:0%
+source code so what they do usually is
+ 
+
+00:03:59.040 --> 00:04:01.030 align:start position:0%
+source code so what they do usually is
+just<00:03:59.239><c> kind</c><00:03:59.360><c> of</c><00:04:00.159><c> the</c><00:04:00.239><c> name</c><00:04:00.360><c> of</c><00:04:00.480><c> the</c><00:04:00.560><c> library</c><00:04:00.920><c> to</c>
+
+00:04:01.030 --> 00:04:01.040 align:start position:0%
+just kind of the name of the library to
+ 
+
+00:04:01.040 --> 00:04:03.990 align:start position:0%
+just kind of the name of the library to
+it<00:04:01.159><c> so</c><00:04:01.280><c> JFW</c><00:04:01.959><c> in</c><00:04:02.159><c> it</c><00:04:02.879><c> and</c><00:04:03.040><c> that</c><00:04:03.200><c> works</c><00:04:03.640><c> because</c>
+
+00:04:03.990 --> 00:04:04.000 align:start position:0%
+it so JFW in it and that works because
+ 
+
+00:04:04.000 --> 00:04:06.390 align:start position:0%
+it so JFW in it and that works because
+well<00:04:04.159><c> it's</c><00:04:04.280><c> a</c><00:04:04.439><c> fairly</c><00:04:04.760><c> unique</c><00:04:05.120><c> name</c><00:04:05.519><c> right</c><00:04:05.680><c> JFW</c>
+
+00:04:06.390 --> 00:04:06.400 align:start position:0%
+well it's a fairly unique name right JFW
+ 
+
+00:04:06.400 --> 00:04:09.229 align:start position:0%
+well it's a fairly unique name right JFW
+in<00:04:06.599><c> it</c><00:04:07.120><c> okay</c><00:04:07.439><c> cool</c><00:04:08.000><c> that's</c><00:04:08.360><c> specific</c><00:04:08.799><c> to</c><00:04:09.079><c> that</c>
+
+00:04:09.229 --> 00:04:09.239 align:start position:0%
+in it okay cool that's specific to that
+ 
+
+00:04:09.239 --> 00:04:12.470 align:start position:0%
+in it okay cool that's specific to that
+glfw<00:04:10.040><c> library</c><00:04:10.959><c> now</c><00:04:11.120><c> in</c><00:04:11.239><c> C++</c><00:04:11.959><c> instead</c><00:04:12.200><c> of</c><00:04:12.319><c> us</c>
+
+00:04:12.470 --> 00:04:12.480 align:start position:0%
+glfw library now in C++ instead of us
+ 
+
+00:04:12.480 --> 00:04:14.429 align:start position:0%
+glfw library now in C++ instead of us
+having<00:04:12.640><c> to</c><00:04:12.760><c> do</c><00:04:12.959><c> all</c><00:04:13.200><c> this</c><00:04:13.760><c> we</c><00:04:13.920><c> have</c><00:04:14.120><c> name</c>
+
+00:04:14.429 --> 00:04:14.439 align:start position:0%
+having to do all this we have name
+ 
+
+00:04:14.439 --> 00:04:17.030 align:start position:0%
+having to do all this we have name
+spaces<00:04:14.879><c> to</c><00:04:15.079><c> solve</c><00:04:15.439><c> that</c><00:04:15.640><c> issue</c><00:04:16.320><c> the</c><00:04:16.560><c> primary</c>
+
+00:04:17.030 --> 00:04:17.040 align:start position:0%
+spaces to solve that issue the primary
+ 
+
+00:04:17.040 --> 00:04:19.710 align:start position:0%
+spaces to solve that issue the primary
+purpose<00:04:17.320><c> of</c><00:04:17.479><c> Nam</c><00:04:17.840><c> spaces</c><00:04:18.560><c> is</c><00:04:18.720><c> to</c><00:04:18.919><c> avoid</c><00:04:19.239><c> naming</c>
+
+00:04:19.710 --> 00:04:19.720 align:start position:0%
+purpose of Nam spaces is to avoid naming
+ 
+
+00:04:19.720 --> 00:04:22.469 align:start position:0%
+purpose of Nam spaces is to avoid naming
+conflicts<00:04:20.639><c> that's</c><00:04:20.880><c> why</c><00:04:21.079><c> they</c><00:04:21.359><c> exist</c><00:04:21.919><c> to</c><00:04:22.160><c> avoid</c>
+
+00:04:22.469 --> 00:04:22.479 align:start position:0%
+conflicts that's why they exist to avoid
+ 
+
+00:04:22.479 --> 00:04:26.310 align:start position:0%
+conflicts that's why they exist to avoid
+naming<00:04:23.040><c> conflicts</c><00:04:24.400><c> okay</c><00:04:25.400><c> that's</c><00:04:25.600><c> it</c><00:04:25.800><c> sort</c><00:04:26.120><c> of</c>
+
+00:04:26.310 --> 00:04:26.320 align:start position:0%
+naming conflicts okay that's it sort of
+ 
+
+00:04:26.320 --> 00:04:27.950 align:start position:0%
+naming conflicts okay that's it sort of
+just<00:04:26.479><c> if</c><00:04:26.600><c> youve</c><00:04:26.880><c> getting</c><00:04:27.160><c> confused</c><00:04:27.600><c> by</c><00:04:27.800><c> why</c>
+
+00:04:27.950 --> 00:04:27.960 align:start position:0%
+just if youve getting confused by why
+ 
+
+00:04:27.960 --> 00:04:29.390 align:start position:0%
+just if youve getting confused by why
+namespaces<00:04:28.600><c> exist</c><00:04:28.840><c> or</c><00:04:29.000><c> why</c><00:04:29.120><c> they're</c><00:04:29.240><c> being</c>
+
+00:04:29.390 --> 00:04:29.400 align:start position:0%
+namespaces exist or why they're being
+ 
+
+00:04:29.400 --> 00:04:30.270 align:start position:0%
+namespaces exist or why they're being
+used
+
+00:04:30.270 --> 00:04:30.280 align:start position:0%
+used
+ 
+
+00:04:30.280 --> 00:04:32.230 align:start position:0%
+used
+it's<00:04:30.479><c> because</c><00:04:30.680><c> of</c><00:04:30.880><c> naming</c><00:04:31.680><c> we</c><00:04:31.840><c> want</c><00:04:32.000><c> to</c><00:04:32.120><c> be</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+it's because of naming we want to be
+ 
+
+00:04:32.240 --> 00:04:35.510 align:start position:0%
+it's because of naming we want to be
+able<00:04:32.440><c> to</c><00:04:32.600><c> call</c><00:04:33.120><c> symbols</c><00:04:33.720><c> the</c><00:04:33.880><c> same</c><00:04:34.320><c> name</c><00:04:35.320><c> in</c>
+
+00:04:35.510 --> 00:04:35.520 align:start position:0%
+able to call symbols the same name in
+ 
+
+00:04:35.520 --> 00:04:37.550 align:start position:0%
+able to call symbols the same name in
+different<00:04:35.960><c> contexts</c><00:04:36.840><c> so</c><00:04:36.960><c> if</c><00:04:37.080><c> we</c><00:04:37.199><c> go</c><00:04:37.320><c> back</c><00:04:37.440><c> here</c>
+
+00:04:37.550 --> 00:04:37.560 align:start position:0%
+different contexts so if we go back here
+ 
+
+00:04:37.560 --> 00:04:39.590 align:start position:0%
+different contexts so if we go back here
+into<00:04:37.800><c> apple</c><00:04:38.120><c> print</c><00:04:38.720><c> instead</c><00:04:38.960><c> of</c><00:04:39.120><c> having</c><00:04:39.400><c> this</c>
+
+00:04:39.590 --> 00:04:39.600 align:start position:0%
+into apple print instead of having this
+ 
+
+00:04:39.600 --> 00:04:41.990 align:start position:0%
+into apple print instead of having this
+what<00:04:39.720><c> we</c><00:04:39.800><c> can</c><00:04:39.960><c> do</c><00:04:40.120><c> is</c><00:04:40.280><c> enclose</c><00:04:40.919><c> this</c><00:04:41.120><c> symbol</c><00:04:41.880><c> in</c>
+
+00:04:41.990 --> 00:04:42.000 align:start position:0%
+what we can do is enclose this symbol in
+ 
+
+00:04:42.000 --> 00:04:44.350 align:start position:0%
+what we can do is enclose this symbol in
+a<00:04:42.199><c> namespace</c><00:04:43.160><c> in</c><00:04:43.320><c> this</c><00:04:43.479><c> case</c><00:04:43.800><c> what</c><00:04:43.919><c> we</c><00:04:44.080><c> write</c>
+
+00:04:44.350 --> 00:04:44.360 align:start position:0%
+a namespace in this case what we write
+ 
+
+00:04:44.360 --> 00:04:47.029 align:start position:0%
+a namespace in this case what we write
+is<00:04:44.560><c> namespace</c><00:04:45.320><c> the</c><00:04:45.479><c> name</c><00:04:45.800><c> of</c><00:04:45.919><c> the</c><00:04:46.080><c> namespace</c>
+
+00:04:47.029 --> 00:04:47.039 align:start position:0%
+is namespace the name of the namespace
+ 
+
+00:04:47.039 --> 00:04:48.909 align:start position:0%
+is namespace the name of the namespace
+and<00:04:47.240><c> then</c><00:04:47.560><c> just</c><00:04:47.759><c> as</c><00:04:47.880><c> if</c><00:04:48.000><c> it</c><00:04:48.120><c> was</c><00:04:48.360><c> any</c><00:04:48.600><c> kind</c><00:04:48.720><c> of</c>
+
+00:04:48.909 --> 00:04:48.919 align:start position:0%
+and then just as if it was any kind of
+ 
+
+00:04:48.919 --> 00:04:50.990 align:start position:0%
+and then just as if it was any kind of
+function<00:04:49.639><c> we</c><00:04:49.800><c> surround</c><00:04:50.199><c> it</c><00:04:50.320><c> with</c><00:04:50.479><c> curly</c>
+
+00:04:50.990 --> 00:04:51.000 align:start position:0%
+function we surround it with curly
+ 
+
+00:04:51.000 --> 00:04:53.150 align:start position:0%
+function we surround it with curly
+braces<00:04:51.560><c> which</c><00:04:51.880><c> everything</c><00:04:52.320><c> in</c><00:04:52.720><c> everything</c><00:04:53.000><c> in</c>
+
+00:04:53.150 --> 00:04:53.160 align:start position:0%
+braces which everything in everything in
+ 
+
+00:04:53.160 --> 00:04:55.830 align:start position:0%
+braces which everything in everything in
+between<00:04:53.479><c> these</c><00:04:53.759><c> curly</c><00:04:54.199><c> brackets</c><00:04:55.080><c> is</c><00:04:55.280><c> included</c>
+
+00:04:55.830 --> 00:04:55.840 align:start position:0%
+between these curly brackets is included
+ 
+
+00:04:55.840 --> 00:04:58.350 align:start position:0%
+between these curly brackets is included
+in<00:04:56.039><c> that</c><00:04:56.240><c> Apple</c><00:04:56.560><c> namespace</c><00:04:57.479><c> now</c><00:04:57.759><c> personally</c><00:04:58.240><c> I</c>
+
+00:04:58.350 --> 00:04:58.360 align:start position:0%
+in that Apple namespace now personally I
+ 
+
+00:04:58.360 --> 00:05:00.950 align:start position:0%
+in that Apple namespace now personally I
+like<00:04:58.520><c> to</c><00:04:58.759><c> write</c><00:04:59.120><c> my</c><00:04:59.919><c> bracket</c><00:05:00.199><c> on</c><00:05:00.360><c> the</c><00:05:00.600><c> same</c>
+
+00:05:00.950 --> 00:05:00.960 align:start position:0%
+like to write my bracket on the same
+ 
+
+00:05:00.960 --> 00:05:03.350 align:start position:0%
+like to write my bracket on the same
+line<00:05:01.680><c> as</c><00:05:01.840><c> the</c><00:05:02.039><c> actual</c><00:05:02.320><c> namespace</c><00:05:02.840><c> declaration</c>
+
+00:05:03.350 --> 00:05:03.360 align:start position:0%
+line as the actual namespace declaration
+ 
+
+00:05:03.360 --> 00:05:05.189 align:start position:0%
+line as the actual namespace declaration
+I<00:05:03.479><c> don't</c><00:05:03.680><c> like</c><00:05:03.840><c> doing</c><00:05:04.199><c> this</c><00:05:04.639><c> the</c><00:05:04.759><c> reason</c><00:05:05.039><c> that</c>
+
+00:05:05.189 --> 00:05:05.199 align:start position:0%
+I don't like doing this the reason that
+ 
+
+00:05:05.199 --> 00:05:07.029 align:start position:0%
+I don't like doing this the reason that
+happens<00:05:05.520><c> is</c><00:05:05.720><c> because</c><00:05:05.960><c> when</c><00:05:06.080><c> we</c><00:05:06.280><c> have</c><00:05:06.560><c> multiple</c>
+
+00:05:07.029 --> 00:05:07.039 align:start position:0%
+happens is because when we have multiple
+ 
+
+00:05:07.039 --> 00:05:09.550 align:start position:0%
+happens is because when we have multiple
+nested<00:05:07.600><c> name</c><00:05:07.919><c> spaces</c><00:05:08.759><c> it</c><00:05:08.919><c> gets</c><00:05:09.080><c> a</c><00:05:09.199><c> little</c><00:05:09.400><c> bit</c>
+
+00:05:09.550 --> 00:05:09.560 align:start position:0%
+nested name spaces it gets a little bit
+ 
+
+00:05:09.560 --> 00:05:11.950 align:start position:0%
+nested name spaces it gets a little bit
+messy<00:05:10.280><c> so</c><00:05:10.520><c> what</c><00:05:10.639><c> I</c><00:05:10.759><c> like</c><00:05:10.919><c> to</c><00:05:11.039><c> do</c><00:05:11.240><c> is</c><00:05:11.400><c> if</c><00:05:11.520><c> we</c><00:05:11.680><c> had</c>
+
+00:05:11.950 --> 00:05:11.960 align:start position:0%
+messy so what I like to do is if we had
+ 
+
+00:05:11.960 --> 00:05:13.909 align:start position:0%
+messy so what I like to do is if we had
+apple<00:05:12.320><c> and</c><00:05:12.440><c> then</c><00:05:12.600><c> maybe</c><00:05:12.960><c> like</c><00:05:13.160><c> functions</c><00:05:13.720><c> or</c>
+
+00:05:13.909 --> 00:05:13.919 align:start position:0%
+apple and then maybe like functions or
+ 
+
+00:05:13.919 --> 00:05:16.110 align:start position:0%
+apple and then maybe like functions or
+something<00:05:14.680><c> you</c><00:05:14.800><c> know</c><00:05:14.960><c> I</c><00:05:15.160><c> have</c><00:05:15.360><c> this</c><00:05:15.600><c> here</c><00:05:15.880><c> and</c>
+
+00:05:16.110 --> 00:05:16.120 align:start position:0%
+something you know I have this here and
+ 
+
+00:05:16.120 --> 00:05:18.189 align:start position:0%
+something you know I have this here and
+also<00:05:16.600><c> with</c><00:05:16.720><c> the</c><00:05:16.840><c> end</c><00:05:17.120><c> braces</c><00:05:17.720><c> instead</c><00:05:17.960><c> of</c><00:05:18.080><c> kind</c>
+
+00:05:18.189 --> 00:05:18.199 align:start position:0%
+also with the end braces instead of kind
+ 
+
+00:05:18.199 --> 00:05:19.670 align:start position:0%
+also with the end braces instead of kind
+of<00:05:18.319><c> writing</c><00:05:18.639><c> it</c><00:05:18.880><c> this</c><00:05:19.039><c> way</c><00:05:19.280><c> which</c><00:05:19.400><c> is</c><00:05:19.520><c> what</c>
+
+00:05:19.670 --> 00:05:19.680 align:start position:0%
+of writing it this way which is what
+ 
+
+00:05:19.680 --> 00:05:21.390 align:start position:0%
+of writing it this way which is what
+Visual<00:05:19.919><c> Studio</c><00:05:20.240><c> will</c><00:05:20.400><c> try</c><00:05:20.759><c> try</c><00:05:20.919><c> and</c><00:05:21.039><c> auto</c>
+
+00:05:21.390 --> 00:05:21.400 align:start position:0%
+Visual Studio will try try and auto
+ 
+
+00:05:21.400 --> 00:05:23.430 align:start position:0%
+Visual Studio will try try and auto
+format<00:05:21.720><c> it</c><00:05:21.880><c> to</c><00:05:22.560><c> I</c><00:05:22.680><c> like</c><00:05:22.840><c> to</c><00:05:22.960><c> just</c><00:05:23.120><c> have</c><00:05:23.240><c> it</c><00:05:23.319><c> on</c>
+
+00:05:23.430 --> 00:05:23.440 align:start position:0%
+format it to I like to just have it on
+ 
+
+00:05:23.440 --> 00:05:25.550 align:start position:0%
+format it to I like to just have it on
+the<00:05:23.560><c> same</c><00:05:23.880><c> line</c><00:05:24.479><c> that</c><00:05:24.639><c> way</c><00:05:24.919><c> my</c><00:05:25.199><c> actual</c>
+
+00:05:25.550 --> 00:05:25.560 align:start position:0%
+the same line that way my actual
+ 
+
+00:05:25.560 --> 00:05:28.029 align:start position:0%
+the same line that way my actual
+functions<00:05:26.120><c> are</c><00:05:26.360><c> one</c><00:05:26.680><c> level</c><00:05:27.080><c> indented</c><00:05:27.720><c> and</c><00:05:27.840><c> not</c>
+
+00:05:28.029 --> 00:05:28.039 align:start position:0%
+functions are one level indented and not
+ 
+
+00:05:28.039 --> 00:05:30.070 align:start position:0%
+functions are one level indented and not
+like<00:05:28.240><c> two</c><00:05:28.520><c> or</c><00:05:28.680><c> three</c><00:05:28.919><c> or</c><00:05:29.039><c> four</c><00:05:29.319><c> or</c><00:05:29.759><c> depending</c>
+
+00:05:30.070 --> 00:05:30.080 align:start position:0%
+like two or three or four or depending
+ 
+
+00:05:30.080 --> 00:05:32.629 align:start position:0%
+like two or three or four or depending
+on<00:05:30.319><c> how</c><00:05:30.520><c> many</c><00:05:30.800><c> Nam</c><00:05:31.120><c> spaces</c><00:05:31.520><c> we</c><00:05:31.680><c> actually</c><00:05:32.080><c> have</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+on how many Nam spaces we actually have
+ 
+
+00:05:32.639 --> 00:05:34.870 align:start position:0%
+on how many Nam spaces we actually have
+nested<00:05:33.639><c> uh</c><00:05:33.759><c> so</c><00:05:33.960><c> that's</c><00:05:34.160><c> just</c><00:05:34.319><c> my</c><00:05:34.479><c> personal</c>
+
+00:05:34.870 --> 00:05:34.880 align:start position:0%
+nested uh so that's just my personal
+ 
+
+00:05:34.880 --> 00:05:36.230 align:start position:0%
+nested uh so that's just my personal
+preference<00:05:35.240><c> you</c><00:05:35.319><c> don't</c><00:05:35.520><c> have</c><00:05:35.600><c> to</c><00:05:35.720><c> follow</c><00:05:36.039><c> that</c>
+
+00:05:36.230 --> 00:05:36.240 align:start position:0%
+preference you don't have to follow that
+ 
+
+00:05:36.240 --> 00:05:38.070 align:start position:0%
+preference you don't have to follow that
+but<00:05:36.360><c> that's</c><00:05:36.560><c> why</c><00:05:36.720><c> I</c><00:05:36.880><c> kind</c><00:05:37.000><c> of</c><00:05:37.199><c> put</c><00:05:37.680><c> all</c><00:05:37.919><c> this</c>
+
+00:05:38.070 --> 00:05:38.080 align:start position:0%
+but that's why I kind of put all this
+ 
+
+00:05:38.080 --> 00:05:40.029 align:start position:0%
+but that's why I kind of put all this
+stuff<00:05:38.240><c> on</c><00:05:38.400><c> the</c><00:05:38.520><c> same</c><00:05:38.800><c> line</c><00:05:39.520><c> so</c><00:05:39.720><c> that</c><00:05:39.840><c> being</c>
+
+00:05:40.029 --> 00:05:40.039 align:start position:0%
+stuff on the same line so that being
+ 
+
+00:05:40.039 --> 00:05:42.230 align:start position:0%
+stuff on the same line so that being
+said<00:05:40.280><c> we</c><00:05:40.440><c> now</c><00:05:40.639><c> have</c><00:05:40.840><c> a</c><00:05:41.319><c> have</c><00:05:41.440><c> an</c><00:05:41.600><c> apple</c><00:05:41.919><c> print</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+said we now have a have an apple print
+ 
+
+00:05:42.240 --> 00:05:44.029 align:start position:0%
+said we now have a have an apple print
+function<00:05:42.800><c> if</c><00:05:42.919><c> I</c><00:05:43.039><c> go</c><00:05:43.160><c> over</c><00:05:43.319><c> here</c><00:05:43.440><c> into</c><00:05:43.639><c> orange</c>
+
+00:05:44.029 --> 00:05:44.039 align:start position:0%
+function if I go over here into orange
+ 
+
+00:05:44.039 --> 00:05:46.309 align:start position:0%
+function if I go over here into orange
+and<00:05:44.240><c> get</c><00:05:44.400><c> rid</c><00:05:44.560><c> of</c><00:05:44.720><c> these</c><00:05:45.000><c> comments</c><00:05:45.440><c> as</c><00:05:45.520><c> well</c><00:05:46.160><c> we</c>
+
+00:05:46.309 --> 00:05:46.319 align:start position:0%
+and get rid of these comments as well we
+ 
+
+00:05:46.319 --> 00:05:47.990 align:start position:0%
+and get rid of these comments as well we
+have<00:05:46.560><c> this</c><00:05:46.759><c> orange</c><00:05:47.160><c> print</c><00:05:47.440><c> function</c><00:05:47.759><c> I</c><00:05:47.840><c> can</c>
+
+00:05:47.990 --> 00:05:48.000 align:start position:0%
+have this orange print function I can
+ 
+
+00:05:48.000 --> 00:05:51.150 align:start position:0%
+have this orange print function I can
+rename<00:05:48.319><c> it</c><00:05:48.560><c> to</c><00:05:49.560><c> uh</c><00:05:49.720><c> just</c><00:05:50.000><c> print</c><00:05:50.639><c> so</c><00:05:50.919><c> we're</c>
+
+00:05:51.150 --> 00:05:51.160 align:start position:0%
+rename it to uh just print so we're
+ 
+
+00:05:51.160 --> 00:05:53.070 align:start position:0%
+rename it to uh just print so we're
+we're<00:05:51.360><c> able</c><00:05:51.639><c> to</c><00:05:51.880><c> have</c><00:05:52.120><c> two</c><00:05:52.400><c> functions</c><00:05:52.880><c> with</c>
+
+00:05:53.070 --> 00:05:53.080 align:start position:0%
+we're able to have two functions with
+ 
+
+00:05:53.080 --> 00:05:55.430 align:start position:0%
+we're able to have two functions with
+exactly<00:05:53.440><c> the</c><00:05:53.560><c> same</c><00:05:53.880><c> signature</c><00:05:54.400><c> in</c><00:05:54.560><c> this</c><00:05:54.800><c> file</c>
+
+00:05:55.430 --> 00:05:55.440 align:start position:0%
+exactly the same signature in this file
+ 
+
+00:05:55.440 --> 00:05:57.189 align:start position:0%
+exactly the same signature in this file
+and<00:05:55.520><c> when</c><00:05:55.639><c> it</c><00:05:55.759><c> comes</c><00:05:56.039><c> time</c><00:05:56.199><c> to</c><00:05:56.360><c> call</c><00:05:56.639><c> it</c><00:05:57.080><c> what</c>
+
+00:05:57.189 --> 00:05:57.199 align:start position:0%
+and when it comes time to call it what
+ 
+
+00:05:57.199 --> 00:05:59.150 align:start position:0%
+and when it comes time to call it what
+we<00:05:57.319><c> do</c><00:05:57.479><c> is</c><00:05:57.560><c> we</c><00:05:57.680><c> need</c><00:05:57.800><c> to</c><00:05:57.960><c> specify</c><00:05:58.479><c> which</c><00:05:58.639><c> one</c><00:05:58.919><c> we</c>
+
+00:05:59.150 --> 00:05:59.160 align:start position:0%
+we do is we need to specify which one we
+ 
+
+00:05:59.160 --> 00:06:01.309 align:start position:0%
+we do is we need to specify which one we
+we<00:05:59.240><c> need</c><00:05:59.400><c> to</c><00:05:59.479><c> call</c><00:05:59.680><c> call</c><00:06:00.280><c> so</c><00:06:00.520><c> print</c><00:06:00.800><c> is</c><00:06:01.000><c> now</c>
+
+00:06:01.309 --> 00:06:01.319 align:start position:0%
+we need to call call so print is now
+ 
+
+00:06:01.319 --> 00:06:03.150 align:start position:0%
+we need to call call so print is now
+inside<00:06:01.840><c> either</c><00:06:02.080><c> the</c><00:06:02.240><c> apple</c><00:06:02.560><c> or</c><00:06:02.720><c> the</c><00:06:02.840><c> orange</c>
+
+00:06:03.150 --> 00:06:03.160 align:start position:0%
+inside either the apple or the orange
+ 
+
+00:06:03.160 --> 00:06:05.110 align:start position:0%
+inside either the apple or the orange
+namespace<00:06:03.759><c> we</c><00:06:03.840><c> have</c><00:06:04.000><c> two</c><00:06:04.160><c> of</c><00:06:04.319><c> them</c><00:06:04.800><c> so</c><00:06:04.919><c> if</c><00:06:05.000><c> we</c>
+
+00:06:05.110 --> 00:06:05.120 align:start position:0%
+namespace we have two of them so if we
+ 
+
+00:06:05.120 --> 00:06:06.710 align:start position:0%
+namespace we have two of them so if we
+want<00:06:05.240><c> to</c><00:06:05.360><c> use</c><00:06:05.520><c> the</c><00:06:05.639><c> one</c><00:06:05.800><c> from</c><00:06:06.039><c> Apple</c><00:06:06.400><c> we</c><00:06:06.560><c> just</c>
+
+00:06:06.710 --> 00:06:06.720 align:start position:0%
+want to use the one from Apple we just
+ 
+
+00:06:06.720 --> 00:06:09.270 align:start position:0%
+want to use the one from Apple we just
+type<00:06:06.960><c> Apple</c><00:06:07.280><c> colon</c><00:06:07.759><c> colon</c><00:06:08.240><c> and</c><00:06:08.360><c> then</c><00:06:08.560><c> print</c>
+
+00:06:09.270 --> 00:06:09.280 align:start position:0%
+type Apple colon colon and then print
+ 
+
+00:06:09.280 --> 00:06:11.390 align:start position:0%
+type Apple colon colon and then print
+this<00:06:09.479><c> colon</c><00:06:09.840><c> colon</c><00:06:10.319><c> is</c><00:06:10.560><c> essentially</c><00:06:11.080><c> like</c><00:06:11.240><c> a</c>
+
+00:06:11.390 --> 00:06:11.400 align:start position:0%
+this colon colon is essentially like a
+ 
+
+00:06:11.400 --> 00:06:13.670 align:start position:0%
+this colon colon is essentially like a
+namespace<00:06:12.039><c> operator</c><00:06:12.800><c> so</c><00:06:13.039><c> what</c><00:06:13.160><c> you</c><00:06:13.240><c> do</c><00:06:13.479><c> is</c>
+
+00:06:13.670 --> 00:06:13.680 align:start position:0%
+namespace operator so what you do is
+ 
+
+00:06:13.680 --> 00:06:15.589 align:start position:0%
+namespace operator so what you do is
+every<00:06:13.919><c> kind</c><00:06:14.039><c> of</c><00:06:14.160><c> namespace</c><00:06:14.720><c> that</c><00:06:14.840><c> you</c><00:06:15.319><c> as</c><00:06:15.400><c> you</c>
+
+00:06:15.589 --> 00:06:15.599 align:start position:0%
+every kind of namespace that you as you
+ 
+
+00:06:15.599 --> 00:06:17.150 align:start position:0%
+every kind of namespace that you as you
+drill<00:06:15.880><c> down</c><00:06:16.039><c> into</c><00:06:16.199><c> a</c><00:06:16.319><c> namespace</c><00:06:16.840><c> you</c><00:06:16.960><c> just</c><00:06:17.039><c> put</c>
+
+00:06:17.150 --> 00:06:17.160 align:start position:0%
+drill down into a namespace you just put
+ 
+
+00:06:17.160 --> 00:06:20.390 align:start position:0%
+drill down into a namespace you just put
+a<00:06:17.280><c> colon</c><00:06:17.639><c> colon</c><00:06:18.479><c> and</c><00:06:18.720><c> that</c><00:06:18.919><c> is</c><00:06:19.160><c> what</c><00:06:20.039><c> I</c><00:06:20.199><c> guess</c>
+
+00:06:20.390 --> 00:06:20.400 align:start position:0%
+a colon colon and that is what I guess
+ 
+
+00:06:20.400 --> 00:06:22.309 align:start position:0%
+a colon colon and that is what I guess
+enters<00:06:20.880><c> into</c><00:06:21.240><c> that</c><00:06:21.400><c> namespace</c><00:06:21.880><c> or</c><00:06:22.000><c> allows</c><00:06:22.240><c> you</c>
+
+00:06:22.309 --> 00:06:22.319 align:start position:0%
+enters into that namespace or allows you
+ 
+
+00:06:22.319 --> 00:06:24.469 align:start position:0%
+enters into that namespace or allows you
+to<00:06:22.440><c> call</c><00:06:22.680><c> things</c><00:06:23.039><c> from</c><00:06:23.240><c> that</c><00:06:23.400><c> namespace</c><00:06:24.360><c> the</c>
+
+00:06:24.469 --> 00:06:24.479 align:start position:0%
+to call things from that namespace the
+ 
+
+00:06:24.479 --> 00:06:27.430 align:start position:0%
+to call things from that namespace the
+same<00:06:24.720><c> thing</c><00:06:24.960><c> applies</c><00:06:25.319><c> to</c><00:06:25.919><c> static</c><00:06:26.800><c> functions</c><00:06:27.280><c> I</c>
+
+00:06:27.430 --> 00:06:27.440 align:start position:0%
+same thing applies to static functions I
+ 
+
+00:06:27.440 --> 00:06:29.990 align:start position:0%
+same thing applies to static functions I
+guess<00:06:27.680><c> or</c><00:06:28.039><c> symbols</c><00:06:28.560><c> in</c><00:06:28.919><c> classes</c><00:06:29.639><c> and</c><00:06:29.840><c> like</c>
+
+00:06:29.990 --> 00:06:30.000 align:start position:0%
+guess or symbols in classes and like
+ 
+
+00:06:30.000 --> 00:06:32.790 align:start position:0%
+guess or symbols in classes and like
+methods<00:06:30.319><c> and</c><00:06:30.520><c> classes</c><00:06:30.840><c> and</c><00:06:30.960><c> all</c><00:06:31.240><c> that</c><00:06:31.639><c> stuff</c><00:06:32.639><c> a</c>
+
+00:06:32.790 --> 00:06:32.800 align:start position:0%
+methods and classes and all that stuff a
+ 
+
+00:06:32.800 --> 00:06:34.589 align:start position:0%
+methods and classes and all that stuff a
+class<00:06:33.080><c> is</c><00:06:33.280><c> kind</c><00:06:33.400><c> of</c><00:06:33.520><c> like</c><00:06:33.639><c> a</c><00:06:33.759><c> namespace</c><00:06:34.400><c> it</c><00:06:34.479><c> is</c>
+
+00:06:34.589 --> 00:06:34.599 align:start position:0%
+class is kind of like a namespace it is
+ 
+
+00:06:34.599 --> 00:06:36.990 align:start position:0%
+class is kind of like a namespace it is
+a<00:06:34.960><c> it</c><00:06:35.080><c> is</c><00:06:35.160><c> a</c><00:06:35.280><c> namespace</c><00:06:35.800><c> of</c><00:06:35.919><c> its</c><00:06:36.080><c> own</c><00:06:36.720><c> which</c><00:06:36.840><c> is</c>
+
+00:06:36.990 --> 00:06:37.000 align:start position:0%
+a it is a namespace of its own which is
+ 
+
+00:06:37.000 --> 00:06:38.870 align:start position:0%
+a it is a namespace of its own which is
+why<00:06:37.160><c> if</c><00:06:37.240><c> we're</c><00:06:37.440><c> accessing</c><00:06:38.000><c> like</c><00:06:38.319><c> an</c><00:06:38.479><c> inner</c>
+
+00:06:38.870 --> 00:06:38.880 align:start position:0%
+why if we're accessing like an inner
+ 
+
+00:06:38.880 --> 00:06:41.469 align:start position:0%
+why if we're accessing like an inner
+class<00:06:39.240><c> inside</c><00:06:39.599><c> another</c><00:06:39.960><c> class</c><00:06:40.520><c> or</c><00:06:40.680><c> like</c><00:06:40.759><c> an</c>
+
+00:06:41.469 --> 00:06:41.479 align:start position:0%
+class inside another class or like an
+ 
+
+00:06:41.479 --> 00:06:44.670 align:start position:0%
+class inside another class or like an
+enum<00:06:42.479><c> or</c><00:06:43.039><c> you</c><00:06:43.160><c> know</c><00:06:43.479><c> like</c><00:06:43.680><c> I</c><00:06:43.960><c> gave</c><00:06:44.160><c> the</c><00:06:44.319><c> example</c>
+
+00:06:44.670 --> 00:06:44.680 align:start position:0%
+enum or you know like I gave the example
+ 
+
+00:06:44.680 --> 00:06:46.230 align:start position:0%
+enum or you know like I gave the example
+of<00:06:44.880><c> like</c><00:06:45.039><c> static</c><00:06:45.360><c> functions</c><00:06:45.800><c> or</c><00:06:46.039><c> even</c>
+
+00:06:46.230 --> 00:06:46.240 align:start position:0%
+of like static functions or even
+ 
+
+00:06:46.240 --> 00:06:49.589 align:start position:0%
+of like static functions or even
+non-static<00:06:46.880><c> functions</c><00:06:47.280><c> in</c><00:06:47.759><c> some</c><00:06:48.120><c> cases</c><00:06:49.120><c> we</c>
+
+00:06:49.589 --> 00:06:49.599 align:start position:0%
+non-static functions in some cases we
+ 
+
+00:06:49.599 --> 00:06:51.430 align:start position:0%
+non-static functions in some cases we
+use<00:06:49.880><c> colon</c><00:06:50.240><c> colon</c><00:06:50.639><c> so</c><00:06:50.800><c> that's</c><00:06:50.919><c> what</c><00:06:51.039><c> the</c><00:06:51.160><c> colon</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+use colon colon so that's what the colon
+ 
+
+00:06:51.440 --> 00:06:53.230 align:start position:0%
+use colon colon so that's what the colon
+colon<00:06:51.759><c> kind</c><00:06:51.880><c> of</c><00:06:51.960><c> means</c><00:06:52.400><c> so</c><00:06:52.520><c> this</c><00:06:52.680><c> double</c><00:06:52.919><c> colon</c>
+
+00:06:53.230 --> 00:06:53.240 align:start position:0%
+colon kind of means so this double colon
+ 
+
+00:06:53.240 --> 00:06:55.270 align:start position:0%
+colon kind of means so this double colon
+is<00:06:53.319><c> used</c><00:06:53.759><c> to</c><00:06:54.400><c> uh</c><00:06:54.520><c> get</c><00:06:54.639><c> the</c><00:06:54.759><c> print</c><00:06:55.000><c> function</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+is used to uh get the print function
+ 
+
+00:06:55.280 --> 00:06:57.510 align:start position:0%
+is used to uh get the print function
+from<00:06:55.400><c> the</c><00:06:55.560><c> Apple</c><00:06:56.400><c> uh</c><00:06:56.520><c> and</c><00:06:56.639><c> if</c><00:06:56.759><c> we</c><00:06:56.879><c> were</c><00:06:57.039><c> to</c><00:06:57.240><c> run</c>
+
+00:06:57.510 --> 00:06:57.520 align:start position:0%
+from the Apple uh and if we were to run
+ 
+
+00:06:57.520 --> 00:06:58.830 align:start position:0%
+from the Apple uh and if we were to run
+this<00:06:57.680><c> we</c><00:06:57.759><c> would</c><00:06:57.919><c> just</c><00:06:58.039><c> get</c><00:06:58.199><c> hello</c><00:06:58.479><c> printing</c>
+
+00:06:58.830 --> 00:06:58.840 align:start position:0%
+this we would just get hello printing
+ 
+
+00:06:58.840 --> 00:07:00.070 align:start position:0%
+this we would just get hello printing
+normally
+
+00:07:00.070 --> 00:07:00.080 align:start position:0%
+normally
+ 
+
+00:07:00.080 --> 00:07:01.309 align:start position:0%
+normally
+if<00:07:00.199><c> I</c><00:07:00.280><c> want</c><00:07:00.400><c> to</c><00:07:00.520><c> call</c><00:07:00.680><c> the</c><00:07:00.800><c> orange</c><00:07:01.080><c> one</c>
+
+00:07:01.309 --> 00:07:01.319 align:start position:0%
+if I want to call the orange one
+ 
+
+00:07:01.319 --> 00:07:03.270 align:start position:0%
+if I want to call the orange one
+obviously<00:07:01.639><c> I</c><00:07:01.759><c> type</c><00:07:01.960><c> in</c><00:07:02.120><c> Orange</c><00:07:02.960><c> now</c><00:07:03.120><c> that</c>
+
+00:07:03.270 --> 00:07:03.280 align:start position:0%
+obviously I type in Orange now that
+ 
+
+00:07:03.280 --> 00:07:04.710 align:start position:0%
+obviously I type in Orange now that
+whole<00:07:03.440><c> using</c><00:07:03.759><c> namespace</c><00:07:04.319><c> thing</c><00:07:04.479><c> that</c><00:07:04.599><c> we</c>
+
+00:07:04.710 --> 00:07:04.720 align:start position:0%
+whole using namespace thing that we
+ 
+
+00:07:04.720 --> 00:07:06.350 align:start position:0%
+whole using namespace thing that we
+talked<00:07:04.960><c> about</c><00:07:05.240><c> in</c><00:07:05.360><c> the</c><00:07:05.560><c> last</c><00:07:05.800><c> episode</c><00:07:06.199><c> was</c>
+
+00:07:06.350 --> 00:07:06.360 align:start position:0%
+talked about in the last episode was
+ 
+
+00:07:06.360 --> 00:07:08.710 align:start position:0%
+talked about in the last episode was
+just<00:07:06.479><c> a</c><00:07:06.599><c> way</c><00:07:06.759><c> to</c><00:07:07.000><c> not</c><00:07:07.240><c> have</c><00:07:07.400><c> to</c><00:07:07.759><c> write</c><00:07:08.479><c> this</c>
+
+00:07:08.710 --> 00:07:08.720 align:start position:0%
+just a way to not have to write this
+ 
+
+00:07:08.720 --> 00:07:11.710 align:start position:0%
+just a way to not have to write this
+kind<00:07:08.879><c> of</c><00:07:09.120><c> apple</c><00:07:09.639><c> or</c><00:07:09.919><c> orange</c><00:07:10.440><c> kind</c><00:07:10.560><c> of</c><00:07:10.840><c> prefix</c>
+
+00:07:11.710 --> 00:07:11.720 align:start position:0%
+kind of apple or orange kind of prefix
+ 
+
+00:07:11.720 --> 00:07:13.350 align:start position:0%
+kind of apple or orange kind of prefix
+so<00:07:11.840><c> instead</c><00:07:12.080><c> of</c><00:07:12.240><c> having</c><00:07:12.400><c> to</c><00:07:12.520><c> do</c><00:07:12.840><c> this</c><00:07:13.120><c> what</c><00:07:13.240><c> we</c>
+
+00:07:13.350 --> 00:07:13.360 align:start position:0%
+so instead of having to do this what we
+ 
+
+00:07:13.360 --> 00:07:15.710 align:start position:0%
+so instead of having to do this what we
+can<00:07:13.560><c> say</c><00:07:14.319><c> is</c><00:07:14.440><c> that</c><00:07:14.720><c> actually</c><00:07:15.039><c> we're</c><00:07:15.240><c> using</c>
+
+00:07:15.710 --> 00:07:15.720 align:start position:0%
+can say is that actually we're using
+ 
+
+00:07:15.720 --> 00:07:17.909 align:start position:0%
+can say is that actually we're using
+namespace<00:07:16.720><c> Apple</c><00:07:17.240><c> which</c><00:07:17.400><c> means</c><00:07:17.680><c> that</c>
+
+00:07:17.909 --> 00:07:17.919 align:start position:0%
+namespace Apple which means that
+ 
+
+00:07:17.919 --> 00:07:19.589 align:start position:0%
+namespace Apple which means that
+basically<00:07:18.479><c> import</c><00:07:19.039><c> everything</c><00:07:19.440><c> from</c>
+
+00:07:19.589 --> 00:07:19.599 align:start position:0%
+basically import everything from
+ 
+
+00:07:19.599 --> 00:07:21.869 align:start position:0%
+basically import everything from
+namespace<00:07:20.199><c> Apple</c><00:07:20.639><c> as</c><00:07:20.840><c> if</c><00:07:21.280><c> I</c><00:07:21.440><c> had</c><00:07:21.599><c> never</c>
+
+00:07:21.869 --> 00:07:21.879 align:start position:0%
+namespace Apple as if I had never
+ 
+
+00:07:21.879 --> 00:07:24.350 align:start position:0%
+namespace Apple as if I had never
+specified<00:07:22.520><c> it</c><00:07:22.720><c> as</c><00:07:22.840><c> a</c><00:07:22.960><c> namespace</c><00:07:23.960><c> so</c><00:07:24.080><c> in</c><00:07:24.199><c> this</c>
+
+00:07:24.350 --> 00:07:24.360 align:start position:0%
+specified it as a namespace so in this
+ 
+
+00:07:24.360 --> 00:07:26.550 align:start position:0%
+specified it as a namespace so in this
+case<00:07:24.599><c> print</c><00:07:24.840><c> will</c><00:07:25.000><c> be</c><00:07:25.120><c> used</c><00:07:25.360><c> from</c><00:07:25.599><c> Apple</c><00:07:26.319><c> if</c><00:07:26.440><c> I</c>
+
+00:07:26.550 --> 00:07:26.560 align:start position:0%
+case print will be used from Apple if I
+ 
+
+00:07:26.560 --> 00:07:28.950 align:start position:0%
+case print will be used from Apple if I
+want<00:07:26.840><c> I</c><00:07:26.919><c> can</c><00:07:27.080><c> change</c><00:07:27.280><c> it</c><00:07:27.440><c> to</c><00:07:27.720><c> Orange</c><00:07:28.440><c> I</c><00:07:28.599><c> can</c>
+
+00:07:28.950 --> 00:07:28.960 align:start position:0%
+want I can change it to Orange I can
+ 
+
+00:07:28.960 --> 00:07:31.430 align:start position:0%
+want I can change it to Orange I can
+also<00:07:29.199><c> say</c><00:07:29.599><c> say</c><00:07:30.160><c> if</c><00:07:30.280><c> we</c><00:07:30.440><c> have</c><00:07:30.680><c> multiple</c><00:07:31.199><c> things</c>
+
+00:07:31.430 --> 00:07:31.440 align:start position:0%
+also say say if we have multiple things
+ 
+
+00:07:31.440 --> 00:07:33.629 align:start position:0%
+also say say if we have multiple things
+in<00:07:31.639><c> here</c><00:07:31.879><c> like</c><00:07:32.000><c> we</c><00:07:32.160><c> have</c><00:07:32.360><c> print</c><00:07:32.720><c> and</c><00:07:32.919><c> maybe</c>
+
+00:07:33.629 --> 00:07:33.639 align:start position:0%
+in here like we have print and maybe
+ 
+
+00:07:33.639 --> 00:07:35.909 align:start position:0%
+in here like we have print and maybe
+print<00:07:34.199><c> I</c><00:07:34.280><c> don't</c><00:07:34.440><c> know</c><00:07:34.720><c> print</c><00:07:35.160><c> again</c><00:07:35.639><c> or</c>
+
+00:07:35.909 --> 00:07:35.919 align:start position:0%
+print I don't know print again or
+ 
+
+00:07:35.919 --> 00:07:37.869 align:start position:0%
+print I don't know print again or
+something<00:07:36.919><c> uh</c><00:07:37.039><c> if</c><00:07:37.160><c> I</c><00:07:37.280><c> have</c><00:07:37.479><c> multiple</c>
+
+00:07:37.869 --> 00:07:37.879 align:start position:0%
+something uh if I have multiple
+ 
+
+00:07:37.879 --> 00:07:39.469 align:start position:0%
+something uh if I have multiple
+functions<00:07:38.400><c> maybe</c><00:07:38.639><c> I</c><00:07:38.759><c> don't</c><00:07:38.960><c> want</c><00:07:39.080><c> to</c><00:07:39.240><c> use</c>
+
+00:07:39.469 --> 00:07:39.479 align:start position:0%
+functions maybe I don't want to use
+ 
+
+00:07:39.479 --> 00:07:43.350 align:start position:0%
+functions maybe I don't want to use
+print<00:07:39.800><c> again</c><00:07:40.560><c> from</c><00:07:41.000><c> Orange</c><00:07:41.759><c> I</c><00:07:42.000><c> I</c><00:07:42.160><c> just</c><00:07:42.280><c> want</c><00:07:42.479><c> to</c>
+
+00:07:43.350 --> 00:07:43.360 align:start position:0%
+print again from Orange I I just want to
+ 
+
+00:07:43.360 --> 00:07:45.230 align:start position:0%
+print again from Orange I I just want to
+uh<00:07:43.560><c> sorry</c><00:07:43.879><c> that's</c><00:07:44.080><c> that's</c><00:07:44.199><c> an</c><00:07:44.360><c> Apple</c><00:07:44.879><c> so</c><00:07:45.039><c> let's</c>
+
+00:07:45.230 --> 00:07:45.240 align:start position:0%
+uh sorry that's that's an Apple so let's
+ 
+
+00:07:45.240 --> 00:07:47.070 align:start position:0%
+uh sorry that's that's an Apple so let's
+go<00:07:45.400><c> to</c><00:07:45.560><c> using</c><00:07:45.800><c> namespace</c><00:07:46.319><c> Apple</c><00:07:46.759><c> maybe</c><00:07:46.960><c> I</c>
+
+00:07:47.070 --> 00:07:47.080 align:start position:0%
+go to using namespace Apple maybe I
+ 
+
+00:07:47.080 --> 00:07:48.830 align:start position:0%
+go to using namespace Apple maybe I
+don't<00:07:47.240><c> want</c><00:07:47.440><c> print</c><00:07:47.759><c> again</c><00:07:48.240><c> when</c><00:07:48.479><c> when</c><00:07:48.560><c> I</c><00:07:48.680><c> put</c>
+
+00:07:48.830 --> 00:07:48.840 align:start position:0%
+don't want print again when when I put
+ 
+
+00:07:48.840 --> 00:07:50.990 align:start position:0%
+don't want print again when when I put
+this<00:07:48.960><c> using</c><00:07:49.199><c> namespace</c><00:07:49.800><c> I</c><00:07:49.919><c> don't</c><00:07:50.159><c> want</c><00:07:50.319><c> to</c><00:07:50.759><c> use</c>
+
+00:07:50.990 --> 00:07:51.000 align:start position:0%
+this using namespace I don't want to use
+ 
+
+00:07:51.000 --> 00:07:52.710 align:start position:0%
+this using namespace I don't want to use
+print<00:07:51.319><c> again</c><00:07:51.560><c> I</c><00:07:51.639><c> still</c><00:07:51.840><c> want</c><00:07:52.000><c> to</c><00:07:52.240><c> specify</c>
+
+00:07:52.710 --> 00:07:52.720 align:start position:0%
+print again I still want to specify
+ 
+
+00:07:52.720 --> 00:07:55.430 align:start position:0%
+print again I still want to specify
+maybe<00:07:53.080><c> which</c><00:07:53.280><c> print</c><00:07:53.680><c> again</c><00:07:54.360><c> I</c><00:07:54.520><c> want</c><00:07:55.000><c> I</c><00:07:55.199><c> just</c>
+
+00:07:55.430 --> 00:07:55.440 align:start position:0%
+maybe which print again I want I just
+ 
+
+00:07:55.440 --> 00:07:58.110 align:start position:0%
+maybe which print again I want I just
+want<00:07:55.879><c> print</c><00:07:56.240><c> to</c><00:07:56.400><c> be</c><00:07:56.680><c> imported</c><00:07:57.199><c> so</c><00:07:57.360><c> to</c><00:07:57.479><c> do</c><00:07:57.680><c> that</c>
+
+00:07:58.110 --> 00:07:58.120 align:start position:0%
+want print to be imported so to do that
+ 
+
+00:07:58.120 --> 00:07:59.950 align:start position:0%
+want print to be imported so to do that
+we<00:07:58.240><c> can</c><00:07:58.400><c> just</c><00:07:58.560><c> write</c><00:07:58.960><c> using</c>
+
+00:07:59.950 --> 00:07:59.960 align:start position:0%
+we can just write using
+ 
+
+00:07:59.960 --> 00:08:02.550 align:start position:0%
+we can just write using
+apple<00:08:00.639><c> and</c><00:08:00.759><c> then</c><00:08:00.919><c> the</c><00:08:01.039><c> function</c><00:08:01.400><c> name</c><00:08:01.800><c> print</c>
+
+00:08:02.550 --> 00:08:02.560 align:start position:0%
+apple and then the function name print
+ 
+
+00:08:02.560 --> 00:08:04.390 align:start position:0%
+apple and then the function name print
+okay<00:08:03.000><c> that</c><00:08:03.080><c> means</c><00:08:03.479><c> that</c><00:08:03.680><c> we're</c><00:08:03.840><c> going</c><00:08:03.919><c> to</c><00:08:04.120><c> take</c>
+
+00:08:04.390 --> 00:08:04.400 align:start position:0%
+okay that means that we're going to take
+ 
+
+00:08:04.400 --> 00:08:06.070 align:start position:0%
+okay that means that we're going to take
+this<00:08:04.800><c> from</c><00:08:05.000><c> the</c><00:08:05.159><c> Apple</c><00:08:05.440><c> namespace</c>
+
+00:08:06.070 --> 00:08:06.080 align:start position:0%
+this from the Apple namespace
+ 
+
+00:08:06.080 --> 00:08:08.189 align:start position:0%
+this from the Apple namespace
+specifically<00:08:07.000><c> but</c><00:08:07.159><c> for</c><00:08:07.360><c> this</c><00:08:07.680><c> we'd</c><00:08:07.919><c> still</c>
+
+00:08:08.189 --> 00:08:08.199 align:start position:0%
+specifically but for this we'd still
+ 
+
+00:08:08.199 --> 00:08:10.710 align:start position:0%
+specifically but for this we'd still
+have<00:08:08.319><c> to</c><00:08:08.560><c> specify</c><00:08:09.039><c> that</c><00:08:09.240><c> namespace</c><00:08:09.840><c> like</c><00:08:10.080><c> that</c>
+
+00:08:10.710 --> 00:08:10.720 align:start position:0%
+have to specify that namespace like that
+ 
+
+00:08:10.720 --> 00:08:12.430 align:start position:0%
+have to specify that namespace like that
+you<00:08:10.800><c> can</c><00:08:10.960><c> also</c><00:08:11.240><c> create</c><00:08:11.639><c> aliases</c><00:08:12.199><c> for</c>
+
+00:08:12.430 --> 00:08:12.440 align:start position:0%
+you can also create aliases for
+ 
+
+00:08:12.440 --> 00:08:15.270 align:start position:0%
+you can also create aliases for
+namespaces<00:08:13.440><c> by</c><00:08:13.599><c> just</c><00:08:13.879><c> typing</c><00:08:14.120><c> in</c><00:08:14.400><c> namespace</c>
+
+00:08:15.270 --> 00:08:15.280 align:start position:0%
+namespaces by just typing in namespace
+ 
+
+00:08:15.280 --> 00:08:17.469 align:start position:0%
+namespaces by just typing in namespace
+you<00:08:15.440><c> know</c><00:08:15.720><c> a</c><00:08:16.159><c> equals</c><00:08:16.599><c> apple</c><00:08:17.000><c> or</c><00:08:17.159><c> something</c>
+
+00:08:17.469 --> 00:08:17.479 align:start position:0%
+you know a equals apple or something
+ 
+
+00:08:17.479 --> 00:08:19.710 align:start position:0%
+you know a equals apple or something
+like<00:08:17.680><c> that</c><00:08:18.120><c> that</c><00:08:18.240><c> means</c><00:08:18.479><c> I</c><00:08:18.599><c> can</c><00:08:18.800><c> type</c><00:08:19.000><c> in</c><00:08:19.240><c> a</c>
+
+00:08:19.710 --> 00:08:19.720 align:start position:0%
+like that that means I can type in a
+ 
+
+00:08:19.720 --> 00:08:21.309 align:start position:0%
+like that that means I can type in a
+print<00:08:20.159><c> like</c><00:08:20.319><c> that</c><00:08:20.520><c> instead</c><00:08:20.759><c> of</c><00:08:20.919><c> having</c><00:08:21.080><c> it</c><00:08:21.159><c> to</c>
+
+00:08:21.309 --> 00:08:21.319 align:start position:0%
+print like that instead of having it to
+ 
+
+00:08:21.319 --> 00:08:23.749 align:start position:0%
+print like that instead of having it to
+spell<00:08:21.520><c> out</c><00:08:21.720><c> Apple</c><00:08:22.520><c> that's</c><00:08:22.759><c> very</c><00:08:23.039><c> useful</c><00:08:23.599><c> for</c>
+
+00:08:23.749 --> 00:08:23.759 align:start position:0%
+spell out Apple that's very useful for
+ 
+
+00:08:23.759 --> 00:08:26.469 align:start position:0%
+spell out Apple that's very useful for
+when<00:08:23.919><c> you</c><00:08:24.080><c> have</c><00:08:24.440><c> nested</c><00:08:25.280><c> namespaces</c><00:08:26.199><c> so</c><00:08:26.360><c> we</c>
+
+00:08:26.469 --> 00:08:26.479 align:start position:0%
+when you have nested namespaces so we
+ 
+
+00:08:26.479 --> 00:08:28.830 align:start position:0%
+when you have nested namespaces so we
+can<00:08:26.639><c> also</c><00:08:26.960><c> Nest</c><00:08:27.599><c> namespaces</c><00:08:28.240><c> as</c><00:08:28.360><c> you</c><00:08:28.520><c> probably</c>
+
+00:08:28.830 --> 00:08:28.840 align:start position:0%
+can also Nest namespaces as you probably
+ 
+
+00:08:28.840 --> 00:08:30.830 align:start position:0%
+can also Nest namespaces as you probably
+saw<00:08:29.080><c> earlier</c><00:08:29.840><c> so</c><00:08:29.960><c> we</c><00:08:30.039><c> can</c><00:08:30.199><c> have</c><00:08:30.360><c> apple</c><00:08:30.680><c> and</c>
+
+00:08:30.830 --> 00:08:30.840 align:start position:0%
+saw earlier so we can have apple and
+ 
+
+00:08:30.840 --> 00:08:33.029 align:start position:0%
+saw earlier so we can have apple and
+maybe<00:08:31.080><c> we</c><00:08:31.280><c> enclude</c><00:08:31.840><c> all</c><00:08:31.960><c> of</c><00:08:32.120><c> our</c><00:08:32.360><c> function</c><00:08:32.880><c> we</c>
+
+00:08:33.029 --> 00:08:33.039 align:start position:0%
+maybe we enclude all of our function we
+ 
+
+00:08:33.039 --> 00:08:34.790 align:start position:0%
+maybe we enclude all of our function we
+enclose<00:08:33.399><c> all</c><00:08:33.519><c> of</c><00:08:33.599><c> our</c><00:08:33.760><c> functions</c><00:08:34.159><c> inside</c><00:08:34.640><c> this</c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+enclose all of our functions inside this
+ 
+
+00:08:34.800 --> 00:08:36.589 align:start position:0%
+enclose all of our functions inside this
+function's<00:08:35.200><c> namespace</c><00:08:35.719><c> for</c><00:08:35.839><c> some</c><00:08:36.080><c> reason</c>
+
+00:08:36.589 --> 00:08:36.599 align:start position:0%
+function's namespace for some reason
+ 
+
+00:08:36.599 --> 00:08:38.709 align:start position:0%
+function's namespace for some reason
+don't<00:08:36.839><c> ask</c><00:08:36.959><c> me</c><00:08:37.200><c> why</c><00:08:37.399><c> just</c><00:08:37.560><c> an</c><00:08:37.719><c> example</c><00:08:38.440><c> so</c><00:08:38.599><c> we</c>
+
+00:08:38.709 --> 00:08:38.719 align:start position:0%
+don't ask me why just an example so we
+ 
+
+00:08:38.719 --> 00:08:40.310 align:start position:0%
+don't ask me why just an example so we
+have<00:08:38.839><c> namespace</c><00:08:39.320><c> apple</c><00:08:39.599><c> we</c><00:08:39.719><c> have</c><00:08:39.839><c> namespace</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+have namespace apple we have namespace
+ 
+
+00:08:40.320 --> 00:08:42.550 align:start position:0%
+have namespace apple we have namespace
+functions<00:08:41.320><c> and</c><00:08:41.479><c> then</c><00:08:41.719><c> instead</c><00:08:41.959><c> of</c><00:08:42.120><c> us</c><00:08:42.360><c> having</c>
+
+00:08:42.550 --> 00:08:42.560 align:start position:0%
+functions and then instead of us having
+ 
+
+00:08:42.560 --> 00:08:45.190 align:start position:0%
+functions and then instead of us having
+to<00:08:42.839><c> write</c><00:08:43.200><c> you</c><00:08:43.320><c> know</c><00:08:43.599><c> Apple</c><00:08:44.320><c> functions</c><00:08:44.959><c> like</c>
+
+00:08:45.190 --> 00:08:45.200 align:start position:0%
+to write you know Apple functions like
+ 
+
+00:08:45.200 --> 00:08:49.030 align:start position:0%
+to write you know Apple functions like
+that<00:08:45.920><c> or</c><00:08:46.160><c> you</c><00:08:46.279><c> know</c><00:08:46.519><c> something</c><00:08:47.040><c> like</c><00:08:48.040><c> using</c>
+
+00:08:49.030 --> 00:08:49.040 align:start position:0%
+that or you know something like using
+ 
+
+00:08:49.040 --> 00:08:52.550 align:start position:0%
+that or you know something like using
+using<00:08:49.800><c> namespace</c><00:08:50.800><c> Apple</c><00:08:51.320><c> functions</c><00:08:52.320><c> like</c>
+
+00:08:52.550 --> 00:08:52.560 align:start position:0%
+using namespace Apple functions like
+ 
+
+00:08:52.560 --> 00:08:55.070 align:start position:0%
+using namespace Apple functions like
+this<00:08:53.040><c> we</c><00:08:53.200><c> could</c><00:08:53.600><c> also</c><00:08:53.959><c> by</c><00:08:54.080><c> the</c><00:08:54.200><c> way</c><00:08:54.680><c> for</c><00:08:54.880><c> this</c>
+
+00:08:55.070 --> 00:08:55.080 align:start position:0%
+this we could also by the way for this
+ 
+
+00:08:55.080 --> 00:08:57.230 align:start position:0%
+this we could also by the way for this
+example<00:08:55.839><c> you</c><00:08:55.959><c> can</c><00:08:56.120><c> also</c><00:08:56.360><c> split</c><00:08:56.720><c> this</c><00:08:56.880><c> up</c><00:08:57.120><c> so</c>
+
+00:08:57.230 --> 00:08:57.240 align:start position:0%
+example you can also split this up so
+ 
+
+00:08:57.240 --> 00:08:59.470 align:start position:0%
+example you can also split this up so
+you<00:08:57.360><c> can</c><00:08:57.800><c> be</c><00:08:58.040><c> like</c><00:08:58.240><c> using</c><00:08:58.519><c> namespace</c><00:08:59.040><c> Apple</c>
+
+00:08:59.470 --> 00:08:59.480 align:start position:0%
+you can be like using namespace Apple
+ 
+
+00:08:59.480 --> 00:09:01.750 align:start position:0%
+you can be like using namespace Apple
+and<00:08:59.680><c> using</c><00:08:59.959><c> namespace</c><00:09:00.640><c> functions</c><00:09:01.600><c> which</c>
+
+00:09:01.750 --> 00:09:01.760 align:start position:0%
+and using namespace functions which
+ 
+
+00:09:01.760 --> 00:09:04.710 align:start position:0%
+and using namespace functions which
+would<00:09:01.959><c> allow</c><00:09:02.320><c> us</c><00:09:02.600><c> to</c><00:09:03.440><c> not</c><00:09:03.800><c> have</c><00:09:03.959><c> to</c><00:09:04.279><c> specify</c>
+
+00:09:04.710 --> 00:09:04.720 align:start position:0%
+would allow us to not have to specify
+ 
+
+00:09:04.720 --> 00:09:06.670 align:start position:0%
+would allow us to not have to specify
+any<00:09:04.880><c> namespace</c><00:09:05.360><c> for</c><00:09:05.519><c> print</c><00:09:05.839><c> at</c><00:09:05.920><c> all</c><00:09:06.560><c> so</c>
+
+00:09:06.670 --> 00:09:06.680 align:start position:0%
+any namespace for print at all so
+ 
+
+00:09:06.680 --> 00:09:08.670 align:start position:0%
+any namespace for print at all so
+instead<00:09:06.920><c> of</c><00:09:07.000><c> us</c><00:09:07.120><c> having</c><00:09:07.279><c> to</c><00:09:07.440><c> do</c><00:09:07.720><c> this</c><00:09:08.120><c> or</c><00:09:08.519><c> in</c>
+
+00:09:08.670 --> 00:09:08.680 align:start position:0%
+instead of us having to do this or in
+ 
+
+00:09:08.680 --> 00:09:11.470 align:start position:0%
+instead of us having to do this or in
+the<00:09:08.800><c> earlier</c><00:09:09.240><c> example</c><00:09:10.160><c> that</c><00:09:10.920><c> we</c><00:09:11.040><c> can</c><00:09:11.240><c> also</c>
+
+00:09:11.470 --> 00:09:11.480 align:start position:0%
+the earlier example that we can also
+ 
+
+00:09:11.480 --> 00:09:14.750 align:start position:0%
+the earlier example that we can also
+just<00:09:11.640><c> say</c><00:09:12.200><c> namespace</c><00:09:13.200><c> a</c><00:09:13.920><c> equals</c><00:09:14.480><c> Apple</c>
+
+00:09:14.750 --> 00:09:14.760 align:start position:0%
+just say namespace a equals Apple
+ 
+
+00:09:14.760 --> 00:09:16.750 align:start position:0%
+just say namespace a equals Apple
+functions<00:09:15.720><c> which</c><00:09:15.839><c> means</c><00:09:16.160><c> that</c><00:09:16.360><c> I</c><00:09:16.440><c> can</c><00:09:16.600><c> just</c>
+
+00:09:16.750 --> 00:09:16.760 align:start position:0%
+functions which means that I can just
+ 
+
+00:09:16.760 --> 00:09:19.030 align:start position:0%
+functions which means that I can just
+type<00:09:16.920><c> in</c><00:09:17.120><c> a</c><00:09:17.680><c> print</c><00:09:18.000><c> as</c><00:09:18.120><c> if</c><00:09:18.240><c> it</c><00:09:18.320><c> was</c><00:09:18.440><c> in</c><00:09:18.800><c> one</c>
+
+00:09:19.030 --> 00:09:19.040 align:start position:0%
+type in a print as if it was in one
+ 
+
+00:09:19.040 --> 00:09:21.590 align:start position:0%
+type in a print as if it was in one
+namespace<00:09:19.680><c> and</c><00:09:19.800><c> I</c><00:09:19.880><c> would</c><00:09:20.160><c> get</c><00:09:20.720><c> that</c><00:09:20.959><c> result</c>
+
+00:09:21.590 --> 00:09:21.600 align:start position:0%
+namespace and I would get that result
+ 
+
+00:09:21.600 --> 00:09:24.310 align:start position:0%
+namespace and I would get that result
+over<00:09:21.880><c> there</c><00:09:22.800><c> okay</c><00:09:23.000><c> so</c><00:09:23.160><c> that's</c><00:09:23.279><c> a</c><00:09:23.560><c> pretty</c><00:09:23.920><c> basic</c>
+
+00:09:24.310 --> 00:09:24.320 align:start position:0%
+over there okay so that's a pretty basic
+ 
+
+00:09:24.320 --> 00:09:28.069 align:start position:0%
+over there okay so that's a pretty basic
+example<00:09:24.959><c> of</c><00:09:25.360><c> how</c><00:09:25.560><c> namespaces</c><00:09:26.480><c> work</c><00:09:27.480><c> um</c><00:09:27.959><c> I'm</c>
+
+00:09:28.069 --> 00:09:28.079 align:start position:0%
+example of how namespaces work um I'm
+ 
+
+00:09:28.079 --> 00:09:29.870 align:start position:0%
+example of how namespaces work um I'm
+not<00:09:28.240><c> sure</c><00:09:28.399><c> if</c><00:09:28.519><c> there's</c><00:09:28.760><c> really</c><00:09:28.959><c> anything</c><00:09:29.480><c> else</c>
+
+00:09:29.870 --> 00:09:29.880 align:start position:0%
+not sure if there's really anything else
+ 
+
+00:09:29.880 --> 00:09:32.310 align:start position:0%
+not sure if there's really anything else
+that<00:09:30.079><c> I</c><00:09:30.240><c> need</c><00:09:30.480><c> to</c><00:09:30.839><c> talk</c><00:09:31.120><c> about</c><00:09:31.680><c> obviously</c>
+
+00:09:32.310 --> 00:09:32.320 align:start position:0%
+that I need to talk about obviously
+ 
+
+00:09:32.320 --> 00:09:34.590 align:start position:0%
+that I need to talk about obviously
+things<00:09:32.640><c> like</c><00:09:33.000><c> the</c><00:09:33.560><c> things</c><00:09:33.800><c> like</c><00:09:34.000><c> this</c><00:09:34.320><c> are</c>
+
+00:09:34.590 --> 00:09:34.600 align:start position:0%
+things like the things like this are
+ 
+
+00:09:34.600 --> 00:09:37.269 align:start position:0%
+things like the things like this are
+confined<00:09:35.279><c> to</c><00:09:35.560><c> the</c><00:09:35.800><c> actual</c><00:09:36.279><c> scope</c><00:09:36.880><c> so</c><00:09:37.040><c> in</c><00:09:37.120><c> other</c>
+
+00:09:37.269 --> 00:09:37.279 align:start position:0%
+confined to the actual scope so in other
+ 
+
+00:09:37.279 --> 00:09:40.030 align:start position:0%
+confined to the actual scope so in other
+words<00:09:37.800><c> a</c><00:09:38.320><c> this</c><00:09:38.640><c> namespace</c><00:09:39.200><c> a</c><00:09:39.440><c> equals</c><00:09:39.760><c> Apple</c>
+
+00:09:40.030 --> 00:09:40.040 align:start position:0%
+words a this namespace a equals Apple
+ 
+
+00:09:40.040 --> 00:09:42.110 align:start position:0%
+words a this namespace a equals Apple
+functions<00:09:40.519><c> only</c><00:09:40.839><c> exists</c><00:09:41.279><c> within</c><00:09:41.600><c> this</c><00:09:41.800><c> main</c>
+
+00:09:42.110 --> 00:09:42.120 align:start position:0%
+functions only exists within this main
+ 
+
+00:09:42.120 --> 00:09:45.350 align:start position:0%
+functions only exists within this main
+function<00:09:42.480><c> I</c><00:09:42.600><c> can't</c><00:09:42.880><c> access</c><00:09:43.160><c> it</c><00:09:43.600><c> outside</c><00:09:44.600><c> uh</c><00:09:44.959><c> my</c>
+
+00:09:45.350 --> 00:09:45.360 align:start position:0%
+function I can't access it outside uh my
+ 
+
+00:09:45.360 --> 00:09:46.949 align:start position:0%
+function I can't access it outside uh my
+recommendation<00:09:46.000><c> is</c><00:09:46.200><c> when</c><00:09:46.320><c> you</c><00:09:46.440><c> do</c><00:09:46.720><c> things</c>
+
+00:09:46.949 --> 00:09:46.959 align:start position:0%
+recommendation is when you do things
+ 
+
+00:09:46.959 --> 00:09:48.910 align:start position:0%
+recommendation is when you do things
+like<00:09:47.120><c> this</c><00:09:47.279><c> like</c><00:09:47.440><c> namespace</c><00:09:48.040><c> a</c><00:09:48.360><c> equals</c><00:09:48.760><c> blah</c>
+
+00:09:48.910 --> 00:09:48.920 align:start position:0%
+like this like namespace a equals blah
+ 
+
+00:09:48.920 --> 00:09:52.110 align:start position:0%
+like this like namespace a equals blah
+blah<00:09:49.079><c> blah</c><00:09:49.760><c> or</c><00:09:50.000><c> using</c><00:09:50.320><c> namespace</c><00:09:51.040><c> whatever</c><00:09:52.000><c> my</c>
+
+00:09:52.110 --> 00:09:52.120 align:start position:0%
+blah blah or using namespace whatever my
+ 
+
+00:09:52.120 --> 00:09:54.030 align:start position:0%
+blah blah or using namespace whatever my
+recommendation<00:09:52.640><c> is</c><00:09:52.800><c> you</c><00:09:53.040><c> try</c><00:09:53.360><c> and</c><00:09:53.560><c> confine</c><00:09:53.920><c> it</c>
+
+00:09:54.030 --> 00:09:54.040 align:start position:0%
+recommendation is you try and confine it
+ 
+
+00:09:54.040 --> 00:09:56.389 align:start position:0%
+recommendation is you try and confine it
+to<00:09:54.240><c> as</c><00:09:54.440><c> small</c><00:09:54.680><c> a</c><00:09:54.839><c> scope</c><00:09:55.200><c> as</c><00:09:55.399><c> possible</c><00:09:56.079><c> if</c><00:09:56.160><c> you</c>
+
+00:09:56.389 --> 00:09:56.399 align:start position:0%
+to as small a scope as possible if you
+ 
+
+00:09:56.399 --> 00:09:58.350 align:start position:0%
+to as small a scope as possible if you
+just<00:09:56.600><c> need</c><00:09:56.800><c> it</c><00:09:57.000><c> inside</c><00:09:57.279><c> an</c><00:09:57.480><c> if</c><00:09:57.680><c> statement</c><00:09:58.160><c> for</c>
+
+00:09:58.350 --> 00:09:58.360 align:start position:0%
+just need it inside an if statement for
+ 
+
+00:09:58.360 --> 00:10:01.110 align:start position:0%
+just need it inside an if statement for
+example<00:09:59.600><c> you</c><00:09:59.720><c> know</c><00:10:00.040><c> write</c><00:10:00.320><c> your</c><00:10:00.760><c> write</c><00:10:00.959><c> your</c>
+
+00:10:01.110 --> 00:10:01.120 align:start position:0%
+example you know write your write your
+ 
+
+00:10:01.120 --> 00:10:03.430 align:start position:0%
+example you know write your write your
+declaration<00:10:01.839><c> inside</c><00:10:02.279><c> that</c><00:10:02.440><c> if</c><00:10:02.640><c> statement</c><00:10:03.360><c> if</c>
+
+00:10:03.430 --> 00:10:03.440 align:start position:0%
+declaration inside that if statement if
+ 
+
+00:10:03.440 --> 00:10:05.190 align:start position:0%
+declaration inside that if statement if
+you<00:10:03.640><c> just</c><00:10:03.800><c> need</c><00:10:04.000><c> it</c><00:10:04.200><c> inside</c><00:10:04.399><c> a</c><00:10:04.560><c> function</c><00:10:05.000><c> then</c>
+
+00:10:05.190 --> 00:10:05.200 align:start position:0%
+you just need it inside a function then
+ 
+
+00:10:05.200 --> 00:10:06.870 align:start position:0%
+you just need it inside a function then
+write<00:10:05.360><c> it</c><00:10:05.480><c> inside</c><00:10:05.680><c> the</c><00:10:05.800><c> function</c><00:10:06.440><c> and</c><00:10:06.560><c> then</c><00:10:06.760><c> as</c>
+
+00:10:06.870 --> 00:10:06.880 align:start position:0%
+write it inside the function and then as
+ 
+
+00:10:06.880 --> 00:10:09.550 align:start position:0%
+write it inside the function and then as
+a<00:10:07.040><c> last</c><00:10:07.279><c> result</c><00:10:08.200><c> as</c><00:10:08.320><c> a</c><00:10:08.519><c> last</c><00:10:08.800><c> result</c><00:10:09.200><c> write</c><00:10:09.399><c> it</c>
+
+00:10:09.550 --> 00:10:09.560 align:start position:0%
+a last result as a last result write it
+ 
+
+00:10:09.560 --> 00:10:11.190 align:start position:0%
+a last result as a last result write it
+in<00:10:09.760><c> the</c><00:10:10.079><c> like</c><00:10:10.240><c> kind</c><00:10:10.360><c> of</c><00:10:10.519><c> in</c><00:10:10.600><c> the</c><00:10:10.760><c> top</c><00:10:10.959><c> level</c>
+
+00:10:11.190 --> 00:10:11.200 align:start position:0%
+in the like kind of in the top level
+ 
+
+00:10:11.200 --> 00:10:13.470 align:start position:0%
+in the like kind of in the top level
+file<00:10:11.800><c> but</c><00:10:11.959><c> don't</c><00:10:12.320><c> try</c><00:10:12.560><c> and</c><00:10:12.839><c> like</c><00:10:13.040><c> just</c><00:10:13.360><c> you</c>
+
+00:10:13.470 --> 00:10:13.480 align:start position:0%
+file but don't try and like just you
+ 
+
+00:10:13.480 --> 00:10:15.590 align:start position:0%
+file but don't try and like just you
+know<00:10:13.640><c> declare</c><00:10:14.000><c> it</c><00:10:14.399><c> in</c><00:10:14.640><c> at</c><00:10:14.800><c> the</c><00:10:14.920><c> top</c><00:10:15.120><c> level</c><00:10:15.480><c> at</c>
+
+00:10:15.590 --> 00:10:15.600 align:start position:0%
+know declare it in at the top level at
+ 
+
+00:10:15.600 --> 00:10:18.670 align:start position:0%
+know declare it in at the top level at
+all<00:10:15.839><c> times</c><00:10:16.519><c> or</c><00:10:16.760><c> in</c><00:10:17.040><c> header</c><00:10:17.399><c> files</c><00:10:17.839><c> certainly</c>
+
+00:10:18.670 --> 00:10:18.680 align:start position:0%
+all times or in header files certainly
+ 
+
+00:10:18.680 --> 00:10:20.949 align:start position:0%
+all times or in header files certainly
+never<00:10:19.000><c> do</c><00:10:19.160><c> it</c><00:10:19.279><c> in</c><00:10:19.440><c> header</c><00:10:19.760><c> files</c><00:10:20.560><c> the</c><00:10:20.680><c> reason</c>
+
+00:10:20.949 --> 00:10:20.959 align:start position:0%
+never do it in header files the reason
+ 
+
+00:10:20.959 --> 00:10:22.710 align:start position:0%
+never do it in header files the reason
+we<00:10:21.040><c> don't</c><00:10:21.200><c> want</c><00:10:21.279><c> to</c><00:10:21.399><c> do</c><00:10:21.600><c> that</c><00:10:21.839><c> is</c><00:10:22.040><c> because</c><00:10:22.560><c> when</c>
+
+00:10:22.710 --> 00:10:22.720 align:start position:0%
+we don't want to do that is because when
+ 
+
+00:10:22.720 --> 00:10:25.269 align:start position:0%
+we don't want to do that is because when
+we<00:10:23.120><c> get</c><00:10:24.120><c> you</c><00:10:24.240><c> know</c><00:10:24.360><c> if</c><00:10:24.480><c> we</c><00:10:24.640><c> start</c><00:10:24.920><c> using</c>
+
+00:10:25.269 --> 00:10:25.279 align:start position:0%
+we get you know if we start using
+ 
+
+00:10:25.279 --> 00:10:28.190 align:start position:0%
+we get you know if we start using
+namespace<00:10:25.959><c> everywhere</c><00:10:26.560><c> then</c><00:10:27.519><c> as</c><00:10:27.680><c> you</c><00:10:27.880><c> can</c>
+
+00:10:28.190 --> 00:10:28.200 align:start position:0%
+namespace everywhere then as you can
+ 
+
+00:10:28.200 --> 00:10:31.550 align:start position:0%
+namespace everywhere then as you can
+probably<00:10:28.760><c> imagine</c><00:10:29.800><c> that</c><00:10:30.120><c> kind</c><00:10:30.279><c> of</c><00:10:30.800><c> undo</c><00:10:31.399><c> all</c>
+
+00:10:31.550 --> 00:10:31.560 align:start position:0%
+probably imagine that kind of undo all
+ 
+
+00:10:31.560 --> 00:10:33.310 align:start position:0%
+probably imagine that kind of undo all
+of<00:10:31.680><c> the</c><00:10:31.880><c> helpful</c><00:10:32.240><c> work</c><00:10:32.440><c> that</c><00:10:32.560><c> namespaces</c><00:10:33.120><c> do</c>
+
+00:10:33.310 --> 00:10:33.320 align:start position:0%
+of the helpful work that namespaces do
+ 
+
+00:10:33.320 --> 00:10:35.269 align:start position:0%
+of the helpful work that namespaces do
+by<00:10:33.440><c> avoiding</c><00:10:33.800><c> naming</c><00:10:34.160><c> conflicts</c><00:10:34.959><c> because</c><00:10:35.160><c> if</c>
+
+00:10:35.269 --> 00:10:35.279 align:start position:0%
+by avoiding naming conflicts because if
+ 
+
+00:10:35.279 --> 00:10:36.750 align:start position:0%
+by avoiding naming conflicts because if
+we're<00:10:35.440><c> using</c><00:10:36.000><c> it</c><00:10:36.120><c> what's</c><00:10:36.320><c> the</c><00:10:36.440><c> point</c><00:10:36.600><c> of</c>
+
+00:10:36.750 --> 00:10:36.760 align:start position:0%
+we're using it what's the point of
+ 
+
+00:10:36.760 --> 00:10:39.310 align:start position:0%
+we're using it what's the point of
+having<00:10:37.000><c> our</c><00:10:37.320><c> functions</c><00:10:38.040><c> in</c><00:10:38.240><c> namespaces</c><00:10:39.040><c> if</c><00:10:39.160><c> we</c>
+
+00:10:39.310 --> 00:10:39.320 align:start position:0%
+having our functions in namespaces if we
+ 
+
+00:10:39.320 --> 00:10:41.910 align:start position:0%
+having our functions in namespaces if we
+have<00:10:39.440><c> to</c><00:10:39.639><c> if</c><00:10:40.079><c> if</c><00:10:40.200><c> we</c><00:10:40.320><c> use</c><00:10:40.600><c> namespace</c><00:10:41.160><c> anyway</c>
+
+00:10:41.910 --> 00:10:41.920 align:start position:0%
+have to if if we use namespace anyway
+ 
+
+00:10:41.920 --> 00:10:44.069 align:start position:0%
+have to if if we use namespace anyway
+right<00:10:42.560><c> it</c><00:10:42.720><c> Imports</c><00:10:43.279><c> everything</c><00:10:43.680><c> which</c><00:10:43.839><c> means</c>
+
+00:10:44.069 --> 00:10:44.079 align:start position:0%
+right it Imports everything which means
+ 
+
+00:10:44.079 --> 00:10:45.389 align:start position:0%
+right it Imports everything which means
+that<00:10:44.200><c> we</c><00:10:44.399><c> might</c><00:10:44.600><c> as</c><00:10:44.720><c> well</c><00:10:44.839><c> not</c><00:10:45.000><c> be</c><00:10:45.079><c> using</c>
+
+00:10:45.389 --> 00:10:45.399 align:start position:0%
+that we might as well not be using
+ 
+
+00:10:45.399 --> 00:10:47.269 align:start position:0%
+that we might as well not be using
+namespaces<00:10:46.160><c> and</c><00:10:46.279><c> we</c><00:10:46.399><c> can</c><00:10:46.600><c> get</c><00:10:46.800><c> back</c><00:10:46.920><c> to</c><00:10:47.079><c> the</c>
+
+00:10:47.269 --> 00:10:47.279 align:start position:0%
+namespaces and we can get back to the
+ 
+
+00:10:47.279 --> 00:10:49.190 align:start position:0%
+namespaces and we can get back to the
+problem<00:10:47.839><c> of</c><00:10:48.000><c> having</c><00:10:48.240><c> naming</c><00:10:48.680><c> conflicts</c>
+
+00:10:49.190 --> 00:10:49.200 align:start position:0%
+problem of having naming conflicts
+ 
+
+00:10:49.200 --> 00:10:51.389 align:start position:0%
+problem of having naming conflicts
+between<00:10:49.560><c> libraries</c><00:10:50.320><c> or</c><00:10:50.480><c> between</c><00:10:50.760><c> our</c><00:10:50.920><c> own</c>
+
+00:10:51.389 --> 00:10:51.399 align:start position:0%
+between libraries or between our own
+ 
+
+00:10:51.399 --> 00:10:53.590 align:start position:0%
+between libraries or between our own
+code<00:10:52.399><c> so</c><00:10:52.560><c> that's</c><00:10:52.760><c> just</c><00:10:52.920><c> a</c><00:10:53.000><c> few</c><00:10:53.200><c> things</c><00:10:53.440><c> to</c>
+
+00:10:53.590 --> 00:10:53.600 align:start position:0%
+code so that's just a few things to
+ 
+
+00:10:53.600 --> 00:10:55.990 align:start position:0%
+code so that's just a few things to
+think<00:10:53.800><c> about</c><00:10:54.639><c> um</c><00:10:54.839><c> I've</c><00:10:55.000><c> left</c><00:10:55.160><c> a</c><00:10:55.279><c> link</c><00:10:55.560><c> below</c><00:10:55.800><c> to</c>
+
+00:10:55.990 --> 00:10:56.000 align:start position:0%
+think about um I've left a link below to
+ 
+
+00:10:56.000 --> 00:10:58.470 align:start position:0%
+think about um I've left a link below to
+the<00:10:56.120><c> CPP</c><00:10:56.600><c> reference</c><00:10:57.000><c> page</c><00:10:57.279><c> on</c><00:10:57.519><c> namespaces</c>
+
+00:10:58.470 --> 00:10:58.480 align:start position:0%
+the CPP reference page on namespaces
+ 
+
+00:10:58.480 --> 00:11:00.870 align:start position:0%
+the CPP reference page on namespaces
+this<00:10:58.680><c> has</c><00:10:58.920><c> a</c><00:10:59.399><c> few</c><00:10:59.760><c> examples</c><00:11:00.240><c> of</c><00:11:00.399><c> what</c><00:11:00.519><c> you</c><00:11:00.639><c> can</c>
+
+00:11:00.870 --> 00:11:00.880 align:start position:0%
+this has a few examples of what you can
+ 
+
+00:11:00.880 --> 00:11:02.750 align:start position:0%
+this has a few examples of what you can
+actually<00:11:01.240><c> do</c><00:11:01.839><c> so</c><00:11:02.120><c> there's</c><00:11:02.320><c> also</c><00:11:02.519><c> something</c>
+
+00:11:02.750 --> 00:11:02.760 align:start position:0%
+actually do so there's also something
+ 
+
+00:11:02.760 --> 00:11:04.470 align:start position:0%
+actually do so there's also something
+called<00:11:02.920><c> an</c><00:11:03.040><c> inline</c><00:11:03.440><c> namespace</c><00:11:04.040><c> which</c><00:11:04.200><c> really</c>
+
+00:11:04.470 --> 00:11:04.480 align:start position:0%
+called an inline namespace which really
+ 
+
+00:11:04.480 --> 00:11:06.389 align:start position:0%
+called an inline namespace which really
+just<00:11:04.720><c> kind</c><00:11:04.839><c> of</c><00:11:05.240><c> makes</c><00:11:05.600><c> everything</c><00:11:06.000><c> available</c>
+
+00:11:06.389 --> 00:11:06.399 align:start position:0%
+just kind of makes everything available
+ 
+
+00:11:06.399 --> 00:11:08.990 align:start position:0%
+just kind of makes everything available
+to<00:11:06.519><c> the</c><00:11:06.680><c> parent</c><00:11:07.320><c> namespace</c><00:11:08.320><c> uh</c><00:11:08.480><c> we</c><00:11:08.600><c> also</c><00:11:08.839><c> have</c>
+
+00:11:08.990 --> 00:11:09.000 align:start position:0%
+to the parent namespace uh we also have
+ 
+
+00:11:09.000 --> 00:11:11.590 align:start position:0%
+to the parent namespace uh we also have
+since<00:11:09.279><c> C++</c><00:11:09.880><c> 17</c><00:11:10.720><c> the</c><00:11:10.880><c> ability</c><00:11:11.160><c> to</c><00:11:11.360><c> actually</c>
+
+00:11:11.590 --> 00:11:11.600 align:start position:0%
+since C++ 17 the ability to actually
+ 
+
+00:11:11.600 --> 00:11:14.190 align:start position:0%
+since C++ 17 the ability to actually
+specify<00:11:12.000><c> Nam</c><00:11:12.279><c> spaces</c><00:11:12.720><c> kind</c><00:11:12.839><c> of</c><00:11:13.000><c> like</c><00:11:13.279><c> this</c><00:11:13.880><c> so</c>
+
+00:11:14.190 --> 00:11:14.200 align:start position:0%
+specify Nam spaces kind of like this so
+ 
+
+00:11:14.200 --> 00:11:15.949 align:start position:0%
+specify Nam spaces kind of like this so
+in<00:11:14.360><c> this</c><00:11:14.560><c> case</c><00:11:14.800><c> when</c><00:11:14.959><c> I</c><00:11:15.079><c> had</c><00:11:15.320><c> this</c><00:11:15.519><c> functions</c>
+
+00:11:15.949 --> 00:11:15.959 align:start position:0%
+in this case when I had this functions
+ 
+
+00:11:15.959 --> 00:11:17.949 align:start position:0%
+in this case when I had this functions
+instead<00:11:16.200><c> of</c><00:11:16.320><c> having</c><00:11:16.480><c> to</c><00:11:16.639><c> do</c><00:11:17.160><c> namespace</c><00:11:17.720><c> Apple</c>
+
+00:11:17.949 --> 00:11:17.959 align:start position:0%
+instead of having to do namespace Apple
+ 
+
+00:11:17.959 --> 00:11:20.509 align:start position:0%
+instead of having to do namespace Apple
+then<00:11:18.120><c> namespace</c><00:11:18.639><c> functions</c><00:11:19.560><c> I</c><00:11:19.839><c> can</c><00:11:20.160><c> actually</c>
+
+00:11:20.509 --> 00:11:20.519 align:start position:0%
+then namespace functions I can actually
+ 
+
+00:11:20.519 --> 00:11:23.269 align:start position:0%
+then namespace functions I can actually
+just<00:11:20.680><c> write</c><00:11:21.000><c> namespace</c><00:11:21.920><c> functions</c><00:11:22.560><c> like</c><00:11:22.800><c> that</c>
+
+00:11:23.269 --> 00:11:23.279 align:start position:0%
+just write namespace functions like that
+ 
+
+00:11:23.279 --> 00:11:24.509 align:start position:0%
+just write namespace functions like that
+be<00:11:23.360><c> aware</c><00:11:23.560><c> that</c><00:11:23.680><c> that's</c><00:11:23.839><c> not</c><00:11:24.000><c> supported</c><00:11:24.399><c> by</c>
+
+00:11:24.509 --> 00:11:24.519 align:start position:0%
+be aware that that's not supported by
+ 
+
+00:11:24.519 --> 00:11:27.750 align:start position:0%
+be aware that that's not supported by
+all<00:11:24.720><c> compilers</c><00:11:25.240><c> of</c><00:11:25.480><c> course</c><00:11:26.480><c> and</c><00:11:26.760><c> it</c><00:11:26.880><c> is</c><00:11:27.440><c> a</c><00:11:27.600><c> new</c>
+
+00:11:27.750 --> 00:11:27.760 align:start position:0%
+all compilers of course and it is a new
+ 
+
+00:11:27.760 --> 00:11:30.470 align:start position:0%
+all compilers of course and it is a new
+kind<00:11:27.880><c> of</c><00:11:28.000><c> C++</c><00:11:28.680><c> thing</c><00:11:29.519><c> um</c><00:11:29.959><c> I</c><00:11:30.079><c> recommend</c><00:11:30.399><c> you</c>
+
+00:11:30.470 --> 00:11:30.480 align:start position:0%
+kind of C++ thing um I recommend you
+ 
+
+00:11:30.480 --> 00:11:31.509 align:start position:0%
+kind of C++ thing um I recommend you
+read<00:11:30.680><c> through</c><00:11:30.800><c> this</c><00:11:30.959><c> page</c><00:11:31.120><c> if</c><00:11:31.240><c> you</c><00:11:31.320><c> want</c><00:11:31.399><c> to</c>
+
+00:11:31.509 --> 00:11:31.519 align:start position:0%
+read through this page if you want to
+ 
+
+00:11:31.519 --> 00:11:32.710 align:start position:0%
+read through this page if you want to
+know<00:11:31.760><c> everything</c><00:11:32.079><c> that</c><00:11:32.160><c> you</c><00:11:32.279><c> can</c><00:11:32.399><c> do</c><00:11:32.560><c> with</c>
+
+00:11:32.710 --> 00:11:32.720 align:start position:0%
+know everything that you can do with
+ 
+
+00:11:32.720 --> 00:11:34.230 align:start position:0%
+know everything that you can do with
+namespaces<00:11:33.320><c> I've</c><00:11:33.480><c> pretty</c><00:11:33.639><c> much</c><00:11:33.760><c> covered</c><00:11:34.120><c> most</c>
+
+00:11:34.230 --> 00:11:34.240 align:start position:0%
+namespaces I've pretty much covered most
+ 
+
+00:11:34.240 --> 00:11:36.310 align:start position:0%
+namespaces I've pretty much covered most
+of<00:11:34.360><c> the</c><00:11:34.560><c> useful</c><00:11:34.959><c> things</c><00:11:35.760><c> obviously</c><00:11:36.200><c> the</c>
+
+00:11:36.310 --> 00:11:36.320 align:start position:0%
+of the useful things obviously the
+ 
+
+00:11:36.320 --> 00:11:39.389 align:start position:0%
+of the useful things obviously the
+reason<00:11:36.760><c> why</c><00:11:36.920><c> we</c><00:11:37.079><c> use</c><00:11:37.480><c> namespaces</c><00:11:38.480><c> is</c><00:11:38.959><c> kind</c><00:11:39.079><c> of</c>
+
+00:11:39.389 --> 00:11:39.399 align:start position:0%
+reason why we use namespaces is kind of
+ 
+
+00:11:39.399 --> 00:11:42.269 align:start position:0%
+reason why we use namespaces is kind of
+to<00:11:40.399><c> if</c><00:11:40.560><c> we</c><00:11:40.720><c> are</c><00:11:40.920><c> creating</c><00:11:41.240><c> a</c><00:11:41.399><c> library</c><00:11:41.839><c> of</c><00:11:41.959><c> code</c>
+
+00:11:42.269 --> 00:11:42.279 align:start position:0%
+to if we are creating a library of code
+ 
+
+00:11:42.279 --> 00:11:44.350 align:start position:0%
+to if we are creating a library of code
+or<00:11:42.399><c> if</c><00:11:42.519><c> we</c><00:11:42.680><c> just</c><00:11:42.880><c> have</c><00:11:43.040><c> our</c><00:11:43.399><c> project</c><00:11:44.079><c> we</c><00:11:44.200><c> want</c>
+
+00:11:44.350 --> 00:11:44.360 align:start position:0%
+or if we just have our project we want
+ 
+
+00:11:44.360 --> 00:11:46.150 align:start position:0%
+or if we just have our project we want
+to<00:11:44.639><c> put</c><00:11:44.760><c> it</c><00:11:44.920><c> behind</c><00:11:45.160><c> a</c><00:11:45.360><c> namespace</c><00:11:45.839><c> so</c><00:11:45.959><c> that</c><00:11:46.079><c> we</c>
+
+00:11:46.150 --> 00:11:46.160 align:start position:0%
+to put it behind a namespace so that we
+ 
+
+00:11:46.160 --> 00:11:48.150 align:start position:0%
+to put it behind a namespace so that we
+don't<00:11:46.360><c> get</c><00:11:46.480><c> any</c><00:11:46.680><c> naming</c><00:11:47.040><c> conflicts</c><00:11:47.880><c> that</c><00:11:48.000><c> way</c>
+
+00:11:48.150 --> 00:11:48.160 align:start position:0%
+don't get any naming conflicts that way
+ 
+
+00:11:48.160 --> 00:11:50.590 align:start position:0%
+don't get any naming conflicts that way
+I'm<00:11:48.320><c> free</c><00:11:48.560><c> to</c><00:11:48.760><c> create</c><00:11:49.519><c> any</c><00:11:49.800><c> function</c><00:11:50.279><c> that</c><00:11:50.440><c> I</c>
+
+00:11:50.590 --> 00:11:50.600 align:start position:0%
+I'm free to create any function that I
+ 
+
+00:11:50.600 --> 00:11:52.790 align:start position:0%
+I'm free to create any function that I
+really<00:11:50.800><c> want</c><00:11:51.560><c> everything</c><00:11:52.000><c> in</c><00:11:52.120><c> the</c><00:11:52.240><c> C++</c>
+
+00:11:52.790 --> 00:11:52.800 align:start position:0%
+really want everything in the C++
+ 
+
+00:11:52.800 --> 00:11:54.870 align:start position:0%
+really want everything in the C++
+standard<00:11:53.079><c> library</c><00:11:53.480><c> is</c><00:11:53.680><c> behind</c><00:11:53.959><c> the</c><00:11:54.160><c> standard</c>
+
+00:11:54.870 --> 00:11:54.880 align:start position:0%
+standard library is behind the standard
+ 
+
+00:11:54.880 --> 00:11:57.150 align:start position:0%
+standard library is behind the standard
+STD<00:11:55.440><c> namespace</c><00:11:56.320><c> so</c><00:11:56.519><c> obviously</c><00:11:56.839><c> you're</c><00:11:57.000><c> not</c>
+
+00:11:57.150 --> 00:11:57.160 align:start position:0%
+STD namespace so obviously you're not
+ 
+
+00:11:57.160 --> 00:11:59.430 align:start position:0%
+STD namespace so obviously you're not
+going<00:11:57.320><c> to</c><00:11:57.480><c> get</c><00:11:57.600><c> naming</c><00:11:58.000><c> conflicts</c><00:11:58.519><c> like</c><00:11:58.680><c> that</c>
+
+00:11:59.430 --> 00:11:59.440 align:start position:0%
+going to get naming conflicts like that
+ 
+
+00:11:59.440 --> 00:12:02.230 align:start position:0%
+going to get naming conflicts like that
+however<00:11:59.800><c> if</c><00:11:59.920><c> you</c><00:12:00.079><c> use</c><00:12:00.680><c> any</c><00:12:00.880><c> kind</c><00:12:01.000><c> of</c><00:12:01.160><c> C</c><00:12:01.480><c> code</c><00:12:02.040><c> no</c>
+
+00:12:02.230 --> 00:12:02.240 align:start position:0%
+however if you use any kind of C code no
+ 
+
+00:12:02.240 --> 00:12:04.030 align:start position:0%
+however if you use any kind of C code no
+such<00:12:02.440><c> thing</c><00:12:02.560><c> as</c><00:12:02.720><c> namespaces</c><00:12:03.639><c> which</c><00:12:03.800><c> means</c>
+
+00:12:04.030 --> 00:12:04.040 align:start position:0%
+such thing as namespaces which means
+ 
+
+00:12:04.040 --> 00:12:06.190 align:start position:0%
+such thing as namespaces which means
+that<00:12:04.600><c> when</c><00:12:04.720><c> you</c><00:12:04.880><c> do</c><00:12:05.079><c> use</c><00:12:05.279><c> C</c><00:12:05.560><c> code</c><00:12:05.839><c> you</c><00:12:05.959><c> are</c>
+
+00:12:06.190 --> 00:12:06.200 align:start position:0%
+that when you do use C code you are
+ 
+
+00:12:06.200 --> 00:12:08.790 align:start position:0%
+that when you do use C code you are
+potentially<00:12:06.760><c> risking</c><00:12:07.200><c> a</c><00:12:07.320><c> naming</c><00:12:07.720><c> conflict</c><00:12:08.480><c> so</c>
+
+00:12:08.790 --> 00:12:08.800 align:start position:0%
+potentially risking a naming conflict so
+ 
+
+00:12:08.800 --> 00:12:11.710 align:start position:0%
+potentially risking a naming conflict so
+even<00:12:09.079><c> in</c><00:12:09.279><c> your</c><00:12:09.480><c> C++</c><00:12:10.320><c> project</c><00:12:11.120><c> I</c><00:12:11.240><c> would</c><00:12:11.440><c> still</c>
+
+00:12:11.710 --> 00:12:11.720 align:start position:0%
+even in your C++ project I would still
+ 
+
+00:12:11.720 --> 00:12:15.310 align:start position:0%
+even in your C++ project I would still
+use<00:12:12.000><c> a</c><00:12:12.160><c> namespace</c><00:12:12.920><c> of</c><00:12:13.079><c> course</c><00:12:13.920><c> because</c><00:12:14.920><c> if</c><00:12:15.040><c> you</c>
+
+00:12:15.310 --> 00:12:15.320 align:start position:0%
+use a namespace of course because if you
+ 
+
+00:12:15.320 --> 00:12:17.829 align:start position:0%
+use a namespace of course because if you
+use<00:12:15.600><c> any</c><00:12:15.800><c> c</c><00:12:16.160><c> code</c><00:12:16.959><c> then</c><00:12:17.160><c> that's</c><00:12:17.360><c> going</c><00:12:17.519><c> to</c><00:12:17.639><c> be</c>
+
+00:12:17.829 --> 00:12:17.839 align:start position:0%
+use any c code then that's going to be
+ 
+
+00:12:17.839 --> 00:12:20.150 align:start position:0%
+use any c code then that's going to be
+an<00:12:18.000><c> immediate</c><00:12:18.519><c> conflict</c><00:12:19.120><c> if</c><00:12:19.480><c> it</c><00:12:19.639><c> has</c><00:12:19.800><c> the</c><00:12:19.920><c> same</c>
+
+00:12:20.150 --> 00:12:20.160 align:start position:0%
+an immediate conflict if it has the same
+ 
+
+00:12:20.160 --> 00:12:21.790 align:start position:0%
+an immediate conflict if it has the same
+function<00:12:20.519><c> name</c><00:12:21.160><c> as</c><00:12:21.320><c> what</c><00:12:21.399><c> you're</c><00:12:21.600><c> actually</c>
+
+00:12:21.790 --> 00:12:21.800 align:start position:0%
+function name as what you're actually
+ 
+
+00:12:21.800 --> 00:12:24.310 align:start position:0%
+function name as what you're actually
+declaring<00:12:22.760><c> anyway</c><00:12:23.279><c> that's</c><00:12:23.440><c> namespaces</c><00:12:24.160><c> leave</c>
+
+00:12:24.310 --> 00:12:24.320 align:start position:0%
+declaring anyway that's namespaces leave
+ 
+
+00:12:24.320 --> 00:12:26.350 align:start position:0%
+declaring anyway that's namespaces leave
+your<00:12:24.519><c> thoughts</c><00:12:24.800><c> below</c><00:12:25.199><c> leave</c><00:12:25.560><c> your</c><00:12:26.120><c> thoughts</c>
+
+00:12:26.350 --> 00:12:26.360 align:start position:0%
+your thoughts below leave your thoughts
+ 
+
+00:12:26.360 --> 00:12:28.069 align:start position:0%
+your thoughts below leave your thoughts
+on<00:12:26.600><c> why</c><00:12:26.760><c> you</c><00:12:26.920><c> use</c><00:12:27.160><c> namespaces</c><00:12:27.760><c> why</c><00:12:27.839><c> you</c><00:12:27.920><c> don't</c>
+
+00:12:28.069 --> 00:12:28.079 align:start position:0%
+on why you use namespaces why you don't
+ 
+
+00:12:28.079 --> 00:12:29.470 align:start position:0%
+on why you use namespaces why you don't
+like<00:12:28.240><c> using</c><00:12:28.440><c> namespaces</c><00:12:29.000><c> where</c><00:12:29.240><c> you</c><00:12:29.320><c> would</c>
+
+00:12:29.470 --> 00:12:29.480 align:start position:0%
+like using namespaces where you would
+ 
+
+00:12:29.480 --> 00:12:30.670 align:start position:0%
+like using namespaces where you would
+where<00:12:29.639><c> you</c><00:12:29.720><c> would</c><00:12:29.880><c> and</c><00:12:30.000><c> all</c><00:12:30.199><c> that</c><00:12:30.360><c> kind</c><00:12:30.480><c> of</c>
+
+00:12:30.670 --> 00:12:30.680 align:start position:0%
+where you would and all that kind of
+ 
+
+00:12:30.680 --> 00:12:32.590 align:start position:0%
+where you would and all that kind of
+stuff<00:12:31.279><c> I</c><00:12:31.360><c> think</c><00:12:31.480><c> it's</c><00:12:31.639><c> pretty</c><00:12:31.839><c> clear</c><00:12:32.199><c> that</c>
+
+00:12:32.590 --> 00:12:32.600 align:start position:0%
+stuff I think it's pretty clear that
+ 
+
+00:12:32.600 --> 00:12:34.030 align:start position:0%
+stuff I think it's pretty clear that
+when<00:12:32.720><c> you</c><00:12:32.839><c> are</c><00:12:33.000><c> writing</c><00:12:33.320><c> code</c><00:12:33.600><c> you</c><00:12:33.680><c> should</c><00:12:33.839><c> be</c>
+
+00:12:34.030 --> 00:12:34.040 align:start position:0%
+when you are writing code you should be
+ 
+
+00:12:34.040 --> 00:12:36.470 align:start position:0%
+when you are writing code you should be
+writing<00:12:34.320><c> it</c><00:12:34.560><c> behind</c><00:12:34.920><c> a</c><00:12:35.079><c> namespace</c><00:12:36.079><c> if</c><00:12:36.240><c> it's</c>
+
+00:12:36.470 --> 00:12:36.480 align:start position:0%
+writing it behind a namespace if it's
+ 
+
+00:12:36.480 --> 00:12:37.990 align:start position:0%
+writing it behind a namespace if it's
+any<00:12:36.680><c> kind</c><00:12:36.800><c> of</c><00:12:36.920><c> serious</c>
+
+00:12:37.990 --> 00:12:38.000 align:start position:0%
+any kind of serious
+ 
+
+00:12:38.000 --> 00:12:40.470 align:start position:0%
+any kind of serious
+project<00:12:39.000><c> um</c><00:12:39.680><c> if</c><00:12:39.760><c> you</c><00:12:39.880><c> guys</c><00:12:40.040><c> enjoyed</c><00:12:40.360><c> this</c>
+
+00:12:40.470 --> 00:12:40.480 align:start position:0%
+project um if you guys enjoyed this
+ 
+
+00:12:40.480 --> 00:12:41.870 align:start position:0%
+project um if you guys enjoyed this
+video<00:12:40.800><c> please</c><00:12:41.040><c> hit</c><00:12:41.160><c> the</c><00:12:41.279><c> like</c><00:12:41.440><c> button</c><00:12:41.680><c> you</c><00:12:41.760><c> can</c>
+
+00:12:41.870 --> 00:12:41.880 align:start position:0%
+video please hit the like button you can
+ 
+
+00:12:41.880 --> 00:12:43.829 align:start position:0%
+video please hit the like button you can
+help<00:12:42.040><c> support</c><00:12:42.320><c> the</c><00:12:42.440><c> series</c><00:12:43.040><c> by</c><00:12:43.160><c> going</c><00:12:43.360><c> over</c><00:12:43.519><c> to</c>
+
+00:12:43.829 --> 00:12:43.839 align:start position:0%
+help support the series by going over to
+ 
+
+00:12:43.839 --> 00:12:46.710 align:start position:0%
+help support the series by going over to
+patreon.com<00:12:44.920><c> Theo</c><00:12:45.920><c> you'll</c><00:12:46.120><c> get</c><00:12:46.360><c> access</c><00:12:46.560><c> to</c>
+
+00:12:46.710 --> 00:12:46.720 align:start position:0%
+patreon.com Theo you'll get access to
+ 
+
+00:12:46.720 --> 00:12:49.910 align:start position:0%
+patreon.com Theo you'll get access to
+videos<00:12:47.160><c> early</c><00:12:47.959><c> and</c><00:12:48.760><c> many</c><00:12:49.120><c> other</c><00:12:49.560><c> awesome</c>
+
+00:12:49.910 --> 00:12:49.920 align:start position:0%
+videos early and many other awesome
+ 
+
+00:12:49.920 --> 00:12:52.550 align:start position:0%
+videos early and many other awesome
+rewards<00:12:50.839><c> thank</c><00:12:51.000><c> you</c><00:12:51.160><c> so</c><00:12:51.320><c> much</c><00:12:51.519><c> to</c><00:12:52.199><c> all</c><00:12:52.440><c> the</c>
+
+00:12:52.550 --> 00:12:52.560 align:start position:0%
+rewards thank you so much to all the
+ 
+
+00:12:52.560 --> 00:12:54.030 align:start position:0%
+rewards thank you so much to all the
+lovely<00:12:52.839><c> patrons</c><00:12:53.279><c> that</c><00:12:53.440><c> help</c><00:12:53.680><c> bring</c><00:12:53.880><c> this</c>
+
+00:12:54.030 --> 00:12:54.040 align:start position:0%
+lovely patrons that help bring this
+ 
+
+00:12:54.040 --> 00:12:55.470 align:start position:0%
+lovely patrons that help bring this
+series<00:12:54.279><c> to</c><00:12:54.519><c> life</c><00:12:54.720><c> it</c><00:12:54.839><c> wouldn't</c><00:12:55.079><c> be</c><00:12:55.320><c> here</c>
+
+00:12:55.470 --> 00:12:55.480 align:start position:0%
+series to life it wouldn't be here
+ 
+
+00:12:55.480 --> 00:12:57.750 align:start position:0%
+series to life it wouldn't be here
+without<00:12:55.800><c> you</c><00:12:56.800><c> I</c><00:12:56.880><c> will</c><00:12:57.040><c> see</c><00:12:57.199><c> you</c><00:12:57.320><c> guys</c><00:12:57.519><c> next</c>
+
+00:12:57.750 --> 00:12:57.760 align:start position:0%
+without you I will see you guys next
+ 
+
+00:12:57.760 --> 00:13:02.110 align:start position:0%
+without you I will see you guys next
+time<00:12:58.320><c> goodbye</c><00:12:59.360><c> true</c>
+
+00:13:02.110 --> 00:13:02.120 align:start position:0%
+time goodbye true
+ 
+
+00:13:02.120 --> 00:13:15.200 align:start position:0%
+time goodbye true
+[Music]
+
