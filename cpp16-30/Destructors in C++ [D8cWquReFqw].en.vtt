@@ -1,0 +1,1128 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:01.750 align:start position:0%
+ 
+hey<00:00:00.199><c> what's</c><00:00:00.359><c> up</c><00:00:00.560><c> guys</c><00:00:00.760><c> my</c><00:00:00.880><c> name</c><00:00:01.040><c> is</c><00:00:01.160><c> Aero</c><00:00:01.640><c> and</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+hey what's up guys my name is Aero and
+ 
+
+00:00:01.760 --> 00:00:03.909 align:start position:0%
+hey what's up guys my name is Aero and
+welcome<00:00:02.040><c> back</c><00:00:02.159><c> to</c><00:00:02.320><c> my</c><00:00:02.440><c> C++</c><00:00:03.199><c> series</c><00:00:03.679><c> last</c><00:00:03.840><c> time</c>
+
+00:00:03.909 --> 00:00:03.919 align:start position:0%
+welcome back to my C++ series last time
+ 
+
+00:00:03.919 --> 00:00:05.990 align:start position:0%
+welcome back to my C++ series last time
+we<00:00:04.040><c> talked</c><00:00:04.240><c> about</c><00:00:04.440><c> Constructors</c><00:00:04.960><c> in</c><00:00:05.080><c> C++</c><00:00:05.839><c> and</c>
+
+00:00:05.990 --> 00:00:06.000 align:start position:0%
+we talked about Constructors in C++ and
+ 
+
+00:00:06.000 --> 00:00:07.269 align:start position:0%
+we talked about Constructors in C++ and
+what<00:00:06.160><c> they</c><00:00:06.279><c> are</c><00:00:06.440><c> and</c><00:00:06.600><c> how</c><00:00:06.680><c> to</c><00:00:06.839><c> use</c><00:00:07.080><c> them</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+what they are and how to use them
+ 
+
+00:00:07.279 --> 00:00:08.750 align:start position:0%
+what they are and how to use them
+definitely<00:00:07.560><c> check</c><00:00:07.720><c> out</c><00:00:07.919><c> that</c><00:00:08.160><c> video</c><00:00:08.440><c> if</c><00:00:08.559><c> you</c>
+
+00:00:08.750 --> 00:00:08.760 align:start position:0%
+definitely check out that video if you
+ 
+
+00:00:08.760 --> 00:00:10.390 align:start position:0%
+definitely check out that video if you
+haven't<00:00:09.160><c> already</c><00:00:09.800><c> and</c><00:00:09.920><c> today</c><00:00:10.120><c> we're</c><00:00:10.200><c> going</c><00:00:10.320><c> to</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+haven't already and today we're going to
+ 
+
+00:00:10.400 --> 00:00:11.709 align:start position:0%
+haven't already and today we're going to
+talk<00:00:10.519><c> about</c><00:00:10.679><c> their</c><00:00:10.880><c> evil</c><00:00:11.160><c> twin</c><00:00:11.519><c> the</c>
+
+00:00:11.709 --> 00:00:11.719 align:start position:0%
+talk about their evil twin the
+ 
+
+00:00:11.719 --> 00:00:13.430 align:start position:0%
+talk about their evil twin the
+destructor<00:00:12.519><c> so</c><00:00:12.799><c> similarly</c><00:00:13.160><c> how</c><00:00:13.280><c> a</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+destructor so similarly how a
+ 
+
+00:00:13.440 --> 00:00:14.829 align:start position:0%
+destructor so similarly how a
+Constructor<00:00:13.960><c> runs</c><00:00:14.160><c> when</c><00:00:14.280><c> you</c><00:00:14.360><c> create</c><00:00:14.559><c> a</c><00:00:14.639><c> new</c>
+
+00:00:14.829 --> 00:00:14.839 align:start position:0%
+Constructor runs when you create a new
+ 
+
+00:00:14.839 --> 00:00:17.109 align:start position:0%
+Constructor runs when you create a new
+instance<00:00:15.280><c> of</c><00:00:15.400><c> an</c><00:00:15.599><c> object</c><00:00:16.039><c> a</c><00:00:16.240><c> Destructor</c><00:00:16.840><c> runs</c>
+
+00:00:17.109 --> 00:00:17.119 align:start position:0%
+instance of an object a Destructor runs
+ 
+
+00:00:17.119 --> 00:00:19.590 align:start position:0%
+instance of an object a Destructor runs
+when<00:00:17.279><c> you</c><00:00:17.560><c> destroy</c><00:00:18.119><c> an</c><00:00:18.400><c> object</c><00:00:18.880><c> so</c><00:00:19.039><c> anytime</c><00:00:19.400><c> an</c>
+
+00:00:19.590 --> 00:00:19.600 align:start position:0%
+when you destroy an object so anytime an
+ 
+
+00:00:19.600 --> 00:00:21.390 align:start position:0%
+when you destroy an object so anytime an
+object<00:00:19.920><c> gets</c><00:00:20.199><c> destroyed</c><00:00:20.800><c> the</c><00:00:20.960><c> destructor</c>
+
+00:00:21.390 --> 00:00:21.400 align:start position:0%
+object gets destroyed the destructor
+ 
+
+00:00:21.400 --> 00:00:23.390 align:start position:0%
+object gets destroyed the destructor
+method<00:00:21.720><c> will</c><00:00:21.960><c> get</c><00:00:22.160><c> called</c><00:00:22.640><c> The</c><00:00:22.800><c> Constructor</c>
+
+00:00:23.390 --> 00:00:23.400 align:start position:0%
+method will get called The Constructor
+ 
+
+00:00:23.400 --> 00:00:25.189 align:start position:0%
+method will get called The Constructor
+is<00:00:23.560><c> usually</c><00:00:23.840><c> where</c><00:00:24.039><c> you</c><00:00:24.160><c> set</c><00:00:24.400><c> variables</c><00:00:24.840><c> up</c><00:00:25.039><c> or</c>
+
+00:00:25.189 --> 00:00:25.199 align:start position:0%
+is usually where you set variables up or
+ 
+
+00:00:25.199 --> 00:00:26.830 align:start position:0%
+is usually where you set variables up or
+do<00:00:25.400><c> any</c><00:00:25.519><c> kind</c><00:00:25.640><c> of</c><00:00:25.840><c> initialization</c><00:00:26.640><c> that</c><00:00:26.720><c> you</c>
+
+00:00:26.830 --> 00:00:26.840 align:start position:0%
+do any kind of initialization that you
+ 
+
+00:00:26.840 --> 00:00:28.830 align:start position:0%
+do any kind of initialization that you
+need<00:00:27.039><c> to</c><00:00:27.199><c> do</c><00:00:27.560><c> and</c><00:00:27.679><c> similarly</c><00:00:28.080><c> the</c><00:00:28.199><c> destructor</c>
+
+00:00:28.830 --> 00:00:28.840 align:start position:0%
+need to do and similarly the destructor
+ 
+
+00:00:28.840 --> 00:00:30.950 align:start position:0%
+need to do and similarly the destructor
+is<00:00:29.039><c> where</c><00:00:29.199><c> you</c><00:00:29.439><c> unin</c><00:00:30.160><c> ize</c><00:00:30.439><c> anything</c><00:00:30.720><c> that</c><00:00:30.840><c> you</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+is where you unin ize anything that you
+ 
+
+00:00:30.960 --> 00:00:32.630 align:start position:0%
+is where you unin ize anything that you
+might<00:00:31.199><c> have</c><00:00:31.320><c> to</c><00:00:31.519><c> or</c><00:00:31.640><c> clean</c><00:00:31.960><c> any</c><00:00:32.160><c> memory</c><00:00:32.559><c> that</c>
+
+00:00:32.630 --> 00:00:32.640 align:start position:0%
+might have to or clean any memory that
+ 
+
+00:00:32.640 --> 00:00:34.190 align:start position:0%
+might have to or clean any memory that
+you've<00:00:32.920><c> used</c><00:00:33.320><c> the</c><00:00:33.440><c> destructure</c><00:00:33.800><c> applies</c><00:00:34.079><c> to</c>
+
+00:00:34.190 --> 00:00:34.200 align:start position:0%
+you've used the destructure applies to
+ 
+
+00:00:34.200 --> 00:00:36.430 align:start position:0%
+you've used the destructure applies to
+both<00:00:34.399><c> stack</c><00:00:34.760><c> and</c><00:00:35.000><c> Heap</c><00:00:35.320><c> allocated</c><00:00:35.879><c> objects</c><00:00:36.280><c> so</c>
+
+00:00:36.430 --> 00:00:36.440 align:start position:0%
+both stack and Heap allocated objects so
+ 
+
+00:00:36.440 --> 00:00:38.470 align:start position:0%
+both stack and Heap allocated objects so
+if<00:00:36.520><c> you</c><00:00:36.640><c> allocate</c><00:00:37.000><c> an</c><00:00:37.160><c> object</c><00:00:37.440><c> using</c><00:00:37.719><c> new</c><00:00:38.360><c> when</c>
+
+00:00:38.470 --> 00:00:38.480 align:start position:0%
+if you allocate an object using new when
+ 
+
+00:00:38.480 --> 00:00:40.190 align:start position:0%
+if you allocate an object using new when
+you<00:00:38.600><c> call</c><00:00:38.879><c> delete</c><00:00:39.280><c> the</c><00:00:39.399><c> destructor</c><00:00:39.879><c> will</c><00:00:40.039><c> get</c>
+
+00:00:40.190 --> 00:00:40.200 align:start position:0%
+you call delete the destructor will get
+ 
+
+00:00:40.200 --> 00:00:41.869 align:start position:0%
+you call delete the destructor will get
+called<00:00:40.760><c> if</c><00:00:40.840><c> you</c><00:00:40.960><c> just</c><00:00:41.079><c> have</c><00:00:41.160><c> a</c><00:00:41.280><c> stack</c><00:00:41.559><c> based</c>
+
+00:00:41.869 --> 00:00:41.879 align:start position:0%
+called if you just have a stack based
+ 
+
+00:00:41.879 --> 00:00:43.430 align:start position:0%
+called if you just have a stack based
+object<00:00:42.200><c> then</c><00:00:42.320><c> when</c><00:00:42.440><c> the</c><00:00:42.559><c> scope</c><00:00:42.840><c> ends</c><00:00:43.280><c> the</c>
+
+00:00:43.430 --> 00:00:43.440 align:start position:0%
+object then when the scope ends the
+ 
+
+00:00:43.440 --> 00:00:45.150 align:start position:0%
+object then when the scope ends the
+object<00:00:43.680><c> will</c><00:00:43.840><c> get</c><00:00:44.000><c> deleted</c><00:00:44.600><c> and</c><00:00:44.800><c> thus</c><00:00:45.039><c> the</c>
+
+00:00:45.150 --> 00:00:45.160 align:start position:0%
+object will get deleted and thus the
+ 
+
+00:00:45.160 --> 00:00:47.189 align:start position:0%
+object will get deleted and thus the
+destructor<00:00:45.559><c> will</c><00:00:45.680><c> get</c><00:00:45.800><c> called</c><00:00:46.719><c> let's</c><00:00:46.960><c> dive</c><00:00:47.120><c> in</c>
+
+00:00:47.189 --> 00:00:47.199 align:start position:0%
+destructor will get called let's dive in
+ 
+
+00:00:47.199 --> 00:00:48.709 align:start position:0%
+destructor will get called let's dive in
+and<00:00:47.320><c> take</c><00:00:47.440><c> a</c><00:00:47.520><c> look</c><00:00:47.640><c> at</c><00:00:47.760><c> some</c><00:00:47.920><c> examples</c><00:00:48.440><c> so</c><00:00:48.600><c> in</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+and take a look at some examples so in
+ 
+
+00:00:48.719 --> 00:00:50.069 align:start position:0%
+and take a look at some examples so in
+the<00:00:48.840><c> Constructor</c><00:00:49.280><c> video</c><00:00:49.520><c> we</c><00:00:49.600><c> created</c><00:00:49.920><c> this</c>
+
+00:00:50.069 --> 00:00:50.079 align:start position:0%
+the Constructor video we created this
+ 
+
+00:00:50.079 --> 00:00:51.790 align:start position:0%
+the Constructor video we created this
+wonderful<00:00:50.520><c> entity</c><00:00:50.960><c> class</c><00:00:51.360><c> which</c><00:00:51.559><c> had</c>
+
+00:00:51.790 --> 00:00:51.800 align:start position:0%
+wonderful entity class which had
+ 
+
+00:00:51.800 --> 00:00:53.590 align:start position:0%
+wonderful entity class which had
+multiple<00:00:52.280><c> Constructors</c><00:00:52.960><c> here</c><00:00:53.320><c> let's</c><00:00:53.480><c> go</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+multiple Constructors here let's go
+ 
+
+00:00:53.600 --> 00:00:55.590 align:start position:0%
+multiple Constructors here let's go
+ahead<00:00:53.800><c> and</c><00:00:54.000><c> add</c><00:00:54.120><c> a</c><00:00:54.280><c> Destructor</c><00:00:55.000><c> a</c><00:00:55.120><c> Destructor</c>
+
+00:00:55.590 --> 00:00:55.600 align:start position:0%
+ahead and add a Destructor a Destructor
+ 
+
+00:00:55.600 --> 00:00:57.630 align:start position:0%
+ahead and add a Destructor a Destructor
+begins<00:00:55.879><c> with</c><00:00:56.000><c> a</c><00:00:56.160><c> tier</c><00:00:56.800><c> and</c><00:00:56.960><c> then</c><00:00:57.120><c> the</c><00:00:57.280><c> name</c><00:00:57.520><c> of</c>
+
+00:00:57.630 --> 00:00:57.640 align:start position:0%
+begins with a tier and then the name of
+ 
+
+00:00:57.640 --> 00:00:58.990 align:start position:0%
+begins with a tier and then the name of
+our<00:00:57.920><c> class</c><00:00:58.320><c> so</c><00:00:58.440><c> basically</c><00:00:58.760><c> the</c><00:00:58.840><c> only</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+our class so basically the only
+ 
+
+00:00:59.000 --> 00:01:00.389 align:start position:0%
+our class so basically the only
+difference<00:00:59.239><c> between</c><00:00:59.440><c> a</c><00:00:59.559><c> construct</c><00:01:00.199><c> and</c><00:01:00.280><c> a</c>
+
+00:01:00.389 --> 00:01:00.399 align:start position:0%
+difference between a construct and a
+ 
+
+00:01:00.399 --> 00:01:02.270 align:start position:0%
+difference between a construct and a
+Destructor<00:01:00.960><c> in</c><00:01:01.039><c> terms</c><00:01:01.239><c> of</c><00:01:01.359><c> Declaration</c><00:01:02.039><c> and</c>
+
+00:01:02.270 --> 00:01:02.280 align:start position:0%
+Destructor in terms of Declaration and
+ 
+
+00:01:02.280 --> 00:01:04.829 align:start position:0%
+Destructor in terms of Declaration and
+definition<00:01:03.000><c> is</c><00:01:03.519><c> the</c><00:01:03.760><c> actual</c><00:01:04.119><c> tier</c><00:01:04.600><c> that</c><00:01:04.680><c> you</c>
+
+00:01:04.829 --> 00:01:04.839 align:start position:0%
+definition is the actual tier that you
+ 
+
+00:01:04.839 --> 00:01:07.190 align:start position:0%
+definition is the actual tier that you
+put<00:01:05.040><c> at</c><00:01:05.199><c> the</c><00:01:05.360><c> front</c><00:01:06.000><c> of</c><00:01:06.159><c> the</c><00:01:06.320><c> destructor</c>
+
+00:01:07.190 --> 00:01:07.200 align:start position:0%
+put at the front of the destructor
+ 
+
+00:01:07.200 --> 00:01:08.710 align:start position:0%
+put at the front of the destructor
+that's<00:01:07.320><c> how</c><00:01:07.439><c> you</c><00:01:07.560><c> know</c><00:01:07.680><c> it's</c><00:01:07.799><c> a</c><00:01:07.960><c> Destructor</c><00:01:08.600><c> in</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+that's how you know it's a Destructor in
+ 
+
+00:01:08.720 --> 00:01:10.149 align:start position:0%
+that's how you know it's a Destructor in
+this<00:01:08.880><c> case</c><00:01:09.080><c> we</c><00:01:09.200><c> just</c><00:01:09.280><c> have</c><00:01:09.400><c> a</c><00:01:09.479><c> simple</c><00:01:09.840><c> class</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+this case we just have a simple class
+ 
+
+00:01:10.159 --> 00:01:12.270 align:start position:0%
+this case we just have a simple class
+with<00:01:10.400><c> two</c><00:01:10.840><c> members</c><00:01:11.280><c> X</c><00:01:11.479><c> and</c><00:01:11.680><c> Y</c><00:01:11.920><c> there</c><00:01:12.040><c> is</c>
+
+00:01:12.270 --> 00:01:12.280 align:start position:0%
+with two members X and Y there is
+ 
+
+00:01:12.280 --> 00:01:14.030 align:start position:0%
+with two members X and Y there is
+absolutely<00:01:12.840><c> no</c><00:01:13.040><c> clean</c><00:01:13.280><c> up</c><00:01:13.439><c> we</c><00:01:13.560><c> need</c><00:01:13.680><c> to</c><00:01:13.759><c> do</c><00:01:13.920><c> for</c>
+
+00:01:14.030 --> 00:01:14.040 align:start position:0%
+absolutely no clean up we need to do for
+ 
+
+00:01:14.040 --> 00:01:15.950 align:start position:0%
+absolutely no clean up we need to do for
+memory<00:01:14.600><c> here</c><00:01:14.920><c> at</c><00:01:15.080><c> all</c><00:01:15.400><c> since</c><00:01:15.600><c> these</c><00:01:15.759><c> two</c>
+
+00:01:15.950 --> 00:01:15.960 align:start position:0%
+memory here at all since these two
+ 
+
+00:01:15.960 --> 00:01:18.190 align:start position:0%
+memory here at all since these two
+floats<00:01:16.400><c> are</c><00:01:16.600><c> allocated</c><00:01:17.159><c> in</c><00:01:17.400><c> place</c><00:01:17.840><c> with</c><00:01:17.960><c> our</c>
+
+00:01:18.190 --> 00:01:18.200 align:start position:0%
+floats are allocated in place with our
+ 
+
+00:01:18.200 --> 00:01:20.069 align:start position:0%
+floats are allocated in place with our
+class<00:01:18.799><c> we're</c><00:01:18.920><c> going</c><00:01:19.000><c> to</c><00:01:19.119><c> talk</c><00:01:19.400><c> way</c><00:01:19.600><c> more</c><00:01:19.840><c> about</c>
+
+00:01:20.069 --> 00:01:20.079 align:start position:0%
+class we're going to talk way more about
+ 
+
+00:01:20.079 --> 00:01:21.910 align:start position:0%
+class we're going to talk way more about
+memory<00:01:20.560><c> allocation</c><00:01:21.200><c> and</c><00:01:21.400><c> all</c><00:01:21.560><c> of</c><00:01:21.720><c> that</c>
+
+00:01:21.910 --> 00:01:21.920 align:start position:0%
+memory allocation and all of that
+ 
+
+00:01:21.920 --> 00:01:23.469 align:start position:0%
+memory allocation and all of that
+complicated<00:01:22.400><c> stuff</c><00:01:22.600><c> in</c><00:01:22.680><c> the</c><00:01:22.799><c> future</c><00:01:23.119><c> so</c><00:01:23.280><c> don't</c>
+
+00:01:23.469 --> 00:01:23.479 align:start position:0%
+complicated stuff in the future so don't
+ 
+
+00:01:23.479 --> 00:01:25.469 align:start position:0%
+complicated stuff in the future so don't
+you<00:01:23.640><c> worry</c><00:01:24.280><c> but</c><00:01:24.439><c> for</c><00:01:24.560><c> an</c><00:01:24.720><c> example</c><00:01:25.159><c> let's</c><00:01:25.360><c> go</c>
+
+00:01:25.469 --> 00:01:25.479 align:start position:0%
+you worry but for an example let's go
+ 
+
+00:01:25.479 --> 00:01:27.390 align:start position:0%
+you worry but for an example let's go
+ahead<00:01:25.640><c> and</c><00:01:25.799><c> add</c><00:01:26.000><c> a</c><00:01:26.280><c> message</c><00:01:26.759><c> which</c><00:01:26.960><c> tells</c><00:01:27.200><c> us</c>
+
+00:01:27.390 --> 00:01:27.400 align:start position:0%
+ahead and add a message which tells us
+ 
+
+00:01:27.400 --> 00:01:28.990 align:start position:0%
+ahead and add a message which tells us
+that<00:01:27.560><c> the</c><00:01:27.720><c> object</c><00:01:28.000><c> has</c><00:01:28.119><c> been</c><00:01:28.280><c> deleted</c><00:01:28.759><c> so</c><00:01:28.920><c> I</c>
+
+00:01:28.990 --> 00:01:29.000 align:start position:0%
+that the object has been deleted so I
+ 
+
+00:01:29.000 --> 00:01:32.270 align:start position:0%
+that the object has been deleted so I
+might<00:01:29.200><c> write</c><00:01:29.400><c> something</c><00:01:29.680><c> like</c><00:01:30.079><c> destroyed</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+might write something like destroyed
+ 
+
+00:01:32.280 --> 00:01:34.310 align:start position:0%
+might write something like destroyed
+entity<00:01:33.280><c> and</c><00:01:33.439><c> then</c><00:01:33.560><c> for</c><00:01:33.720><c> fun</c><00:01:34.000><c> in</c><00:01:34.119><c> our</c>
+
+00:01:34.310 --> 00:01:34.320 align:start position:0%
+entity and then for fun in our
+ 
+
+00:01:34.320 --> 00:01:37.030 align:start position:0%
+entity and then for fun in our
+Constructor<00:01:34.920><c> here</c><00:01:35.159><c> I'm</c><00:01:35.360><c> going</c><00:01:35.520><c> to</c><00:01:36.040><c> write</c>
+
+00:01:37.030 --> 00:01:37.040 align:start position:0%
+Constructor here I'm going to write
+ 
+
+00:01:37.040 --> 00:01:39.310 align:start position:0%
+Constructor here I'm going to write
+constructed
+
+00:01:39.310 --> 00:01:39.320 align:start position:0%
+constructed
+ 
+
+00:01:39.320 --> 00:01:41.429 align:start position:0%
+constructed
+entity<00:01:40.320><c> or</c><00:01:40.520><c> I</c><00:01:40.640><c> guess</c><00:01:40.759><c> we</c><00:01:40.880><c> should</c><00:01:41.079><c> call</c><00:01:41.240><c> it</c>
+
+00:01:41.429 --> 00:01:41.439 align:start position:0%
+entity or I guess we should call it
+ 
+
+00:01:41.439 --> 00:01:42.950 align:start position:0%
+entity or I guess we should call it
+created<00:01:41.880><c> since</c><00:01:42.079><c> we</c><00:01:42.240><c> called</c><00:01:42.439><c> this</c><00:01:42.600><c> destroyed</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+created since we called this destroyed
+ 
+
+00:01:42.960 --> 00:01:44.389 align:start position:0%
+created since we called this destroyed
+and<00:01:43.079><c> not</c><00:01:43.240><c> destructed</c><00:01:43.880><c> I'm</c><00:01:43.960><c> going</c><00:01:44.079><c> to</c><00:01:44.159><c> get</c><00:01:44.280><c> rid</c>
+
+00:01:44.389 --> 00:01:44.399 align:start position:0%
+and not destructed I'm going to get rid
+ 
+
+00:01:44.399 --> 00:01:45.910 align:start position:0%
+and not destructed I'm going to get rid
+of<00:01:44.520><c> this</c><00:01:44.640><c> Constructor</c><00:01:45.119><c> just</c><00:01:45.240><c> so</c><00:01:45.479><c> we</c><00:01:45.560><c> don't</c><00:01:45.759><c> get</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+of this Constructor just so we don't get
+ 
+
+00:01:45.920 --> 00:01:48.510 align:start position:0%
+of this Constructor just so we don't get
+too<00:01:46.119><c> confused</c><00:01:46.719><c> I'll</c><00:01:46.920><c> initialize</c><00:01:47.479><c> X</c><00:01:47.719><c> and</c><00:01:48.040><c> Y</c><00:01:48.200><c> to</c>
+
+00:01:48.510 --> 00:01:48.520 align:start position:0%
+too confused I'll initialize X and Y to
+ 
+
+00:01:48.520 --> 00:01:50.789 align:start position:0%
+too confused I'll initialize X and Y to
+Z<00:01:48.880><c> as</c><00:01:49.000><c> well</c><00:01:49.280><c> just</c><00:01:49.399><c> so</c><00:01:49.560><c> that</c><00:01:49.680><c> we're</c><00:01:49.840><c> not</c><00:01:50.079><c> crazy</c>
+
+00:01:50.789 --> 00:01:50.799 align:start position:0%
+Z as well just so that we're not crazy
+ 
+
+00:01:50.799 --> 00:01:53.469 align:start position:0%
+Z as well just so that we're not crazy
+I'll<00:01:50.960><c> get</c><00:01:51.119><c> rid</c><00:01:51.240><c> of</c><00:01:51.399><c> this</c><00:01:51.600><c> as</c><00:01:52.000><c> well</c><00:01:53.000><c> now</c><00:01:53.200><c> since</c>
+
+00:01:53.469 --> 00:01:53.479 align:start position:0%
+I'll get rid of this as well now since
+ 
+
+00:01:53.479 --> 00:01:55.469 align:start position:0%
+I'll get rid of this as well now since
+this<00:01:53.640><c> is</c><00:01:53.920><c> stack</c><00:01:54.200><c> allocated</c><00:01:54.719><c> we</c><00:01:54.799><c> will</c><00:01:55.000><c> only</c><00:01:55.240><c> see</c>
+
+00:01:55.469 --> 00:01:55.479 align:start position:0%
+this is stack allocated we will only see
+ 
+
+00:01:55.479 --> 00:01:57.069 align:start position:0%
+this is stack allocated we will only see
+the<00:01:55.600><c> destructure</c><00:01:56.079><c> getting</c><00:01:56.320><c> called</c><00:01:56.799><c> when</c><00:01:56.960><c> the</c>
+
+00:01:57.069 --> 00:01:57.079 align:start position:0%
+the destructure getting called when the
+ 
+
+00:01:57.079 --> 00:01:58.950 align:start position:0%
+the destructure getting called when the
+main<00:01:57.399><c> function</c><00:01:57.920><c> exits</c><00:01:58.479><c> which</c><00:01:58.600><c> we're</c><00:01:58.759><c> not</c>
+
+00:01:58.950 --> 00:01:58.960 align:start position:0%
+main function exits which we're not
+ 
+
+00:01:58.960 --> 00:02:00.389 align:start position:0%
+main function exits which we're not
+really<00:01:59.159><c> going</c><00:01:59.320><c> to</c><00:01:59.439><c> see</c><00:01:59.640><c> because</c><00:01:59.960><c> our</c><00:02:00.119><c> program</c>
+
+00:02:00.389 --> 00:02:00.399 align:start position:0%
+really going to see because our program
+ 
+
+00:02:00.399 --> 00:02:01.990 align:start position:0%
+really going to see because our program
+will<00:02:00.560><c> close</c><00:02:00.799><c> immediately</c><00:02:01.200><c> after</c><00:02:01.479><c> that</c><00:02:01.759><c> so</c><00:02:01.880><c> I'm</c>
+
+00:02:01.990 --> 00:02:02.000 align:start position:0%
+will close immediately after that so I'm
+ 
+
+00:02:02.000 --> 00:02:03.709 align:start position:0%
+will close immediately after that so I'm
+going<00:02:02.119><c> to</c><00:02:02.280><c> just</c><00:02:02.399><c> write</c><00:02:02.600><c> a</c><00:02:02.759><c> function</c><00:02:03.240><c> here</c>
+
+00:02:03.709 --> 00:02:03.719 align:start position:0%
+going to just write a function here
+ 
+
+00:02:03.719 --> 00:02:06.029 align:start position:0%
+going to just write a function here
+which<00:02:03.960><c> will</c><00:02:04.280><c> perform</c><00:02:04.759><c> all</c><00:02:04.920><c> of</c><00:02:05.039><c> our</c><00:02:05.240><c> entity</c>
+
+00:02:06.029 --> 00:02:06.039 align:start position:0%
+which will perform all of our entity
+ 
+
+00:02:06.039 --> 00:02:08.150 align:start position:0%
+which will perform all of our entity
+operations<00:02:07.039><c> I'll</c><00:02:07.200><c> move</c><00:02:07.360><c> all</c><00:02:07.520><c> this</c><00:02:07.640><c> code</c><00:02:07.920><c> over</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+operations I'll move all this code over
+ 
+
+00:02:08.160 --> 00:02:10.589 align:start position:0%
+operations I'll move all this code over
+here<00:02:08.479><c> and</c><00:02:08.640><c> I</c><00:02:08.759><c> will</c><00:02:08.959><c> call</c><00:02:09.280><c> function</c><00:02:10.160><c> now</c><00:02:10.360><c> if</c><00:02:10.440><c> I</c>
+
+00:02:10.589 --> 00:02:10.599 align:start position:0%
+here and I will call function now if I
+ 
+
+00:02:10.599 --> 00:02:12.510 align:start position:0%
+here and I will call function now if I
+run<00:02:10.879><c> my</c><00:02:11.039><c> code</c><00:02:11.400><c> just</c><00:02:11.599><c> like</c><00:02:11.840><c> this</c><00:02:12.239><c> you</c><00:02:12.360><c> should</c>
+
+00:02:12.510 --> 00:02:12.520 align:start position:0%
+run my code just like this you should
+ 
+
+00:02:12.520 --> 00:02:14.949 align:start position:0%
+run my code just like this you should
+see<00:02:12.720><c> created</c><00:02:13.160><c> entity</c><00:02:13.680><c> then</c><00:02:14.040><c> our</c><00:02:14.519><c> print</c>
+
+00:02:14.949 --> 00:02:14.959 align:start position:0%
+see created entity then our print
+ 
+
+00:02:14.959 --> 00:02:16.790 align:start position:0%
+see created entity then our print
+function<00:02:15.280><c> running</c><00:02:15.640><c> which</c><00:02:15.879><c> prints</c><00:02:16.160><c> X</c><00:02:16.319><c> and</c><00:02:16.560><c> Y</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+function running which prints X and Y
+ 
+
+00:02:16.800 --> 00:02:18.910 align:start position:0%
+function running which prints X and Y
+and<00:02:16.879><c> then</c><00:02:17.040><c> finally</c><00:02:17.319><c> destroyed</c><00:02:17.840><c> entity</c><00:02:18.680><c> let's</c>
+
+00:02:18.910 --> 00:02:18.920 align:start position:0%
+and then finally destroyed entity let's
+ 
+
+00:02:18.920 --> 00:02:20.630 align:start position:0%
+and then finally destroyed entity let's
+take<00:02:19.040><c> a</c><00:02:19.200><c> deeper</c><00:02:19.480><c> look</c><00:02:19.680><c> as</c><00:02:19.800><c> to</c><00:02:19.959><c> how</c><00:02:20.120><c> this</c><00:02:20.280><c> works</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+take a deeper look as to how this works
+ 
+
+00:02:20.640 --> 00:02:22.309 align:start position:0%
+take a deeper look as to how this works
+I'm<00:02:20.760><c> going</c><00:02:20.879><c> to</c><00:02:21.000><c> put</c><00:02:21.080><c> a</c><00:02:21.239><c> break</c><00:02:21.519><c> point</c><00:02:21.879><c> on</c><00:02:22.040><c> line</c>
+
+00:02:22.309 --> 00:02:22.319 align:start position:0%
+I'm going to put a break point on line
+ 
+
+00:02:22.319 --> 00:02:25.190 align:start position:0%
+I'm going to put a break point on line
+28<00:02:22.879><c> here</c><00:02:23.040><c> next</c><00:02:23.200><c> to</c><00:02:23.360><c> our</c><00:02:23.519><c> entity</c><00:02:24.200><c> and</c><00:02:24.400><c> hit</c><00:02:24.640><c> F5</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+28 here next to our entity and hit F5
+ 
+
+00:02:25.200 --> 00:02:26.470 align:start position:0%
+28 here next to our entity and hit F5
+currently<00:02:25.519><c> I've</c><00:02:25.640><c> got</c><00:02:25.800><c> absolutely</c><00:02:26.160><c> nothing</c><00:02:26.360><c> in</c>
+
+00:02:26.470 --> 00:02:26.480 align:start position:0%
+currently I've got absolutely nothing in
+ 
+
+00:02:26.480 --> 00:02:29.110 align:start position:0%
+currently I've got absolutely nothing in
+the<00:02:26.599><c> console</c><00:02:27.560><c> if</c><00:02:27.640><c> I</c><00:02:27.840><c> hit</c><00:02:28.040><c> F10</c><00:02:28.560><c> here</c><00:02:28.680><c> and</c><00:02:28.840><c> look</c>
+
+00:02:29.110 --> 00:02:29.120 align:start position:0%
+the console if I hit F10 here and look
+ 
+
+00:02:29.120 --> 00:02:30.990 align:start position:0%
+the console if I hit F10 here and look
+back<00:02:29.440><c> you</c><00:02:29.560><c> can</c><00:02:29.680><c> see</c><00:02:30.000><c> that</c><00:02:30.080><c> my</c><00:02:30.200><c> entity</c><00:02:30.560><c> has</c><00:02:30.720><c> been</c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+back you can see that my entity has been
+ 
+
+00:02:31.000 --> 00:02:32.830 align:start position:0%
+back you can see that my entity has been
+created<00:02:31.599><c> I'm</c><00:02:31.720><c> then</c><00:02:31.840><c> going</c><00:02:31.920><c> to</c><00:02:32.040><c> hit</c><00:02:32.200><c> F10</c><00:02:32.560><c> to</c>
+
+00:02:32.830 --> 00:02:32.840 align:start position:0%
+created I'm then going to hit F10 to
+ 
+
+00:02:32.840 --> 00:02:34.949 align:start position:0%
+created I'm then going to hit F10 to
+print<00:02:33.440><c> and</c><00:02:33.560><c> you</c><00:02:33.640><c> can</c><00:02:33.760><c> see</c><00:02:34.040><c> that</c><00:02:34.239><c> my</c><00:02:34.400><c> X</c><00:02:34.599><c> and</c><00:02:34.760><c> Y</c>
+
+00:02:34.949 --> 00:02:34.959 align:start position:0%
+print and you can see that my X and Y
+ 
+
+00:02:34.959 --> 00:02:36.750 align:start position:0%
+print and you can see that my X and Y
+position<00:02:35.280><c> gets</c><00:02:35.480><c> printed</c><00:02:35.800><c> and</c><00:02:35.920><c> then</c><00:02:36.120><c> finally</c>
+
+00:02:36.750 --> 00:02:36.760 align:start position:0%
+position gets printed and then finally
+ 
+
+00:02:36.760 --> 00:02:38.470 align:start position:0%
+position gets printed and then finally
+the<00:02:36.879><c> end</c><00:02:37.080><c> of</c><00:02:37.200><c> the</c><00:02:37.360><c> scope</c><00:02:37.680><c> is</c><00:02:37.920><c> reached</c><00:02:38.280><c> here</c>
+
+00:02:38.470 --> 00:02:38.480 align:start position:0%
+the end of the scope is reached here
+ 
+
+00:02:38.480 --> 00:02:40.710 align:start position:0%
+the end of the scope is reached here
+we're<00:02:38.640><c> about</c><00:02:38.800><c> to</c><00:02:38.959><c> jump</c><00:02:39.319><c> back</c><00:02:39.599><c> to</c><00:02:39.840><c> line</c><00:02:40.120><c> 34</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+we're about to jump back to line 34
+ 
+
+00:02:40.720 --> 00:02:42.710 align:start position:0%
+we're about to jump back to line 34
+which<00:02:40.840><c> is</c><00:02:41.040><c> our</c><00:02:41.440><c> return</c><00:02:41.720><c> address</c><00:02:42.319><c> since</c><00:02:42.519><c> this</c>
+
+00:02:42.710 --> 00:02:42.720 align:start position:0%
+which is our return address since this
+ 
+
+00:02:42.720 --> 00:02:44.869 align:start position:0%
+which is our return address since this
+object<00:02:43.120><c> was</c><00:02:43.480><c> created</c><00:02:43.879><c> on</c><00:02:44.080><c> the</c><00:02:44.319><c> stack</c><00:02:44.760><c> it</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+object was created on the stack it
+ 
+
+00:02:44.879 --> 00:02:46.589 align:start position:0%
+object was created on the stack it
+should<00:02:45.080><c> get</c><00:02:45.319><c> automatically</c><00:02:45.959><c> destroyed</c><00:02:46.440><c> when</c>
+
+00:02:46.589 --> 00:02:46.599 align:start position:0%
+should get automatically destroyed when
+ 
+
+00:02:46.599 --> 00:02:48.470 align:start position:0%
+should get automatically destroyed when
+it<00:02:46.720><c> goes</c><00:02:46.920><c> out</c><00:02:47.080><c> of</c><00:02:47.239><c> scope</c><00:02:47.640><c> which</c><00:02:47.760><c> is</c><00:02:48.000><c> right</c><00:02:48.200><c> over</c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+it goes out of scope which is right over
+ 
+
+00:02:48.480 --> 00:02:51.190 align:start position:0%
+it goes out of scope which is right over
+here<00:02:49.120><c> so</c><00:02:49.400><c> if</c><00:02:49.480><c> I</c><00:02:49.640><c> hit</c><00:02:49.800><c> F10</c><00:02:50.560><c> you</c><00:02:50.680><c> can</c><00:02:50.800><c> see</c><00:02:51.040><c> that</c>
+
+00:02:51.190 --> 00:02:51.200 align:start position:0%
+here so if I hit F10 you can see that
+ 
+
+00:02:51.200 --> 00:02:52.910 align:start position:0%
+here so if I hit F10 you can see that
+destroyed<00:02:51.640><c> entity</c><00:02:52.200><c> gets</c><00:02:52.400><c> printed</c><00:02:52.720><c> to</c><00:02:52.800><c> the</c>
+
+00:02:52.910 --> 00:02:52.920 align:start position:0%
+destroyed entity gets printed to the
+ 
+
+00:02:52.920 --> 00:02:55.350 align:start position:0%
+destroyed entity gets printed to the
+console<00:02:53.360><c> because</c><00:02:53.599><c> the</c><00:02:53.879><c> destructor</c><00:02:54.519><c> is</c><00:02:54.800><c> called</c>
+
+00:02:55.350 --> 00:02:55.360 align:start position:0%
+console because the destructor is called
+ 
+
+00:02:55.360 --> 00:02:57.229 align:start position:0%
+console because the destructor is called
+we<00:02:55.480><c> jump</c><00:02:55.800><c> back</c><00:02:55.920><c> to</c><00:02:56.080><c> our</c><00:02:56.360><c> return</c><00:02:56.560><c> address</c><00:02:57.000><c> and</c>
+
+00:02:57.229 --> 00:02:57.239 align:start position:0%
+we jump back to our return address and
+ 
+
+00:02:57.239 --> 00:02:58.830 align:start position:0%
+we jump back to our return address and
+everything<00:02:57.760><c> is</c><00:02:58.040><c> good</c><00:02:58.440><c> so</c><00:02:58.560><c> that</c><00:02:58.680><c> is</c>
+
+00:02:58.830 --> 00:02:58.840 align:start position:0%
+everything is good so that is
+ 
+
+00:02:58.840 --> 00:03:00.229 align:start position:0%
+everything is good so that is
+essentially<00:02:59.200><c> what</c><00:02:59.319><c> a</c><00:02:59.440><c> Destructor</c><00:02:59.959><c> is</c><00:03:00.120><c> it's</c>
+
+00:03:00.229 --> 00:03:00.239 align:start position:0%
+essentially what a Destructor is it's
+ 
+
+00:03:00.239 --> 00:03:02.430 align:start position:0%
+essentially what a Destructor is it's
+just<00:03:00.360><c> a</c><00:03:00.560><c> special</c><00:03:00.959><c> function</c><00:03:01.280><c> a</c><00:03:01.440><c> special</c><00:03:01.800><c> method</c>
+
+00:03:02.430 --> 00:03:02.440 align:start position:0%
+just a special function a special method
+ 
+
+00:03:02.440 --> 00:03:04.270 align:start position:0%
+just a special function a special method
+which<00:03:02.640><c> gets</c><00:03:02.840><c> called</c><00:03:03.200><c> when</c><00:03:03.360><c> an</c><00:03:03.560><c> object</c><00:03:03.959><c> gets</c>
+
+00:03:04.270 --> 00:03:04.280 align:start position:0%
+which gets called when an object gets
+ 
+
+00:03:04.280 --> 00:03:05.789 align:start position:0%
+which gets called when an object gets
+destroyed<00:03:04.920><c> as</c><00:03:05.040><c> for</c><00:03:05.159><c> some</c><00:03:05.319><c> real</c><00:03:05.519><c> world</c>
+
+00:03:05.789 --> 00:03:05.799 align:start position:0%
+destroyed as for some real world
+ 
+
+00:03:05.799 --> 00:03:07.990 align:start position:0%
+destroyed as for some real world
+examples<00:03:06.319><c> as</c><00:03:06.440><c> to</c><00:03:06.840><c> why</c><00:03:07.080><c> you</c><00:03:07.200><c> would</c><00:03:07.440><c> ever</c><00:03:07.799><c> write</c>
+
+00:03:07.990 --> 00:03:08.000 align:start position:0%
+examples as to why you would ever write
+ 
+
+00:03:08.000 --> 00:03:09.789 align:start position:0%
+examples as to why you would ever write
+a<00:03:08.159><c> instructor</c><00:03:08.920><c> well</c><00:03:09.080><c> again</c><00:03:09.360><c> if</c><00:03:09.480><c> there</c><00:03:09.599><c> is</c>
+
+00:03:09.789 --> 00:03:09.799 align:start position:0%
+a instructor well again if there is
+ 
+
+00:03:09.799 --> 00:03:11.789 align:start position:0%
+a instructor well again if there is
+certain<00:03:10.280><c> initialization</c><00:03:11.000><c> code</c><00:03:11.239><c> that</c><00:03:11.360><c> you've</c>
+
+00:03:11.789 --> 00:03:11.799 align:start position:0%
+certain initialization code that you've
+ 
+
+00:03:11.799 --> 00:03:13.710 align:start position:0%
+certain initialization code that you've
+called<00:03:12.200><c> in</c><00:03:12.360><c> the</c><00:03:12.560><c> Constructor</c><00:03:13.360><c> you</c><00:03:13.440><c> will</c>
+
+00:03:13.710 --> 00:03:13.720 align:start position:0%
+called in the Constructor you will
+ 
+
+00:03:13.720 --> 00:03:16.190 align:start position:0%
+called in the Constructor you will
+likely<00:03:14.080><c> want</c><00:03:14.239><c> to</c><00:03:14.760><c> uninitialize</c><00:03:15.519><c> or</c><00:03:15.799><c> destroy</c>
+
+00:03:16.190 --> 00:03:16.200 align:start position:0%
+likely want to uninitialize or destroy
+ 
+
+00:03:16.200 --> 00:03:17.830 align:start position:0%
+likely want to uninitialize or destroy
+all<00:03:16.319><c> of</c><00:03:16.480><c> that</c><00:03:16.680><c> stuff</c><00:03:16.959><c> in</c><00:03:17.040><c> the</c><00:03:17.159><c> destructor</c>
+
+00:03:17.830 --> 00:03:17.840 align:start position:0%
+all of that stuff in the destructor
+ 
+
+00:03:17.840 --> 00:03:19.070 align:start position:0%
+all of that stuff in the destructor
+because<00:03:18.000><c> if</c><00:03:18.080><c> you</c><00:03:18.200><c> don't</c><00:03:18.400><c> you</c><00:03:18.519><c> can</c><00:03:18.640><c> get</c><00:03:18.799><c> memory</c>
+
+00:03:19.070 --> 00:03:19.080 align:start position:0%
+because if you don't you can get memory
+ 
+
+00:03:19.080 --> 00:03:20.869 align:start position:0%
+because if you don't you can get memory
+licks<00:03:19.519><c> a</c><00:03:19.640><c> good</c><00:03:19.799><c> example</c><00:03:20.080><c> of</c><00:03:20.239><c> that</c><00:03:20.440><c> is</c><00:03:20.599><c> Heap</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+licks a good example of that is Heap
+ 
+
+00:03:20.879 --> 00:03:22.470 align:start position:0%
+licks a good example of that is Heap
+allocated<00:03:21.360><c> objects</c><00:03:21.720><c> if</c><00:03:21.799><c> you've</c><00:03:21.959><c> allocated</c>
+
+00:03:22.470 --> 00:03:22.480 align:start position:0%
+allocated objects if you've allocated
+ 
+
+00:03:22.480 --> 00:03:24.830 align:start position:0%
+allocated objects if you've allocated
+any<00:03:22.680><c> kind</c><00:03:22.799><c> of</c><00:03:22.959><c> memory</c><00:03:23.280><c> on</c><00:03:23.400><c> the</c><00:03:23.560><c> Heap</c><00:03:24.080><c> manually</c>
+
+00:03:24.830 --> 00:03:24.840 align:start position:0%
+any kind of memory on the Heap manually
+ 
+
+00:03:24.840 --> 00:03:27.309 align:start position:0%
+any kind of memory on the Heap manually
+then<00:03:25.000><c> you</c><00:03:25.080><c> need</c><00:03:25.239><c> to</c><00:03:25.560><c> manually</c><00:03:26.080><c> clean</c><00:03:26.360><c> it</c><00:03:26.599><c> up</c><00:03:27.200><c> if</c>
+
+00:03:27.309 --> 00:03:27.319 align:start position:0%
+then you need to manually clean it up if
+ 
+
+00:03:27.319 --> 00:03:29.509 align:start position:0%
+then you need to manually clean it up if
+it<00:03:27.440><c> was</c><00:03:27.640><c> allocated</c><00:03:28.480><c> throughout</c><00:03:28.799><c> the</c><00:03:29.000><c> usage</c><00:03:29.400><c> of</c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+it was allocated throughout the usage of
+ 
+
+00:03:29.519 --> 00:03:31.350 align:start position:0%
+it was allocated throughout the usage of
+the<00:03:29.799><c> entity</c><00:03:30.040><c> or</c><00:03:30.159><c> in</c><00:03:30.239><c> the</c><00:03:30.319><c> entity</c><00:03:30.720><c> Constructor</c>
+
+00:03:31.350 --> 00:03:31.360 align:start position:0%
+the entity or in the entity Constructor
+ 
+
+00:03:31.360 --> 00:03:32.509 align:start position:0%
+the entity or in the entity Constructor
+you're<00:03:31.519><c> likely</c><00:03:31.799><c> going</c><00:03:31.879><c> to</c><00:03:32.000><c> want</c><00:03:32.080><c> to</c><00:03:32.239><c> get</c><00:03:32.360><c> rid</c>
+
+00:03:32.509 --> 00:03:32.519 align:start position:0%
+you're likely going to want to get rid
+ 
+
+00:03:32.519 --> 00:03:34.309 align:start position:0%
+you're likely going to want to get rid
+of<00:03:32.640><c> it</c><00:03:32.799><c> in</c><00:03:32.920><c> the</c><00:03:33.080><c> destructor</c><00:03:33.799><c> because</c><00:03:34.080><c> when</c><00:03:34.200><c> the</c>
+
+00:03:34.309 --> 00:03:34.319 align:start position:0%
+of it in the destructor because when the
+ 
+
+00:03:34.319 --> 00:03:37.110 align:start position:0%
+of it in the destructor because when the
+destructor<00:03:34.799><c> gets</c><00:03:35.000><c> called</c><00:03:36.000><c> that</c><00:03:36.239><c> entity</c><00:03:36.799><c> is</c>
+
+00:03:37.110 --> 00:03:37.120 align:start position:0%
+destructor gets called that entity is
+ 
+
+00:03:37.120 --> 00:03:39.270 align:start position:0%
+destructor gets called that entity is
+gone<00:03:37.760><c> you</c><00:03:37.840><c> can</c><00:03:37.959><c> also</c><00:03:38.159><c> call</c><00:03:38.400><c> the</c><00:03:38.560><c> destructor</c>
+
+00:03:39.270 --> 00:03:39.280 align:start position:0%
+gone you can also call the destructor
+ 
+
+00:03:39.280 --> 00:03:41.630 align:start position:0%
+gone you can also call the destructor
+manually<00:03:39.840><c> not</c><00:03:40.040><c> something</c><00:03:40.400><c> that</c><00:03:40.599><c> I</c><00:03:40.720><c> see</c><00:03:41.080><c> a</c><00:03:41.280><c> lot</c>
+
+00:03:41.630 --> 00:03:41.640 align:start position:0%
+manually not something that I see a lot
+ 
+
+00:03:41.640 --> 00:03:44.869 align:start position:0%
+manually not something that I see a lot
+of<00:03:41.920><c> people</c><00:03:42.400><c> doing</c><00:03:43.400><c> rightly</c><00:03:43.799><c> so</c><00:03:44.200><c> it's</c><00:03:44.360><c> a</c><00:03:44.599><c> bit</c>
+
+00:03:44.869 --> 00:03:44.879 align:start position:0%
+of people doing rightly so it's a bit
+ 
+
+00:03:44.879 --> 00:03:46.550 align:start position:0%
+of people doing rightly so it's a bit
+weird<00:03:45.200><c> if</c><00:03:45.280><c> you</c><00:03:45.400><c> end</c><00:03:45.560><c> up</c><00:03:45.760><c> doing</c><00:03:46.040><c> something</c><00:03:46.360><c> like</c>
+
+00:03:46.550 --> 00:03:46.560 align:start position:0%
+weird if you end up doing something like
+ 
+
+00:03:46.560 --> 00:03:48.229 align:start position:0%
+weird if you end up doing something like
+that<00:03:47.080><c> the</c><00:03:47.159><c> only</c><00:03:47.400><c> reason</c><00:03:47.680><c> I</c><00:03:47.760><c> can</c><00:03:47.879><c> really</c><00:03:48.080><c> think</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+that the only reason I can really think
+ 
+
+00:03:48.239 --> 00:03:49.670 align:start position:0%
+that the only reason I can really think
+of<00:03:48.599><c> doing</c><00:03:48.920><c> that</c><00:03:49.080><c> is</c><00:03:49.239><c> maybe</c><00:03:49.439><c> if</c><00:03:49.519><c> you've</c>
+
+00:03:49.670 --> 00:03:49.680 align:start position:0%
+of doing that is maybe if you've
+ 
+
+00:03:49.680 --> 00:03:52.110 align:start position:0%
+of doing that is maybe if you've
+allocated<00:03:50.159><c> using</c><00:03:50.439><c> new</c><00:03:51.120><c> however</c><00:03:51.439><c> when</c><00:03:51.599><c> you</c>
+
+00:03:52.110 --> 00:03:52.120 align:start position:0%
+allocated using new however when you
+ 
+
+00:03:52.120 --> 00:03:53.589 align:start position:0%
+allocated using new however when you
+delete<00:03:52.439><c> it</c><00:03:52.599><c> you</c><00:03:52.760><c> decide</c><00:03:53.000><c> to</c><00:03:53.120><c> use</c><00:03:53.319><c> something</c>
+
+00:03:53.589 --> 00:03:53.599 align:start position:0%
+delete it you decide to use something
+ 
+
+00:03:53.599 --> 00:03:55.830 align:start position:0%
+delete it you decide to use something
+like<00:03:53.879><c> the</c><00:03:54.000><c> free</c><00:03:54.360><c> function</c><00:03:55.120><c> and</c><00:03:55.280><c> then</c><00:03:55.439><c> you</c><00:03:55.640><c> also</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+like the free function and then you also
+ 
+
+00:03:55.840 --> 00:03:57.270 align:start position:0%
+like the free function and then you also
+want<00:03:55.959><c> to</c><00:03:56.079><c> call</c><00:03:56.239><c> the</c><00:03:56.360><c> destructor</c><00:03:56.799><c> manually</c><00:03:57.159><c> in</c>
+
+00:03:57.270 --> 00:03:57.280 align:start position:0%
+want to call the destructor manually in
+ 
+
+00:03:57.280 --> 00:03:59.470 align:start position:0%
+want to call the destructor manually in
+that<00:03:57.480><c> case</c><00:03:58.280><c> I</c><00:03:58.360><c> don't</c><00:03:58.560><c> know</c><00:03:58.879><c> not</c><00:03:59.079><c> really</c><00:03:59.239><c> use</c>
+
+00:03:59.470 --> 00:03:59.480 align:start position:0%
+that case I don't know not really use
+ 
+
+00:03:59.480 --> 00:04:01.710 align:start position:0%
+that case I don't know not really use
+that<00:03:59.840><c> often</c><00:04:00.200><c> but</c><00:04:00.400><c> you</c><00:04:00.519><c> can</c><00:04:00.720><c> do</c><00:04:00.920><c> so</c><00:04:01.319><c> by</c><00:04:01.519><c> just</c>
+
+00:04:01.710 --> 00:04:01.720 align:start position:0%
+that often but you can do so by just
+ 
+
+00:04:01.720 --> 00:04:05.149 align:start position:0%
+that often but you can do so by just
+calling<00:04:02.239><c> e</c><00:04:02.760><c> do</c><00:04:03.480><c> entity</c><00:04:04.159><c> like</c><00:04:04.439><c> this</c><00:04:04.760><c> as</c><00:04:04.879><c> if</c><00:04:05.040><c> it</c>
+
+00:04:05.149 --> 00:04:05.159 align:start position:0%
+calling e do entity like this as if it
+ 
+
+00:04:05.159 --> 00:04:06.990 align:start position:0%
+calling e do entity like this as if it
+was<00:04:05.439><c> any</c><00:04:05.720><c> other</c><00:04:06.000><c> function</c><00:04:06.519><c> and</c><00:04:06.680><c> that</c><00:04:06.799><c> will</c>
+
+00:04:06.990 --> 00:04:07.000 align:start position:0%
+was any other function and that will
+ 
+
+00:04:07.000 --> 00:04:09.149 align:start position:0%
+was any other function and that will
+actually<00:04:07.280><c> call</c><00:04:07.480><c> it</c><00:04:07.640><c> instructor</c><00:04:08.599><c> if</c><00:04:08.720><c> I</c><00:04:08.879><c> run</c>
+
+00:04:09.149 --> 00:04:09.159 align:start position:0%
+actually call it instructor if I run
+ 
+
+00:04:09.159 --> 00:04:10.030 align:start position:0%
+actually call it instructor if I run
+this
+
+00:04:10.030 --> 00:04:10.040 align:start position:0%
+this
+ 
+
+00:04:10.040 --> 00:04:12.270 align:start position:0%
+this
+code<00:04:11.040><c> which</c><00:04:11.200><c> is</c><00:04:11.319><c> innocent</c><00:04:11.799><c> enough</c><00:04:12.079><c> you</c><00:04:12.159><c> can</c>
+
+00:04:12.270 --> 00:04:12.280 align:start position:0%
+code which is innocent enough you can
+ 
+
+00:04:12.280 --> 00:04:13.869 align:start position:0%
+code which is innocent enough you can
+see<00:04:12.439><c> that</c><00:04:12.560><c> it</c><00:04:12.680><c> destroys</c><00:04:13.040><c> the</c><00:04:13.159><c> entity</c><00:04:13.519><c> twice</c>
+
+00:04:13.869 --> 00:04:13.879 align:start position:0%
+see that it destroys the entity twice
+ 
+
+00:04:13.879 --> 00:04:15.429 align:start position:0%
+see that it destroys the entity twice
+seemingly<00:04:14.480><c> we're</c><00:04:14.599><c> not</c><00:04:14.799><c> actually</c><00:04:15.040><c> releasing</c>
+
+00:04:15.429 --> 00:04:15.439 align:start position:0%
+seemingly we're not actually releasing
+ 
+
+00:04:15.439 --> 00:04:17.390 align:start position:0%
+seemingly we're not actually releasing
+any<00:04:15.599><c> resources</c><00:04:16.280><c> here</c><00:04:16.479><c> so</c><00:04:16.639><c> it</c><00:04:16.799><c> doesn't</c><00:04:17.079><c> crash</c>
+
+00:04:17.390 --> 00:04:17.400 align:start position:0%
+any resources here so it doesn't crash
+ 
+
+00:04:17.400 --> 00:04:19.830 align:start position:0%
+any resources here so it doesn't crash
+it<00:04:17.519><c> just</c><00:04:17.680><c> prints</c><00:04:18.000><c> this</c><00:04:18.160><c> message</c><00:04:18.479><c> twice</c><00:04:19.400><c> again</c>
+
+00:04:19.830 --> 00:04:19.840 align:start position:0%
+it just prints this message twice again
+ 
+
+00:04:19.840 --> 00:04:21.509 align:start position:0%
+it just prints this message twice again
+not<00:04:20.079><c> something</c><00:04:20.440><c> I</c><00:04:20.519><c> would</c><00:04:20.680><c> recommend</c><00:04:21.199><c> or</c><00:04:21.359><c> not</c>
+
+00:04:21.509 --> 00:04:21.519 align:start position:0%
+not something I would recommend or not
+ 
+
+00:04:21.519 --> 00:04:24.390 align:start position:0%
+not something I would recommend or not
+something<00:04:21.880><c> I</c><00:04:22.040><c> I</c><00:04:22.120><c> see</c><00:04:22.440><c> often</c><00:04:22.800><c> at</c><00:04:22.960><c> all</c><00:04:23.919><c> very</c><00:04:24.160><c> very</c>
+
+00:04:24.390 --> 00:04:24.400 align:start position:0%
+something I I see often at all very very
+ 
+
+00:04:24.400 --> 00:04:26.189 align:start position:0%
+something I I see often at all very very
+rarely<00:04:24.759><c> I've</c><00:04:24.880><c> seen</c><00:04:25.120><c> something</c><00:04:25.479><c> like</c><00:04:25.680><c> this</c><00:04:25.960><c> so</c>
+
+00:04:26.189 --> 00:04:26.199 align:start position:0%
+rarely I've seen something like this so
+ 
+
+00:04:26.199 --> 00:04:28.430 align:start position:0%
+rarely I've seen something like this so
+yeah<00:04:26.600><c> destructors</c><00:04:27.400><c> sorted</c><00:04:28.080><c> I'll</c><00:04:28.199><c> see</c><00:04:28.360><c> you</c>
+
+00:04:28.430 --> 00:04:28.440 align:start position:0%
+yeah destructors sorted I'll see you
+ 
+
+00:04:28.440 --> 00:04:32.490 align:start position:0%
+yeah destructors sorted I'll see you
+guys<00:04:28.639><c> next</c><00:04:28.840><c> time</c><00:04:29.120><c> goodbye</c><00:04:29.960><c> you</c>
+
+00:04:32.490 --> 00:04:32.500 align:start position:0%
+guys next time goodbye you
+ 
+
+00:04:32.500 --> 00:04:38.570 align:start position:0%
+guys next time goodbye you
+[Music]
+
+00:04:38.570 --> 00:04:38.580 align:start position:0%
+ 
+ 
+
+00:04:38.580 --> 00:04:45.610 align:start position:0%
+ 
+[Music]
+
